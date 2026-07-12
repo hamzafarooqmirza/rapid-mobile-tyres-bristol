@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { faqs } from "@/lib/data";
+import { faqs as defaultFaqs } from "@/lib/data";
 
-export default function Faq() {
+type FaqItem = { question: string; answer: string };
+
+export default function Faq({ items = defaultFaqs }: { items?: FaqItem[] }) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
@@ -19,7 +21,7 @@ export default function Faq() {
         </div>
 
         <div className="mt-12 divide-y divide-zinc-200 border-t border-b border-zinc-200">
-          {faqs.map((faq, index) => {
+          {items.map((faq, index) => {
             const isOpen = openIndex === index;
             return (
               <div key={faq.question}>

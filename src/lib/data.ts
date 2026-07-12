@@ -8,11 +8,11 @@ export const siteConfig = {
 };
 
 export const navLinks = [
-  { label: "Home", href: "#home" },
-  { label: "Services", href: "#services" },
-  { label: "About Us", href: "#about" },
-  { label: "Areas We Serve", href: "#areas" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "Services", href: "/services" },
+  { label: "About Us", href: "/#about" },
+  { label: "Areas We Serve", href: "/#areas" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export const highlightServices = [
@@ -225,4 +225,121 @@ export const areasServed = [
   "Magor",
   "Newport",
   "Weston Super Mare",
+];
+
+export const servicesPageItems = [
+  {
+    title: "Car Tyres",
+    description:
+      "Our durable car tyres offer excellent grip and stability for both city driving and everyday journeys, fitted at your home, workplace, or roadside.",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-bmw-i3-rapid-tyres-service.webp",
+    width: 800,
+    height: 600,
+  },
+  {
+    title: "SUV Tyres",
+    description:
+      "Our durable SUV tyres offer excellent grip and stability for both city driving and off-road adventures.",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-volkswagen-tiguan-rapid-tyres.webp",
+    width: 800,
+    height: 600,
+  },
+  {
+    title: "Van Tyres",
+    description:
+      "Designed for heavy loads, our van tyres ensure better fuel efficiency, traction, and long-lasting performance.",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2025/04/seat-front-tyre-replacement-residential-street-rapid-tyres.webp",
+    width: 800,
+    height: 600,
+  },
+  {
+    title: "Mobile Tyre Fitting",
+    description:
+      "Enjoy the convenience of tyre fitting at your location with our mobile service, saving you time and effort.",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2024/12/mechanic-fixing-car-wheel-675fecc79140d.webp",
+    width: 740,
+    height: 493,
+  },
+  {
+    title: "Jump Start",
+    description:
+      "We offer fast jump-start services to get your vehicle running again in case of a dead battery.",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2024/12/man-jumpstarting-car-battery-with-jumper-cables-675fed4fd0902.webp",
+    width: 740,
+    height: 493,
+  },
+  {
+    title: "Fuel Delivery",
+    description:
+      "If you've run out of fuel, our emergency delivery service brings fuel straight to you, anywhere in Bristol.",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2024/12/man-refueling-car-at-gas-station-675fee0a7f233.webp",
+    width: 740,
+    height: 531,
+  },
+];
+
+export const tyreBrands = {
+  intro:
+    "We carry a wide range of tyres to suit every budget and vehicle — from premium European brands through to quality budget options. Tell us your vehicle make, model, and tyre size when you call and we'll recommend the best fit.",
+  premium: ["Michelin", "Continental", "Pirelli", "Bridgestone", "Goodyear", "Dunlop"],
+  budget: ["Nexen", "Falken", "Avon", "Kumho", "Nankang"],
+  note: "All tyres are fitted on-site at your home, workplace, or roadside across Bristol and the South West. Call 07494 247246 for availability and pricing.",
+};
+
+export const servicesFaqs = [
+  {
+    question: "Is mobile tyre fitting safe on the roadside?",
+    answer:
+      "Yes, professional mobile tyre fitters are trained to work safely on the roadside using warning signs, hazard lights, and safety equipment to protect both you and your vehicle.",
+  },
+  {
+    question: "How long does a mobile tyre fitting take?",
+    answer:
+      "Most single tyre replacements take 20-30 minutes once we arrive. We carry a full range of tyre sizes on our van so there's no waiting for parts — we fit on the spot.",
+  },
+  {
+    question: "How quickly can you get to me?",
+    answer:
+      "We aim to reach you within 45-60 minutes anywhere in Bristol and surrounding areas including Bath, Newport, and Weston-Super-Mare. For exact ETAs call us directly on 07494 247246.",
+  },
+  {
+    question: "How do I find the tyre size for my vehicle?",
+    answer:
+      "You can find your tyre size printed on the sidewall of your current tyre (e.g., 205/55 R16), in your vehicle manual, or sometimes on a sticker inside the driver-side door.",
+  },
+  {
+    question: "Do mobile tyre services include wheel balancing?",
+    answer: "At Rapid-Tyres, we don't provide wheel balancing in our mobile tyre fitting service.",
+  },
+  {
+    question: "Can I book mobile tyre fitting for a company fleet or van?",
+    answer:
+      "Yes, we operate 7 days a week including bank holidays. Whether it's a Sunday evening or a bank holiday, call us on 07494 247246 and we'll be with you within 45-60 minutes.",
+  },
+  {
+    question: "Are mobile tyre fitters available on weekends and holidays?",
+    answer:
+      "Many reputable providers offer weekend and bank holiday coverage, especially those that advertise 24/7 or emergency tyre services — including us.",
+  },
+  {
+    question: "Do you come to my home or workplace?",
+    answer:
+      "Yes — we come to wherever your vehicle is. Home driveway, office car park, or roadside breakdown. You don't need to move the car.",
+  },
+  {
+    question: "What tyre brands do you stock?",
+    answer:
+      "We stock a full range from premium brands such as Michelin, Continental, Pirelli and Bridgestone, through to quality budget options. Tell us your vehicle and budget when you call and we'll recommend the right tyre.",
+  },
+  {
+    question: "Do you cover emergency callouts?",
+    answer:
+      "Yes, emergency callouts are our speciality. We also offer jump start and fuel delivery services so one call covers most roadside emergencies. Available 24/7 — call 07494 247246.",
+  },
 ];

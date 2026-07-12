@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { navLinks, siteConfig } from "@/lib/data";
 
 export default function Header() {
@@ -10,7 +11,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-950/95 backdrop-blur">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 sm:px-10">
-        <a href="#home" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2">
           <Image
             src="https://rapid-tyres.com/wp-content/uploads/2024/10/Rapid-Tyres.png"
             alt={siteConfig.name}
@@ -19,17 +20,17 @@ export default function Header() {
             className="h-10 w-auto"
             preload
           />
-        </a>
+        </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               className="text-sm font-medium text-zinc-300 transition-colors hover:text-orange-500"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -73,14 +74,14 @@ export default function Header() {
         <div className="border-t border-zinc-800 bg-zinc-950 px-6 py-4 lg:hidden">
           <nav className="flex flex-col gap-1">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
                 className="rounded-md px-2 py-2.5 text-sm font-medium text-zinc-300 hover:bg-zinc-900 hover:text-orange-500"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
           <a

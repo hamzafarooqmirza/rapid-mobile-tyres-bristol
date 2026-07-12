@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { gridServices, highlightServices } from "@/lib/data";
 
 export default function Services() {
@@ -66,6 +67,15 @@ export default function Services() {
               </div>
             </article>
           ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <Link
+            href="/services"
+            className="inline-flex h-12 items-center justify-center rounded-full bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500"
+          >
+            View All Services
+          </Link>
         </div>
       </div>
     </section>
