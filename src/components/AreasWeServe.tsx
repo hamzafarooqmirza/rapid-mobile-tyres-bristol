@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { areasServed } from "@/lib/data";
 
 export default function AreasWeServe() {
@@ -39,6 +40,15 @@ export default function AreasWeServe() {
               {area}
             </span>
           ))}
+        </div>
+
+        <div className="mt-10 text-center">
+          <Link
+            href="/areas-we-cover"
+            className="inline-flex h-12 items-center justify-center rounded-full bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500"
+          >
+            View All Areas
+          </Link>
         </div>
       </div>
     </section>

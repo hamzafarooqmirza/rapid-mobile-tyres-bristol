@@ -11,8 +11,8 @@ export const navLinks = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
   { label: "About Us", href: "/about-us" },
-  { label: "Areas We Serve", href: "/#areas" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Areas We Serve", href: "/areas-we-cover" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export const highlightServices = [
@@ -392,3 +392,66 @@ export const aboutWhyChooseUs = {
     },
   ],
 };
+
+export const areasWeCoverDetails = [
+  {
+    name: "Bristol",
+    description:
+      "Our home turf — fast callouts across the city centre and all surrounding suburbs, day or night.",
+  },
+  {
+    name: "Bridgewater",
+    description:
+      "Emergency and scheduled mobile tyre fitting for Bridgewater and the wider Sedgemoor area.",
+  },
+  {
+    name: "Bath",
+    description:
+      "Roadside and at-home tyre fitting across Bath and the surrounding villages.",
+  },
+  {
+    name: "Chepstow",
+    description:
+      "Covering Chepstow and the Wye Valley with our usual 45-60 minute response time.",
+  },
+  {
+    name: "Gloucestershire",
+    description:
+      "Mobile tyre fitting throughout Gloucestershire, from market towns to rural roadsides.",
+  },
+  {
+    name: "Magor",
+    description: "Fast response mobile tyre fitting for Magor and the surrounding area.",
+  },
+  {
+    name: "Newport",
+    description:
+      "Emergency and non-emergency tyre fitting across Newport and South Wales border towns.",
+  },
+  {
+    name: "Weston Super Mare",
+    description:
+      "Coastal coverage for Weston-Super-Mare and the surrounding North Somerset area.",
+  },
+];
+
+export const contactMethods = [
+  {
+    title: "Call Us",
+    value: siteConfig.phone,
+    href: siteConfig.phoneHref,
+    description: "Available 24/7 for emergency and scheduled callouts.",
+  },
+  {
+    title: "Email Us",
+    value: siteConfig.email,
+    href: `mailto:${siteConfig.email}`,
+    description: "We'll get back to you as soon as possible.",
+  },
+  {
+    title: "Location",
+    value: siteConfig.address,
+    href: undefined,
+    description: "Mobile service — we come to you anywhere in Bristol and the South West.",
+  },
+];
