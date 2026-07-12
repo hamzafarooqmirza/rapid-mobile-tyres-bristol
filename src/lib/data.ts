@@ -10,7 +10,7 @@ export const siteConfig = {
 export const navLinks = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
-  { label: "About Us", href: "/#about" },
+  { label: "About Us", href: "/about-us" },
   { label: "Areas We Serve", href: "/#areas" },
   { label: "Contact", href: "/#contact" },
 ];
@@ -343,3 +343,52 @@ export const servicesFaqs = [
       "Yes, emergency callouts are our speciality. We also offer jump start and fuel delivery services so one call covers most roadside emergencies. Available 24/7 — call 07494 247246.",
   },
 ];
+
+export const aboutContent = {
+  heroImage:
+    "https://rapid-tyres.com/wp-content/uploads/2024/10/tire-gym-with-other-tires-background_782516-20981.jpg",
+  tagline: "Stuck with a flat? We come to you — fast.",
+  intro:
+    "Rapid Mobile Tyres Bristol brings professional tyre fitting and repair straight to your door, wherever you are across Bristol and the surrounding areas.",
+  trustedPartner: {
+    title: "Your Trusted Partner for Mobile Tyre Solutions",
+    paragraphs: [
+      "When you've got a tyre problem, the last thing you want is to be stuck waiting at a garage. That's why we built Rapid Mobile Tyres around one simple idea — we come to you.",
+      "We cover Bristol and the surrounding areas, and we're available around the clock for those moments when a tyre decides to give up at the worst possible time.",
+    ],
+  },
+  whoWeAre: {
+    title: "Who We Are",
+    paragraphs: [
+      "Founded over 7 years ago, Rapid Mobile Tyres was built on a simple belief — that when you've got a tyre problem, help should come to you, not the other way around.",
+      "Since then, we've completed thousands of jobs across Bristol and the surrounding areas, building a reputation that keeps customers coming back and recommending us to friends and family.",
+      "We're not a faceless national chain — we're a local team who show up fast, treat you with respect, and never cut corners on safety or quality.",
+    ],
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2024/10/vecteezy_3d-isolated-mechanic-in-grey-wearpack_10175628-1.png",
+    imageWidth: 800,
+    imageHeight: 800,
+  },
+};
+
+export const aboutWhyChooseUs = {
+  intro:
+    "Choose Rapid Mobile Tyres Bristol for fast, reliable, and professional mobile tyre services available 24/7. We prioritize your convenience with expert solutions delivered right to your location.",
+  items: [
+    {
+      title: "24/7 Availability",
+      description:
+        "We're always ready to help, no matter the time or day. Whether it's an emergency or a scheduled service, we've got you covered.",
+    },
+    {
+      title: "Expert Technicians",
+      description:
+        "Our team of highly skilled and experienced technicians ensures that every job is done efficiently and with the highest standards of care.",
+    },
+    {
+      title: "Fast Response Times",
+      description:
+        "We pride ourselves on quick response times, especially in emergencies. We aim to get you back on the road as quickly as possible.",
+    },
+  ],
+};

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { whyChooseUs } from "@/lib/data";
 
 export default function WhyChooseUs() {
@@ -36,6 +37,15 @@ export default function WhyChooseUs() {
               </p>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <Link
+            href="/about-us"
+            className="inline-flex h-12 items-center justify-center rounded-full border border-zinc-700 px-6 text-sm font-semibold text-zinc-200 transition-colors hover:border-zinc-500 hover:bg-zinc-900"
+          >
+            Learn More About Us
+          </Link>
         </div>
       </div>
     </section>
