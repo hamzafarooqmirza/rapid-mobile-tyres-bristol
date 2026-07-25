@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { areasServed } from "@/lib/data";
 
+function areaPath(name: string): string {
+  return `/mobile-tyre-fitting-${name.toLowerCase().replace(/\s+/g, "-")}`;
+}
+
 export default function AreasWeServe() {
   return (
     <section id="areas" className="bg-white py-20 sm:py-28">
@@ -20,9 +24,10 @@ export default function AreasWeServe() {
 
         <div className="mt-12 flex flex-wrap justify-center gap-3">
           {areasServed.map((area) => (
-            <span
+            <Link
               key={area}
-              className="flex items-center gap-2 rounded-full border border-zinc-200 bg-zinc-50 px-5 py-2.5 text-sm font-medium text-zinc-700"
+              href={areaPath(area)}
+              className="flex items-center gap-2 rounded-full border border-zinc-200 bg-zinc-50 px-5 py-2.5 text-sm font-medium text-zinc-700 transition-colors hover:border-orange-300 hover:bg-orange-50 hover:text-orange-700"
             >
               <svg
                 viewBox="0 0 20 20"
@@ -38,7 +43,7 @@ export default function AreasWeServe() {
                 <circle cx="10" cy="8" r="2" stroke="currentColor" strokeWidth="1.6" />
               </svg>
               {area}
-            </span>
+            </Link>
           ))}
         </div>
 

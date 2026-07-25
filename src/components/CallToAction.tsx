@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { siteConfig } from "@/lib/data";
 
 export default function CallToAction() {
@@ -22,12 +23,12 @@ export default function CallToAction() {
           >
             Call {siteConfig.phone}
           </a>
-          <a
-            href={`mailto:${siteConfig.email}`}
+          <Link
+            href="/contact"
             className="flex h-12 w-full items-center justify-center rounded-full border border-zinc-700 px-6 text-sm font-semibold text-zinc-200 transition-colors hover:border-zinc-500 hover:bg-zinc-900 sm:w-auto"
           >
-            Email Us
-          </a>
+            Book Online
+          </Link>
         </div>
       </div>
     </section>

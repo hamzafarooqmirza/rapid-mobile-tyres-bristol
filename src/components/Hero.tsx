@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { siteConfig } from "@/lib/data";
 
 const highlights = [
@@ -48,12 +49,12 @@ export default function Hero() {
             >
               Emergency Call: {siteConfig.phone}
             </a>
-            <a
-              href="#services"
+            <Link
+              href="/services"
               className="flex h-12 items-center justify-center rounded-full border border-zinc-700 px-6 text-sm font-semibold text-zinc-200 transition-colors hover:border-zinc-500 hover:bg-zinc-900"
             >
               Our Services
-            </a>
+            </Link>
           </div>
 
           <ul className="mt-10 grid gap-3 sm:grid-cols-2">
