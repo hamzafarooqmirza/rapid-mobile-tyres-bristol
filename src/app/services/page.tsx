@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import Header from "@/components/Header";
-import PageHero from "@/components/PageHero";
-import ServicesShowcase from "@/components/ServicesShowcase";
-import TyreBrands from "@/components/TyreBrands";
-import Faq from "@/components/Faq";
-import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
-import { servicesFaqs } from "@/lib/data";
+import TyreBrands from "@/components/TyreBrands";
+import Testimonials from "@/components/Testimonials";
+import Faq from "@/components/Faq";
+import { siteConfig, servicesFaqs } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Our Services - Rapid Tyres Ltd | Mobile Tyre Fitting & More",
@@ -14,16 +14,291 @@ export const metadata: Metadata = {
     "Car, SUV and van tyres, mobile tyre fitting, jump starts and fuel delivery — all fitted at your home, workplace, or roadside across Bristol and the South West.",
 };
 
+const mainServices = [
+  {
+    title: "Mobile Tyre Fitting",
+    tagline: "Flat tyre? We come to you.",
+    description:
+      "Puncture repairs, full replacements, and tyre pressure checks — wherever you are. Home, work, or roadside across Bristol, 24/7.",
+    href: "/mobile-tyre-fitting",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2024/12/mechanic-fixing-car-wheel-675fecc79140d.webp",
+    badge: "Most popular",
+  },
+  {
+    title: "Jump Start",
+    tagline: "Dead battery? No problem.",
+    description:
+      "Stranded with a flat battery? Our technicians arrive with full jump-start equipment and get your engine running again within 30-60 minutes.",
+    href: "/jumpstarts",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2024/12/man-jumpstarting-car-battery-with-jumper-cables-675fed4fd0902.webp",
+    badge: null,
+  },
+  {
+    title: "Fuel Delivery",
+    tagline: "Run out? We bring fuel to you.",
+    description:
+      "Out of petrol or diesel? We deliver enough fuel to get you safely to the nearest station — wherever you're stranded.",
+    href: "/fuel-delivery",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2024/12/man-refueling-car-at-gas-station-675fee0a7f233.webp",
+    badge: null,
+  },
+];
+
+const tyreTypes = [
+  {
+    title: "Car Tyres",
+    description:
+      "Durable car tyres for city and everyday driving, fitted at your home, workplace, or roadside.",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-bmw-i3-rapid-tyres-service.webp",
+  },
+  {
+    title: "SUV Tyres",
+    description:
+      "High-performance SUV tyres for city driving and off-road adventures — fitted on the spot.",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-volkswagen-tiguan-rapid-tyres.webp",
+  },
+  {
+    title: "Van Tyres",
+    description:
+      "Heavy-load van tyres for better fuel efficiency, traction, and long-lasting performance.",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2025/04/seat-front-tyre-replacement-residential-street-rapid-tyres.webp",
+  },
+  {
+    title: "Emergency Tyre Fitting",
+    description:
+      "24/7 emergency tyre fitting — whether you searched for roadside help or need a same-day slot.",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/elementor/thumbs/rapid-tyres-mobile-fleet-management-service-vans-r6r1i41kgy3gzqk6hc313be7q92b64bbidajxhcjre.webp",
+  },
+];
+
 export default function ServicesPage() {
   return (
     <>
       <Header />
       <main className="flex-1">
-        <PageHero title="Our Services" breadcrumb="Home / Services" />
-        <ServicesShowcase />
+        {/* Hero */}
+        <section className="relative overflow-hidden bg-zinc-950 text-zinc-50">
+          <div
+            aria-hidden
+            className="pointer-events-none absolute -top-40 left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-orange-600/15 blur-3xl"
+          />
+          <div className="relative mx-auto max-w-4xl px-6 py-24 text-center sm:px-10 sm:py-32">
+            <p className="inline-flex items-center rounded-full border border-orange-500/40 bg-orange-500/10 px-4 py-1 text-sm font-semibold uppercase tracking-[0.15em] text-orange-500">
+              Mobile Roadside Assistance
+            </p>
+            <h1 className="mt-5 text-4xl font-bold tracking-tight text-balance sm:text-5xl lg:text-6xl">
+              Every Service, Delivered to Your Door
+            </h1>
+            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-zinc-400">
+              Whether you need a tyre fitted, a battery jump-started, or an emergency fuel top-up —
+              our fully-equipped mobile units come straight to you, anywhere in Bristol and beyond,
+              around the clock.
+            </p>
+            <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+              <a
+                href={siteConfig.phoneHref}
+                className="flex h-12 items-center justify-center gap-2 rounded-full bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500"
+              >
+                Call {siteConfig.phone}
+              </a>
+              <Link
+                href="/contact"
+                className="flex h-12 items-center justify-center rounded-full border border-zinc-700 px-6 text-sm font-semibold text-zinc-200 transition-colors hover:border-zinc-500 hover:bg-zinc-900"
+              >
+                Book Online
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Main services — 3 large cards */}
+        <section className="bg-zinc-50 py-20 sm:py-28">
+          <div className="mx-auto max-w-7xl px-6 sm:px-10">
+            <div className="mx-auto max-w-2xl text-center">
+              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">
+                What we offer
+              </p>
+              <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
+                Our Services
+              </h2>
+            </div>
+
+            <div className="mt-14 grid gap-8 lg:grid-cols-3">
+              {mainServices.map((service) => (
+                <Link
+                  key={service.title}
+                  href={service.href}
+                  className="group relative flex flex-col overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm transition-shadow hover:shadow-xl"
+                >
+                  <div className="relative h-56 w-full overflow-hidden">
+                    <Image
+                      src={service.image}
+                      alt={service.title}
+                      fill
+                      sizes="(min-width: 1024px) 33vw, 100vw"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                    {service.badge && (
+                      <span className="absolute top-4 left-4 rounded-full bg-orange-600 px-3 py-1 text-xs font-semibold text-white">
+                        {service.badge}
+                      </span>
+                    )}
+                  </div>
+                  <div className="flex flex-1 flex-col p-7">
+                    <p className="text-sm font-semibold text-orange-600">{service.tagline}</p>
+                    <h3 className="mt-1 text-xl font-bold text-zinc-950">{service.title}</h3>
+                    <p className="mt-3 flex-1 text-sm leading-6 text-zinc-600">{service.description}</p>
+                    <span className="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-orange-600 group-hover:gap-2 transition-all">
+                      Learn more
+                      <svg viewBox="0 0 16 16" fill="none" className="h-4 w-4" aria-hidden>
+                        <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Tyre types we fit */}
+        <section className="bg-white py-20 sm:py-28">
+          <div className="mx-auto max-w-7xl px-6 sm:px-10">
+            <div className="mx-auto max-w-2xl text-center">
+              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">
+                Tyre types
+              </p>
+              <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
+                Every Tyre, Every Vehicle
+              </h2>
+              <p className="mt-4 text-zinc-600">
+                From compact city cars to heavy commercial vans — we carry the right tyres and fit
+                them on the spot.
+              </p>
+            </div>
+
+            <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {tyreTypes.map((type) => (
+                <Link
+                  key={type.title}
+                  href="/mobile-tyre-fitting"
+                  className="group overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition-shadow hover:shadow-lg"
+                >
+                  <div className="relative h-44 w-full overflow-hidden">
+                    <Image
+                      src={type.image}
+                      alt={type.title}
+                      fill
+                      sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <h3 className="font-semibold text-zinc-950">{type.title}</h3>
+                    <p className="mt-2 text-sm leading-6 text-zinc-600">{type.description}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Coverage banner */}
+        <section className="relative overflow-hidden bg-zinc-950 py-20 text-zinc-50 sm:py-28">
+          <div className="absolute inset-0">
+            <Image
+              src="https://rapid-tyres.com/wp-content/uploads/elementor/thumbs/rapid-tyres-mobile-fleet-management-service-vans-r6r1i41kgy3gzqk6hc313be7q92b64bbidajxhcjre.webp"
+              alt=""
+              fill
+              sizes="100vw"
+              className="object-cover opacity-20"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/80 to-zinc-950/60" />
+          </div>
+
+          <div className="relative mx-auto grid max-w-7xl gap-12 px-6 sm:px-10 lg:grid-cols-2 lg:items-center">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-500">
+                24/7 coverage
+              </p>
+              <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
+                Bristol and Beyond — We Come to You
+              </h2>
+              <p className="mt-4 max-w-md text-zinc-400">
+                Fully-equipped mobile units covering Bristol, Bath, Newport, Weston-Super-Mare,
+                Chepstow, Gloucestershire, and the surrounding areas. Day or night, weekday or
+                weekend.
+              </p>
+              <Link
+                href="/areas-we-cover"
+                className="mt-8 inline-flex h-12 items-center justify-center rounded-full border border-zinc-600 px-6 text-sm font-semibold text-zinc-200 transition-colors hover:border-zinc-400 hover:bg-zinc-900"
+              >
+                See all areas
+              </Link>
+            </div>
+
+            <div className="grid grid-cols-2 gap-4">
+              {["Bristol", "Bath", "Newport", "Weston-Super-Mare", "Chepstow", "Gloucestershire", "Bridgewater", "Magor"].map(
+                (area) => (
+                  <div
+                    key={area}
+                    className="flex items-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900/60 px-4 py-3 text-sm font-medium text-zinc-300"
+                  >
+                    <svg viewBox="0 0 20 20" fill="none" className="h-4 w-4 shrink-0 text-orange-500" aria-hidden>
+                      <path
+                        d="M10 18s6-5.3 6-10a6 6 0 10-12 0c0 4.7 6 10 6 10z"
+                        stroke="currentColor"
+                        strokeWidth="1.6"
+                      />
+                      <circle cx="10" cy="8" r="2" stroke="currentColor" strokeWidth="1.6" />
+                    </svg>
+                    {area}
+                  </div>
+                ),
+              )}
+            </div>
+          </div>
+        </section>
+
         <TyreBrands />
+
+        <Testimonials />
+
         <Faq items={servicesFaqs} />
-        <CallToAction />
+
+        {/* CTA */}
+        <section className="bg-zinc-950 py-20 text-zinc-50 sm:py-28">
+          <div className="mx-auto max-w-3xl px-6 text-center sm:px-10">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+              Need help on the road today?
+            </h2>
+            <p className="mt-4 text-zinc-400">
+              One call covers tyres, jump starts, and fuel delivery — 24 hours a day, 7 days a week,
+              anywhere in Bristol and the surrounding areas.
+            </p>
+            <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+              <a
+                href={siteConfig.phoneHref}
+                className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500 sm:w-auto"
+              >
+                Call {siteConfig.phone}
+              </a>
+              <Link
+                href="/contact"
+                className="flex h-12 w-full items-center justify-center rounded-full border border-zinc-700 px-6 text-sm font-semibold text-zinc-200 transition-colors hover:border-zinc-500 hover:bg-zinc-900 sm:w-auto"
+              >
+                Book Online
+              </Link>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
