@@ -1,0 +1,46 @@
+import Image from "next/image";
+import { servicesPageItems } from "@/lib/data";
+
+export default function ServicesShowcase() {
+  return (
+    <section className="bg-white py-20 sm:py-28">
+      <div className="mx-auto max-w-7xl px-6 sm:px-10">
+        <div className="mx-auto max-w-2xl text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">
+            What we offer
+          </p>
+          <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
+            Our Services
+          </h2>
+        </div>
+
+        <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {servicesPageItems.map((service) => (
+            <article
+              key={service.title}
+              className="flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition-shadow hover:shadow-lg"
+            >
+              <div className="relative h-52 w-full">
+                <Image
+                  src={service.image}
+                  alt={service.title}
+                  width={service.width}
+                  height={service.height}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div className="flex flex-1 flex-col p-6">
+                <h3 className="text-lg font-semibold text-zinc-950">
+                  {service.title}
+                </h3>
+                <p className="mt-3 flex-1 text-sm leading-6 text-zinc-600">
+                  {service.description}
+                </p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
