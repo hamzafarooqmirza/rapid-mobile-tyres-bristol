@@ -117,8 +117,7 @@ export const miscPages: StubPage[] = [
 // Note: locationPages is intentionally excluded here — every location now has
 // a dedicated page under src/app/, so the catch-all no longer needs to (and
 // must not, to avoid a duplicate-route build conflict) generate them.
+// categoryPages and miscPages are also excluded — they are not needed.
 export const allStubPages: StubPage[] = [
   ...blogPosts,
-  ...categoryPages,
-  ...miscPages,
 ];
