@@ -3,7 +3,31 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { navLinks, siteConfig } from "@/lib/data";
+import { navLinks, serviceMenuLinks, siteConfig } from "@/lib/data";
+import { locationPages } from "@/lib/stubPages";
+
+const Chevron = () => (
+  <svg viewBox="0 0 20 20" fill="none" className="h-3.5 w-3.5" aria-hidden>
+    <path d="M5 7.5l5 5 5-5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+function MegaMenu({ label, href, panel }: { label: string; href: string; panel: React.ReactNode }) {
+  return (
+    <div className="group relative">
+      <Link
+        href={href}
+        className="flex items-center gap-1 text-sm font-medium text-zinc-300 transition-colors hover:text-orange-500"
+      >
+        {label}
+        <Chevron />
+      </Link>
+      <div className="invisible absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3 opacity-0 transition-opacity group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+        {panel}
+      </div>
+    </div>
+  );
+}
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -23,15 +47,69 @@ export default function Header() {
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-sm font-medium text-zinc-300 transition-colors hover:text-orange-500"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {navLinks.map((link) => {
+            if (link.label === "Services") {
+              return (
+                <MegaMenu
+                  key={link.href}
+                  label={link.label}
+                  href={link.href}
+                  panel={
+                    <div className="w-56 rounded-xl border border-zinc-800 bg-zinc-900 p-3 shadow-xl">
+                      {serviceMenuLinks.map((s) => (
+                        <Link
+                          key={s.href}
+                          href={s.href}
+                          className="block rounded-md px-3 py-2 text-sm text-zinc-300 hover:bg-zinc-800 hover:text-orange-500"
+                        >
+                          {s.label}
+                        </Link>
+                      ))}
+                    </div>
+                  }
+                />
+              );
+            }
+
+            if (link.label === "Areas We Serve") {
+              return (
+                <MegaMenu
+                  key={link.href}
+                  label={link.label}
+                  href={link.href}
+                  panel={
+                    <div className="grid w-[640px] grid-cols-3 gap-x-6 gap-y-1 rounded-xl border border-zinc-800 bg-zinc-900 p-4 shadow-xl">
+                      {locationPages.map((loc) => (
+                        <Link
+                          key={loc.path}
+                          href={`/${loc.path}`}
+                          className="rounded-md px-2 py-1.5 text-sm text-zinc-300 hover:bg-zinc-800 hover:text-orange-500"
+                        >
+                          {loc.title.replace(/^Mobile Tyre Fitting in /, "")}
+                        </Link>
+                      ))}
+                      <Link
+                        href="/areas-we-cover"
+                        className="col-span-3 mt-2 rounded-md border-t border-zinc-800 px-2 pt-3 text-sm font-semibold text-orange-500 hover:text-orange-400"
+                      >
+                        View All Areas
+                      </Link>
+                    </div>
+                  }
+                />
+              );
+            }
+
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm font-medium text-zinc-300 transition-colors hover:text-orange-500"
+              >
+                {link.label}
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="hidden items-center gap-4 lg:flex">
