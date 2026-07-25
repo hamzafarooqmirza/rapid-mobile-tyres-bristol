@@ -357,20 +357,19 @@ export const aboutContent = {
     "https://rapid-tyres.com/wp-content/uploads/2024/10/tire-gym-with-other-tires-background_782516-20981.jpg",
   tagline: "Stuck with a flat? We come to you — fast.",
   intro:
-    "Rapid Mobile Tyres Bristol brings professional tyre fitting and repair straight to your door, wherever you are across Bristol and the surrounding areas.",
+    "At Rapid Mobile Tyres Ltd, we specialise in fast, reliable tyre solutions for cars, SUVs, and vans. Our mobile services ensure convenience and quality, keeping you on the road safely and efficiently.",
   trustedPartner: {
     title: "Your Trusted Partner for Mobile Tyre Solutions",
     paragraphs: [
-      "When you've got a tyre problem, the last thing you want is to be stuck waiting at a garage. That's why we built Rapid Mobile Tyres around one simple idea — we come to you.",
-      "We cover Bristol and the surrounding areas, and we're available around the clock for those moments when a tyre decides to give up at the worst possible time.",
+      "At Rapid Mobile Tyres Ltd, we take pride in being your trusted partner for all tyre-related services. Our expert team is dedicated to providing fast, reliable, and high-quality mobile tyre solutions, whether it's for cars, SUVs, or vans. With our convenient mobile service, we come directly to your location, saving you time and hassle.",
+      "We understand the urgency of tyre repairs and breakdowns, which is why we're available 24/7 for emergency services like jump starts and fuel delivery. Our commitment to customer satisfaction and safety means you can rely on us for exceptional service, no matter where or when you need it.",
     ],
   },
   whoWeAre: {
     title: "Who We Are",
     paragraphs: [
-      "Founded over 7 years ago, Rapid Mobile Tyres was built on a simple belief — that when you've got a tyre problem, help should come to you, not the other way around.",
-      "Since then, we've completed thousands of jobs across Bristol and the surrounding areas, building a reputation that keeps customers coming back and recommending us to friends and family.",
-      "We're not a faceless national chain — we're a local team who show up fast, treat you with respect, and never cut corners on safety or quality.",
+      "At Rapid Mobile Tyres Ltd, we are a dedicated team of tyre specialists committed to delivering exceptional mobile tyre services. With years of experience in the industry, we have built a reputation for fast, reliable, and professional tyre solutions across Bristol.",
+      "Whether you need a tyre repair, replacement, or emergency assistance like a jump start or fuel delivery, our goal is to provide hassle-free, on-the-spot services to keep you moving safely. Customer satisfaction and convenience are at the heart of everything we do.",
     ],
     image:
       "https://rapid-tyres.com/wp-content/uploads/2024/10/vecteezy_3d-isolated-mechanic-in-grey-wearpack_10175628-1.png",
@@ -465,25 +464,23 @@ export const contactMethods = [
 ];
 
 export const mobileTyreFittingPage = {
-  tagline: "We bring the tyre shop to you — home, work, or roadside, any time of day.",
+  tagline: "Flat tyre? We'll come to you within 30-60 minutes to fit a new one.",
+  openingHours: "Monday–Sunday: 24 Hours",
   intro:
-    "Mobile tyre fitting means you don't drive on a damaged or unsafe tyre to reach a garage, and you don't wait around in a waiting room. One of our fully-equipped vans comes straight to wherever your car is, fits your new tyre on the spot, and you're back on the road — usually within 45-60 minutes of calling.",
+    "A flat tyre or the need for a new one can be annoying, especially if you're in a hurry. Thanks to Rapid Mobile Tyres, you don't have to waste hours at the garage — we come to you to fix your tyres. Our professional mobile tyre fitting service will get you back on the road quickly and safely, whether at home, at work, or stuck on the side of the road. With emergency help available 24 hours a day, seven days a week, you can be sure that we'll be there for you whenever you need us.",
   steps: [
     {
-      title: "Call or message us",
-      description: "Give us your reg or tyre size and your location — home, work, or roadside.",
+      title: "Book an Appointment",
+      description: "Call us or schedule online to arrange a convenient time and location for your repair.",
     },
     {
-      title: "Get an upfront price",
-      description: "We quote a fair, transparent price before we set off. No hidden extras.",
+      title: "We Come to You",
+      description: "Our mobile unit arrives fully equipped to assess and repair your tyre on-site.",
     },
     {
-      title: "We come to you",
-      description: "A fully-equipped mobile workshop arrives, typically within 45-60 minutes.",
-    },
-    {
-      title: "Fitted on the spot",
-      description: "Your technician fits the tyre there and then, and you're straight back on the road.",
+      title: "Drive Away Safely",
+      description:
+        "After completing the repair, you can drive away with confidence, knowing your tyre is restored to professional standards.",
     },
   ],
   benefits: [
@@ -492,47 +489,146 @@ export const mobileTyreFittingPage = {
     "Fully-equipped mobile workshop on every van",
     "Fitted at your home, workplace, or the roadside",
   ],
-  faqs: [servicesFaqs[0], servicesFaqs[1], servicesFaqs[3], servicesFaqs[4]],
-};
-
-export const fuelDeliveryPage = {
-  tagline: "Run out of petrol or diesel? We'll bring fuel straight to you, wherever you are.",
-  intro:
-    "Running out of fuel is stressful, especially on a motorway hard shoulder or somewhere unfamiliar. Our emergency fuel delivery service brings enough petrol or diesel to get you safely to the nearest station, wherever you've broken down across Bristol and the surrounding areas.",
-  steps: [
+  subServices: [
     {
-      title: "Call us",
-      description: "Tell us your location and whether your car takes petrol or diesel.",
+      title: "Tyre Replacement",
+      description:
+        "We provide fast and efficient tyre replacements, ensuring your vehicle has the right tyres for optimal performance and safety.",
     },
     {
-      title: "We confirm and set off",
-      description: "We confirm the price and get straight on the road to you.",
+      title: "Tyre Pressure Checks",
+      description:
+        "Correct tyre pressure is essential for safety and fuel savings. We check and adjust your tyre pressure according to the manufacturer's recommendation.",
     },
     {
-      title: "Fuel delivered",
-      description: "We bring enough fuel to get you safely to the nearest filling station.",
+      title: "Tyre Rotation and Balancing",
+      description: "Extend the life of your tyres with our professional rotation and balancing services.",
+    },
+    {
+      title: "Emergency Tyre Fitting",
+      description: "Got a tyre emergency? We're on hand 24 hours a day, seven days a week.",
+    },
+  ],
+  whyChoose: [
+    {
+      title: "On-Demand Service",
+      description:
+        "No need to disrupt your schedule or wait in line at a repair shop. Just book an appointment and our skilled technicians will come to you.",
+    },
+    {
+      title: "Expert Technicians",
+      description:
+        "Our team of highly trained professionals uses advanced tools and techniques to repair your tyre to the highest safety and quality standards.",
+    },
+    {
+      title: "Fast Response Times",
+      description:
+        "Our strategically located mobile units ensure rapid response times, minimising your downtime and getting you moving again.",
+    },
+    {
+      title: "Cost-Effective Solutions",
+      description:
+        "Why replace when you can repair? We give honest evaluations and only recommend replacement when it's essential.",
     },
   ],
   faqs: [
     {
-      question: "How much fuel will you bring?",
+      question: "How can I schedule a mobile tyre fitting service?",
       answer:
-        "Enough to safely get you to the nearest filling station — we'll confirm the amount when you call.",
+        "Booking is simple — arrange a service online or by phone. Give us your location, tyre size, and preferred time, and we'll take care of the rest.",
     },
     {
-      question: "Do you carry both petrol and diesel?",
-      answer: "Yes, our vans carry both — just let us know which your vehicle takes when you call.",
+      question: "What areas do you provide services in?",
+      answer:
+        "We service Bristol and the surrounding areas. If you're unsure whether you're within our service area, get in touch and we'll confirm whether we can reach you.",
     },
     {
-      question: "How quickly can you get to me?",
+      question: "How quickly do you respond to a call out?",
       answer:
-        "Our average arrival time is 45-60 minutes, depending on your location and traffic conditions.",
+        "We usually reach most Bristol areas within about an hour, depending on traffic and weather.",
+    },
+    {
+      question: "What sorts of payments do you accept?",
+      answer: "We accept major credit cards, debit cards, and cash, taken at the time of service completion.",
+    },
+    {
+      question: "What should I do if I need a jump start or fuel delivery?",
+      answer:
+        "Simply call us with your location and a brief description of the problem — we're equipped to handle jump starts and fuel deliveries safely and efficiently.",
+    },
+  ],
+};
+
+export const fuelDeliveryPage = {
+  tagline: "Out of fuel? We're here 24/7 with fast emergency delivery, wherever you are in the UK.",
+  openingHours: "Monday–Sunday: 24 Hours",
+  intro:
+    "Running out of fuel can be disruptive, particularly if you find yourself on a busy road or somewhere unfamiliar. Even if you're caught on the motorway, in the middle of nowhere, or just running late, our team can bring the fuel you need straight to your car — so you never have to worry about running out again.",
+  steps: [
+    {
+      title: "Call or Book Online",
+      description:
+        "Phone us or schedule our service online. Available 24/7, our team will accept your request and send a fuel delivery vehicle to your address.",
+    },
+    {
+      title: "Share Your Location",
+      description:
+        "Let us know your exact location so we can get to you without delay — whether you're at home, in a car park, or on a motorway.",
+    },
+    {
+      title: "Fuel Delivered",
+      description:
+        "Our qualified technicians arrive with the petrol or diesel you need and get you safely back on the road.",
+    },
+  ],
+  whyChoose: [
+    {
+      title: "Fast and Reliable Service",
+      description:
+        "We provide 24/7 availability and fast response times, so you're never left waiting for long.",
+    },
+    {
+      title: "Professional Team",
+      description:
+        "Your safety comes first — our trained technicians handle fuel delivery with accuracy and care.",
+    },
+    {
+      title: "Convenient",
+      description:
+        "A brief phone call or online booking is all it takes — we take care of everything else.",
+    },
+  ],
+  faqs: [
+    {
+      question: "How quickly can I get fuel delivered?",
+      answer:
+        "We aim to deliver fuel to your location within 45 minutes of your request, so you're back on the road as quickly as possible.",
+    },
+    {
+      question: "What types of fuel do you deliver?",
+      answer: "We deliver petrol and diesel — whatever your car, van, or motorbike needs.",
+    },
+    {
+      question: "Is fuel delivery available in my area?",
+      answer:
+        "We provide fuel delivery across most areas in the UK, in both city centres and remote locations. Contact us directly to confirm availability in your area.",
+    },
+    {
+      question: "How much does fuel delivery cost?",
+      answer:
+        "Our prices are competitive and depend on the amount of fuel required and your location — we aim for affordable rates without compromising on speed or reliability.",
+    },
+    {
+      question: "What should I do if I need a fuel delivery?",
+      answer:
+        "Simply call us with your location and a brief description of the situation — our team is equipped to handle it safely and efficiently.",
     },
   ],
 };
 
 export const jumpStartPage = {
-  tagline: "Flat battery? We'll get your car started, fast.",
+  tagline: "Dead battery? No problem! Rapid Mobile Tyres to the rescue, 24/7.",
+  openingHours: "Monday–Sunday: 24 Hours",
   intro:
     "A dead battery can strike anywhere — on the drive, at work, or on the roadside. Our mobile jump start service gets you moving again quickly, as part of our trusted 24/7 mobile tyre and roadside assistance service across Bristol and the surrounding areas.",
   steps: [
@@ -542,26 +638,198 @@ export const jumpStartPage = {
     },
     {
       title: "We come to you",
-      description: "A technician arrives with jump-start equipment, usually within 45-60 minutes.",
+      description: "A technician arrives with jump-start equipment, usually within 30-60 minutes.",
     },
     {
       title: "Back on the road",
       description: "We get your engine running and check it's safe before we leave.",
     },
   ],
-  faqs: [
+  commonReasons: [
     {
-      question: "What if my battery won't hold a charge after a jump start?",
-      answer:
-        "That usually means the battery needs replacing rather than just charging — we can advise on next steps when we're with you.",
+      title: "Lights or Electronics Left On",
+      description:
+        "Leaving your headlights, interior lights, or other electronics like the radio on overnight can completely drain your battery.",
     },
     {
-      question: "How long does a jump start take?",
-      answer: "Most jump starts take 10-15 minutes once we arrive.",
+      title: "Cold Temperatures",
+      description:
+        "Winter months are especially tough on car batteries — cold weather lowers battery capacity, making it more prone to fail.",
     },
     {
-      question: "Is jump start assistance available 24/7?",
-      answer: "Yes, jump starts are part of our 24/7 mobile tyre and roadside assistance service.",
+      title: "Old Battery",
+      description:
+        "Car batteries usually last three to five years. As they age, their ability to hold a charge decreases, raising the risk of sudden failure.",
+    },
+    {
+      title: "Broken Charging System",
+      description:
+        "Problems with the alternator or charging system can stop the battery recharging correctly while driving, gradually running it flat.",
+    },
+    {
+      title: "Limited Vehicle Use",
+      description: "Long periods without driving can cause the battery to lose charge — typical of cars driven only occasionally.",
+    },
+    {
+      title: "Parasite Drain",
+      description:
+        "Even with the car switched off, some electrical components or faulty wiring can gradually drain the battery.",
     },
   ],
+  whyChoose: [
+    {
+      title: "24/7 Accessibility",
+      description:
+        "Car problems don't wait for a convenient time. Our jump-start service runs 24 hours a day, 7 days a week — middle of the night, weekend, or bank holiday.",
+    },
+    {
+      title: "Quick Response Times",
+      description:
+        "Being stranded with a dead battery is stressful, so we prioritise fast response times to get to you as quickly as possible.",
+    },
+    {
+      title: "Expert and Professional Technicians",
+      description:
+        "Our team is skilled in handling all types of vehicle batteries — car, SUV, or van — using industry best practice and quality equipment.",
+    },
+    {
+      title: "Nationwide Coverage",
+      description:
+        "We cover urban and rural locations alike, so wherever you are, we can get to you.",
+    },
+  ],
+  tips: [
+    {
+      title: "Regular Battery Maintenance",
+      description: "Check your battery often, particularly before winter — look for corrosion on the terminals and keep connections clean and tight.",
+    },
+    {
+      title: "Turn Off All Your Electronics",
+      description: "Double-check that all lights, the radio, and other electronics are off before leaving your car.",
+    },
+    {
+      title: "Regularly Drive Your Car",
+      description: "If you don't drive often, take a quick drive at least once a week to keep the battery charged.",
+    },
+    {
+      title: "Get a Maintainer or Battery Charger",
+      description: "A battery charger or maintainer helps keep the battery in good condition for seldom-driven cars.",
+    },
+    {
+      title: "Replace an Old Battery",
+      description: "If your battery is more than three to five years old, consider replacing it early to avoid unexpected problems.",
+    },
+    {
+      title: "Parking in a Garage During Winter",
+      description: "Keeping your car out of the worst cold helps retain battery charge and extend its lifetime.",
+    },
+    {
+      title: "Look for Parasitic Drains",
+      description: "If you suspect something is draining your battery while the car is off, have a specialist check the electrical system.",
+    },
+  ],
+  faqs: [
+    {
+      question: "Is jump-starting a car safe?",
+      answer:
+        "Yes, jump-starting is safe when done by professionals using the right equipment. Our technicians are trained to handle all types of vehicles safely and efficiently.",
+    },
+    {
+      question: "How long does it take to get a jump start?",
+      answer:
+        "We aim to reach you within 30-60 minutes of your call, depending on your location. The jump-start itself takes just a few minutes once we arrive.",
+    },
+    {
+      question: "What if my battery is completely dead?",
+      answer:
+        "Even a completely dead battery can usually be jump-started using high-quality jump leads or portable battery packs. If it's old or damaged, we may recommend a replacement.",
+    },
+    {
+      question: "Can I jump-start my car myself?",
+      answer:
+        "You can, but incorrect connections can harm your car or cause injury if you're not experienced. It's always best to trust the experts.",
+    },
+    {
+      question: "Will jump-starting my car resolve the underlying battery problem?",
+      answer:
+        "A jump start gets your car running again but won't fix a failing or aging battery. If your battery dies often, it may need replacing — we can assess its condition and advise.",
+    },
+  ],
+};
+
+interface RefundPolicySection {
+  title: string;
+  items: { title?: string; text: string }[];
+}
+
+export const refundPolicy: { intro: string; sections: RefundPolicySection[]; note: string } = {
+  intro:
+    "Thank you for choosing Rapid Mobile Tyres Ltd for your mobile tyre fitting needs. We strive to provide you with excellent service and satisfaction. Please read our refund policy carefully to understand your rights and responsibilities.",
+  sections: [
+    {
+      title: "1. Refund Eligibility",
+      items: [
+        {
+          title: "1.1 Service Quality",
+          text: "If you are dissatisfied with the quality of our mobile tyre fitting service, please contact us within 2 days from the service date. We will assess the issue and, if necessary, provide a refund or alternative solution.",
+        },
+        {
+          title: "1.2 Cancellation",
+          text: "If you need to cancel your service appointment, please do so at least one day in advance. Refunds for cancellations made within this timeframe will be processed promptly.",
+        },
+      ],
+    },
+    {
+      title: "2. Non-Refundable Items",
+      items: [
+        {
+          title: "2.1 Used or Damaged Tyres",
+          text: "Tyres that have been used or damaged after our mobile tyre fitting service are non-refundable.",
+        },
+        {
+          title: "2.2 Service Fee",
+          text: "The service fee for the mobile tyre fitting appointment is non-refundable if the service has been successfully completed.",
+        },
+        {
+          title: "2.3 Emergency Call-Out Charge",
+          text: "If there's a cancellation from the customer, emergency call-out charges will be applied, which are £120–200 depending on the nature and time of the call-out.",
+        },
+      ],
+    },
+    {
+      title: "3. Refund Process",
+      items: [
+        { title: "3.1 Contact Us", text: "Get in touch with our team to start your refund request." },
+        {
+          title: "3.2 Provide Details",
+          text: "When contacting us for a refund, please provide your name, contact details, service date, and a detailed description of the issue.",
+        },
+        {
+          title: "3.3 Evaluation",
+          text: "We will review your request and may ask for additional information to assess the eligibility for a refund.",
+        },
+        {
+          title: "3.4 Refund or Resolution",
+          text: "If your request is approved, we will process the refund through the original payment method or offer an alternative resolution.",
+        },
+      ],
+    },
+    {
+      title: "4. Changes to This Policy",
+      items: [
+        {
+          text: "We may update this refund policy from time to time. The latest version will be posted on our website with the effective date.",
+        },
+      ],
+    },
+    {
+      title: "5. Contact Us",
+      items: [
+        {
+          text: `If you have any questions about this refund policy, please get in touch with us at ${siteConfig.email}.`,
+        },
+      ],
+    },
+  ],
+  note: "At Rapid Mobile Tyres, we don't provide wheel balancing in our mobile tyre fitting service.",
 };

@@ -108,8 +108,9 @@ export const categoryPages: StubPage[] = [
   { path: "category/tyre-solutions/page/3", title: "Tyre Solutions — Page 3", kind: "category" },
 ];
 
+// Note: "refund-policy" is intentionally excluded here — it now has a
+// dedicated page under src/app/refund-policy/.
 export const miscPages: StubPage[] = [
-  { path: "refund-policy", title: "Refund Policy", kind: "legal" },
   { path: "locations/rapid-mobile-tyres", title: "Rapid Mobile Tyres Locations", kind: "info" },
 ];
 
