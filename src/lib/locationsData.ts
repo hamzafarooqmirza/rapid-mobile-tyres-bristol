@@ -25,21 +25,23 @@ function genericLocation(name: string, slug: string, areasServed: string[]): Loc
   };
 }
 
-export const locationHowItWorks = [
-  {
-    title: "Quick Booking",
-    description: "Book online or give us a call — tell us your location and tyre size.",
-  },
-  {
-    title: "We Come to You",
-    description: "Our fully-equipped mobile unit arrives at your chosen location, ready to work.",
-  },
-  {
-    title: "Expert Fitting",
-    description:
-      "Our technicians fit your new tyres with care and precision, then check everything's safe before we go.",
-  },
-];
+export function getLocationSteps(name: string) {
+  return [
+    {
+      title: "Call or Book Online",
+      description: `Give us your reg or tyre size and your location in ${name} — home, work, or roadside.`,
+    },
+    {
+      title: "We Come to You",
+      description: "A fully-equipped mobile unit arrives at your chosen location, usually within 45-60 minutes.",
+    },
+    {
+      title: "Fitted On the Spot",
+      description:
+        "Your technician fits the tyre there and then, checks everything's safe, and you're back on the road.",
+    },
+  ];
+}
 
 export const locationWhyChoose = [
   {
@@ -64,29 +66,41 @@ export const locationServicesProvided = [
   {
     title: "Mobile Tyre Fitting",
     href: "/mobile-tyre-fitting",
-    description:
-      "Need a tyre change but can't make it to the shop? Our Mobile Tyre Fitting service brings the garage to your door, wherever you are. Whether you're at home, at work, or stuck on the side of the road, our professional technicians change your tyres quickly and efficiently — no trip to a tyre shop required.",
+    description: "Punctures, worn tread, or a full replacement — fitted on the spot, wherever you are.",
+    image: "https://rapid-tyres.com/wp-content/uploads/2024/12/mechanic-fixing-car-wheel-675fecc79140d.webp",
   },
   {
     title: "Jump Start",
     href: "/jumpstarts",
-    description:
-      "A dead battery can disrupt your whole day. Our fast, safe Jump Start service is only a phone call away — our technicians safely recharge your battery and get you back on the road quickly. Available 24 hours a day, seven days a week.",
+    description: "Flat battery? Our technicians safely recharge your car and get you moving again, 24/7.",
+    image:
+      "https://rapid-tyres.com/wp-content/uploads/2024/12/man-jumpstarting-car-battery-with-jumper-cables-675fed4fd0902.webp",
   },
   {
     title: "Fuel Delivery",
     href: "/fuel-delivery",
-    description:
-      "Run out of fuel? Our Fuel Delivery service is here to help. We provide emergency fuel delivery with unwavering reliability, so you're never left stranded — our team reaches you quickly so you can refuel and get back on your way.",
+    description: "Run out of petrol or diesel? We'll bring enough fuel to get you to the nearest station.",
+    image: "https://rapid-tyres.com/wp-content/uploads/2024/12/man-refueling-car-at-gas-station-675fee0a7f233.webp",
   },
 ];
 
-export const locationOtherServices = [
-  "Battery Check",
-  "Mobile Fitting",
-  "Single Tyre Charge",
-  "TPMS Replacement",
-  "Tyre Repair",
+export const locationGallery = [
+  {
+    src: "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-bmw-i3-rapid-tyres-service.webp",
+    alt: "Mobile tyre fitting on a BMW i3",
+  },
+  {
+    src: "https://rapid-tyres.com/wp-content/uploads/2025/04/seat-front-tyre-replacement-residential-street-rapid-tyres.webp",
+    alt: "Front tyre replacement on a residential street",
+  },
+  {
+    src: "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-volkswagen-tiguan-rapid-tyres.webp",
+    alt: "Mobile tyre fitting on a Volkswagen Tiguan",
+  },
+  {
+    src: "https://rapid-tyres.com/wp-content/uploads/elementor/thumbs/rapid-tyres-mobile-fleet-management-service-vans-r6r1i41kgy3gzqk6hc313be7q92b64bbidajxhcjre.webp",
+    alt: "Rapid Mobile Tyres fleet of service vans",
+  },
 ];
 
 export const locations: LocationPageData[] = [
