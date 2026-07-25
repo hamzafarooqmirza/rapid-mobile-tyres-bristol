@@ -4,6 +4,11 @@ interface Step {
 }
 
 export default function StepList({ steps }: { steps: Step[] }) {
+  const columns = Math.min(steps.length, 4);
+  const colsClass =
+    columns === 2 ? "sm:grid-cols-2" : columns === 3 ? "sm:grid-cols-3" : "sm:grid-cols-2 lg:grid-cols-4";
+  const lineInset = `${50 / columns}%`;
+
   return (
     <section className="bg-zinc-950 py-20 text-zinc-50 sm:py-28">
       <div className="mx-auto max-w-7xl px-6 sm:px-10">
@@ -16,21 +21,23 @@ export default function StepList({ steps }: { steps: Step[] }) {
           </h2>
         </div>
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {steps.map((step, index) => (
+        <div className={`relative mt-16 grid gap-x-6 gap-y-10 ${colsClass}`}>
+          {steps.length > 1 && (
             <div
-              key={step.title}
-              className="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-6"
-            >
-              <span className="flex h-10 w-10 items-center justify-center rounded-full bg-orange-500/10 text-sm font-bold text-orange-500">
+              aria-hidden
+              className="pointer-events-none absolute top-6 hidden h-px bg-zinc-800 sm:block"
+              style={{ left: lineInset, right: lineInset }}
+            />
+          )}
+          {steps.map((step, index) => (
+            <div key={step.title} className="relative flex flex-col items-start">
+              <span className="relative z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-orange-600 text-base font-bold text-white ring-8 ring-zinc-950">
                 {index + 1}
               </span>
-              <h3 className="mt-4 text-lg font-semibold text-zinc-50">
-                {step.title}
-              </h3>
-              <p className="mt-2 text-sm leading-6 text-zinc-400">
-                {step.description}
-              </p>
+              <div className="mt-5 w-full rounded-2xl border border-zinc-800 bg-zinc-900/60 p-6 transition-colors hover:border-orange-500/50">
+                <h3 className="text-lg font-semibold text-zinc-50">{step.title}</h3>
+                <p className="mt-2 text-sm leading-6 text-zinc-400">{step.description}</p>
+              </div>
             </div>
           ))}
         </div>
