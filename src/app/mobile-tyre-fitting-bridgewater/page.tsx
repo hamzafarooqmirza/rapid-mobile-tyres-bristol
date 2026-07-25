@@ -13,13 +13,13 @@ import { siteConfig, servicesFaqs } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting in Bridgewater - Rapid Mobile Tyres Bristol",
   description:
-    "Fast, professional mobile tyre fitting in Bridgewater. We come to your home, workplace, or roadside — usually within 45-60 minutes. Fixed £120 callout. Call 07494 247246.",
+    "Fast, professional mobile tyre fitting in Bridgewater. We come to your home, workplace, or roadside — usually within 45-60 minutes. Callouts from £120. Call 07494 247246.",
 };
 
 const stats = [
   { value: "24/7", label: "Available, every day" },
   { value: "45-60 min", label: "Average arrival time" },
-  { value: "£120", label: "Fixed callout price" },
+  { value: "From £120", label: "Callout price" },
   { value: "7+ yrs", label: "Serving the South West" },
 ];
 
@@ -372,8 +372,7 @@ export default function MobileTyreFittingBridgewaterPage() {
               Stuck with a tyre problem in Bridgewater?
             </h2>
             <p className="mt-4 text-zinc-300">
-              Call now for a fixed-price callout from £120 — our nearest technician will be with you in
-              45-60 minutes.
+              Call now for a callout from £120 — our nearest technician will be with you in 45-60 minutes.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
