@@ -17,17 +17,18 @@ export default function Services() {
 
         <div className="mt-14 grid gap-8 md:grid-cols-3">
           {highlightServices.map((service) => (
-            <article
+            <Link
               key={service.title}
-              className="flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition-shadow hover:shadow-lg"
+              href={service.href}
+              className="group flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition-shadow hover:shadow-lg"
             >
-              <div className="relative h-52 w-full">
+              <div className="relative h-52 w-full overflow-hidden">
                 <Image
                   src={service.image}
                   alt={service.title}
                   width={service.width}
                   height={service.height}
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
               <div className="flex flex-1 flex-col p-6">
@@ -37,24 +38,31 @@ export default function Services() {
                 <p className="mt-3 flex-1 text-sm leading-6 text-zinc-600">
                   {service.description}
                 </p>
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-orange-600 group-hover:gap-2 transition-all">
+                  Learn more
+                  <svg viewBox="0 0 16 16" fill="none" className="h-4 w-4" aria-hidden>
+                    <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </span>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
 
         <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {gridServices.map((service) => (
-            <article
+            <Link
               key={service.title}
-              className="flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition-shadow hover:shadow-lg"
+              href="/mobile-tyre-fitting"
+              className="group flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition-shadow hover:shadow-lg"
             >
-              <div className="relative h-44 w-full">
+              <div className="relative h-44 w-full overflow-hidden">
                 <Image
                   src={service.image}
                   alt={service.title}
                   width={service.width}
                   height={service.height}
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
               <div className="flex flex-1 flex-col p-6">
@@ -65,7 +73,7 @@ export default function Services() {
                   {service.description}
                 </p>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
 

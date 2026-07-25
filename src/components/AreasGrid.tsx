@@ -1,4 +1,9 @@
+import Link from "next/link";
 import { areasWeCoverDetails, siteConfig } from "@/lib/data";
+
+function areaPath(name: string): string {
+  return `/mobile-tyre-fitting-${name.toLowerCase().replace(/\s+/g, "-")}`;
+}
 
 export default function AreasGrid() {
   return (
@@ -20,9 +25,10 @@ export default function AreasGrid() {
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {areasWeCoverDetails.map((area) => (
-            <div
+            <Link
               key={area.name}
-              className="rounded-2xl border border-zinc-200 bg-zinc-50 p-6"
+              href={areaPath(area.name)}
+              className="group rounded-2xl border border-zinc-200 bg-zinc-50 p-6 transition-shadow hover:shadow-md hover:border-orange-200"
             >
               <svg
                 viewBox="0 0 20 20"
@@ -37,13 +43,13 @@ export default function AreasGrid() {
                 />
                 <circle cx="10" cy="8" r="2" stroke="currentColor" strokeWidth="1.6" />
               </svg>
-              <h3 className="mt-3 text-lg font-semibold text-zinc-950">
+              <h3 className="mt-3 text-lg font-semibold text-zinc-950 group-hover:text-orange-600 transition-colors">
                 {area.name}
               </h3>
               <p className="mt-2 text-sm leading-6 text-zinc-600">
                 {area.description}
               </p>
-            </div>
+            </Link>
           ))}
         </div>
 

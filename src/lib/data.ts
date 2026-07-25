@@ -32,7 +32,7 @@ export const highlightServices = [
       "https://rapid-tyres.com/wp-content/uploads/2024/12/mechanic-fixing-car-wheel-675fecc79140d.webp",
     width: 740,
     height: 493,
-    href: "https://rapid-tyres.com/mobile-tyre-fitting/",
+    href: "/mobile-tyre-fitting",
   },
   {
     title: "Jump Start",
@@ -42,7 +42,7 @@ export const highlightServices = [
       "https://rapid-tyres.com/wp-content/uploads/2024/12/man-jumpstarting-car-battery-with-jumper-cables-675fed4fd0902.webp",
     width: 740,
     height: 493,
-    href: "https://rapid-tyres.com/jumpstarts/",
+    href: "/jumpstarts",
   },
   {
     title: "Fuel Delivery",
@@ -52,7 +52,7 @@ export const highlightServices = [
       "https://rapid-tyres.com/wp-content/uploads/2024/12/man-refueling-car-at-gas-station-675fee0a7f233.webp",
     width: 740,
     height: 531,
-    href: "https://rapid-tyres.com/fuel-delivery/",
+    href: "/fuel-delivery",
   },
 ];
 
