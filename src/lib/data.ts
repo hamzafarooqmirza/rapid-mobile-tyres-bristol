@@ -463,3 +463,105 @@ export const contactMethods = [
     description: "Mobile service — we come to you anywhere in Bristol and the South West.",
   },
 ];
+
+export const mobileTyreFittingPage = {
+  tagline: "We bring the tyre shop to you — home, work, or roadside, any time of day.",
+  intro:
+    "Mobile tyre fitting means you don't drive on a damaged or unsafe tyre to reach a garage, and you don't wait around in a waiting room. One of our fully-equipped vans comes straight to wherever your car is, fits your new tyre on the spot, and you're back on the road — usually within 45-60 minutes of calling.",
+  steps: [
+    {
+      title: "Call or message us",
+      description: "Give us your reg or tyre size and your location — home, work, or roadside.",
+    },
+    {
+      title: "Get an upfront price",
+      description: "We quote a fair, transparent price before we set off. No hidden extras.",
+    },
+    {
+      title: "We come to you",
+      description: "A fully-equipped mobile workshop arrives, typically within 45-60 minutes.",
+    },
+    {
+      title: "Fitted on the spot",
+      description: "Your technician fits the tyre there and then, and you're straight back on the road.",
+    },
+  ],
+  benefits: [
+    "No towing or garage waiting rooms",
+    "Same-day and emergency slots, 24/7",
+    "Fully-equipped mobile workshop on every van",
+    "Fitted at your home, workplace, or the roadside",
+  ],
+  faqs: [servicesFaqs[0], servicesFaqs[1], servicesFaqs[3], servicesFaqs[4]],
+};
+
+export const fuelDeliveryPage = {
+  tagline: "Run out of petrol or diesel? We'll bring fuel straight to you, wherever you are.",
+  intro:
+    "Running out of fuel is stressful, especially on a motorway hard shoulder or somewhere unfamiliar. Our emergency fuel delivery service brings enough petrol or diesel to get you safely to the nearest station, wherever you've broken down across Bristol and the surrounding areas.",
+  steps: [
+    {
+      title: "Call us",
+      description: "Tell us your location and whether your car takes petrol or diesel.",
+    },
+    {
+      title: "We confirm and set off",
+      description: "We confirm the price and get straight on the road to you.",
+    },
+    {
+      title: "Fuel delivered",
+      description: "We bring enough fuel to get you safely to the nearest filling station.",
+    },
+  ],
+  faqs: [
+    {
+      question: "How much fuel will you bring?",
+      answer:
+        "Enough to safely get you to the nearest filling station — we'll confirm the amount when you call.",
+    },
+    {
+      question: "Do you carry both petrol and diesel?",
+      answer: "Yes, our vans carry both — just let us know which your vehicle takes when you call.",
+    },
+    {
+      question: "How quickly can you get to me?",
+      answer:
+        "Our average arrival time is 45-60 minutes, depending on your location and traffic conditions.",
+    },
+  ],
+};
+
+export const jumpStartPage = {
+  tagline: "Flat battery? We'll get your car started, fast.",
+  intro:
+    "A dead battery can strike anywhere — on the drive, at work, or on the roadside. Our mobile jump start service gets you moving again quickly, as part of our trusted 24/7 mobile tyre and roadside assistance service across Bristol and the surrounding areas.",
+  steps: [
+    {
+      title: "Call us",
+      description: "Tell us where you are and describe the problem — we'll talk you through it.",
+    },
+    {
+      title: "We come to you",
+      description: "A technician arrives with jump-start equipment, usually within 45-60 minutes.",
+    },
+    {
+      title: "Back on the road",
+      description: "We get your engine running and check it's safe before we leave.",
+    },
+  ],
+  faqs: [
+    {
+      question: "What if my battery won't hold a charge after a jump start?",
+      answer:
+        "That usually means the battery needs replacing rather than just charging — we can advise on next steps when we're with you.",
+    },
+    {
+      question: "How long does a jump start take?",
+      answer: "Most jump starts take 10-15 minutes once we arrive.",
+    },
+    {
+      question: "Is jump start assistance available 24/7?",
+      answer: "Yes, jump starts are part of our 24/7 mobile tyre and roadside assistance service.",
+    },
+  ],
+};

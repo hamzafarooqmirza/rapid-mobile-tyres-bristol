@@ -1,9 +1,11 @@
 export default function PageHero({
   title,
   breadcrumb,
+  subtitle,
 }: {
   title: string;
   breadcrumb: string;
+  subtitle?: string;
 }) {
   return (
     <section className="relative overflow-hidden bg-zinc-950 py-16 text-zinc-50 sm:py-20">
@@ -17,6 +19,7 @@ export default function PageHero({
       />
       <div className="relative mx-auto max-w-7xl px-6 text-center sm:px-10">
         <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{title}</h1>
+        {subtitle && <p className="mt-4 text-lg text-zinc-300">{subtitle}</p>}
         <p className="mt-3 text-sm text-zinc-400">{breadcrumb}</p>
       </div>
     </section>
