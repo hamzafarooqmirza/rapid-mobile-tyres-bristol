@@ -113,8 +113,10 @@ export const miscPages: StubPage[] = [
   { path: "locations/rapid-mobile-tyres", title: "Rapid Mobile Tyres Locations", kind: "info" },
 ];
 
+// Note: locationPages is intentionally excluded here — every location now has
+// a dedicated page under src/app/, so the catch-all no longer needs to (and
+// must not, to avoid a duplicate-route build conflict) generate them.
 export const allStubPages: StubPage[] = [
-  ...locationPages,
   ...blogPosts,
   ...categoryPages,
   ...miscPages,
