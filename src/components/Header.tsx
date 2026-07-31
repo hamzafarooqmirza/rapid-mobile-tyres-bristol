@@ -17,7 +17,7 @@ function MegaMenu({ label, href, panel }: { label: string; href: string; panel: 
     <div className="group relative">
       <Link
         href={href}
-        className="flex items-center gap-1 text-sm font-medium text-zinc-300 transition-colors hover:text-orange-500"
+        className="flex items-center gap-1 text-sm font-medium text-zinc-700 transition-colors hover:text-orange-600"
       >
         {label}
         <Chevron />
@@ -33,7 +33,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-950/95 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/95 backdrop-blur">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 sm:px-10">
         <Link href="/" className="flex items-center gap-2">
           <Image
@@ -55,12 +55,12 @@ export default function Header() {
                   label={link.label}
                   href={link.href}
                   panel={
-                    <div className="w-56 rounded-xl border border-zinc-800 bg-zinc-900 p-3 shadow-xl">
+                    <div className="w-56 rounded-xl border border-zinc-200 bg-white p-3 shadow-xl">
                       {serviceMenuLinks.map((s) => (
                         <Link
                           key={s.href}
                           href={s.href}
-                          className="block rounded-md px-3 py-2 text-sm text-zinc-300 hover:bg-zinc-800 hover:text-orange-500"
+                          className="block rounded-md px-3 py-2 text-sm text-zinc-700 hover:bg-zinc-50 hover:text-orange-600"
                         >
                           {s.label}
                         </Link>
@@ -78,19 +78,19 @@ export default function Header() {
                   label={link.label}
                   href={link.href}
                   panel={
-                    <div className="grid w-[640px] grid-cols-3 gap-x-6 gap-y-1 rounded-xl border border-zinc-800 bg-zinc-900 p-4 shadow-xl">
+                    <div className="grid w-[640px] grid-cols-3 gap-x-6 gap-y-1 rounded-xl border border-zinc-200 bg-white p-4 shadow-xl">
                       {locationPages.map((loc) => (
                         <Link
                           key={loc.path}
                           href={`/${loc.path}`}
-                          className="rounded-md px-2 py-1.5 text-sm text-zinc-300 hover:bg-zinc-800 hover:text-orange-500"
+                          className="rounded-md px-2 py-1.5 text-sm text-zinc-700 hover:bg-zinc-50 hover:text-orange-600"
                         >
                           {loc.title.replace(/^Mobile Tyre Fitting in /, "")}
                         </Link>
                       ))}
                       <Link
                         href="/areas-we-cover"
-                        className="col-span-3 mt-2 rounded-md border-t border-zinc-800 px-2 pt-3 text-sm font-semibold text-orange-500 hover:text-orange-400"
+                        className="col-span-3 mt-2 rounded-md border-t border-zinc-200 px-2 pt-3 text-sm font-semibold text-orange-600 hover:text-orange-500"
                       >
                         View All Areas
                       </Link>
@@ -104,7 +104,7 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-zinc-300 transition-colors hover:text-orange-500"
+                className="text-sm font-medium text-zinc-700 transition-colors hover:text-orange-600"
               >
                 {link.label}
               </Link>
@@ -126,7 +126,7 @@ export default function Header() {
           onClick={() => setOpen((v) => !v)}
           aria-label="Toggle menu"
           aria-expanded={open}
-          className="flex h-10 w-10 items-center justify-center rounded-md border border-zinc-700 text-zinc-200 lg:hidden"
+          className="flex h-10 w-10 items-center justify-center rounded-md border border-zinc-300 text-zinc-700 lg:hidden"
         >
           <svg viewBox="0 0 24 24" fill="none" className="h-5 w-5" aria-hidden>
             {open ? (
@@ -149,14 +149,14 @@ export default function Header() {
       </div>
 
       {open && (
-        <div className="border-t border-zinc-800 bg-zinc-950 px-6 py-4 lg:hidden">
+        <div className="border-t border-zinc-200 bg-white px-6 py-4 lg:hidden">
           <nav className="flex flex-col gap-1">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="rounded-md px-2 py-2.5 text-sm font-medium text-zinc-300 hover:bg-zinc-900 hover:text-orange-500"
+                className="rounded-md px-2 py-2.5 text-sm font-medium text-zinc-700 hover:bg-zinc-50 hover:text-orange-600"
               >
                 {link.label}
               </Link>

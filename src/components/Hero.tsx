@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative overflow-hidden bg-zinc-950 text-zinc-50"
+      className="relative overflow-hidden bg-white text-zinc-950"
     >
       <div
         aria-hidden
@@ -36,7 +36,7 @@ export default function Hero() {
             Replacement
           </h1>
 
-          <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
+          <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-600">
             45-60 minutes arrival for roadside tyre changes. Fast, reliable
             mobile tyre fitting that comes straight to you, anywhere in
             Bristol and the surrounding areas.
@@ -51,7 +51,7 @@ export default function Hero() {
             </a>
             <Link
               href="/services"
-              className="flex h-12 items-center justify-center rounded-full border border-zinc-700 px-6 text-sm font-semibold text-zinc-200 transition-colors hover:border-zinc-500 hover:bg-zinc-900"
+              className="flex h-12 items-center justify-center rounded-full border border-zinc-300 px-6 text-sm font-semibold text-zinc-700 transition-colors hover:border-zinc-400 hover:bg-zinc-50"
             >
               Our Services
             </Link>
@@ -59,7 +59,7 @@ export default function Hero() {
 
           <ul className="mt-10 grid gap-3 sm:grid-cols-2">
             {highlights.map((item) => (
-              <li key={item} className="flex items-start gap-2 text-sm text-zinc-300">
+              <li key={item} className="flex items-start gap-2 text-sm text-zinc-700">
                 <svg
                   viewBox="0 0 20 20"
                   fill="none"
@@ -81,7 +81,7 @@ export default function Hero() {
         </div>
 
         <div className="relative mx-auto w-full max-w-lg">
-          <div className="relative overflow-hidden rounded-3xl border border-zinc-800 shadow-2xl">
+          <div className="relative overflow-hidden rounded-3xl border border-zinc-200 shadow-2xl">
             <Image
               src="https://rapid-tyres.com/wp-content/uploads/2024/12/rapid-tyres-mobile-van-with-logo-675fe9eeb65ae.webp"
               alt="Rapid Mobile Tyres service van with logo"
@@ -91,9 +91,9 @@ export default function Hero() {
               preload
             />
           </div>
-          <div className="absolute -bottom-6 -left-6 hidden rounded-2xl border border-zinc-800 bg-zinc-900 px-6 py-4 shadow-xl sm:block">
+          <div className="absolute -bottom-6 -left-6 hidden rounded-2xl border border-zinc-200 bg-white px-6 py-4 shadow-xl sm:block">
             <p className="text-2xl font-bold text-orange-500">45-60 min</p>
-            <p className="text-xs text-zinc-400">Average arrival time</p>
+            <p className="text-xs text-zinc-500">Average arrival time</p>
           </div>
         </div>
       </div>
