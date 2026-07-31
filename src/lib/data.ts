@@ -79,8 +79,7 @@ export const gridServices = [
     title: "Mobile Van Tyres Fitting",
     description:
       "Designed for heavy loads, our van tyres ensure better fuel efficiency, traction, and long-lasting performance. Rapid Mobile Tyres Bristol provides expert van tyre replacement at your location. We ensure safe, same day support to keep your van moving without delays or downtime.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2025/04/seat-front-tyre-replacement-residential-street-rapid-tyres.webp",
+    image: "/Mobile Van Tyres Fitting on road.webp",
     width: 800,
     height: 600,
   },
