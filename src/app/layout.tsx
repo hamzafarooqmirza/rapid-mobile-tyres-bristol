@@ -17,6 +17,24 @@ export const metadata: Metadata = {
   title: "24/7 Mobile Tyre Fitting Bristol — Rapid Mobile Tyres",
   description:
     "Rapid Mobile Tyres Bristol provides 24/7 emergency and non-emergency mobile tyre fitting, jump starts, and fuel delivery across Bristol and surrounding areas.",
+  icons: {
+    icon: "/rapid-mobile-tyres-site-icon.webp",
+    apple: "/rapid-mobile-tyres-site-icon.webp",
+  },
+  openGraph: {
+    title: "24/7 Mobile Tyre Fitting Bristol — Rapid Mobile Tyres",
+    description:
+      "Rapid Mobile Tyres Bristol provides 24/7 emergency and non-emergency mobile tyre fitting, jump starts, and fuel delivery across Bristol and surrounding areas.",
+    images: [{ url: "/rapid-mobile-tyres-open-graph.webp" }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "24/7 Mobile Tyre Fitting Bristol — Rapid Mobile Tyres",
+    description:
+      "Rapid Mobile Tyres Bristol provides 24/7 emergency and non-emergency mobile tyre fitting, jump starts, and fuel delivery across Bristol and surrounding areas.",
+    images: ["/rapid-mobile-tyres-open-graph.webp"],
+  },
 };
 
 export default function RootLayout({
