@@ -31,7 +31,7 @@ export default function JumpstartsPage() {
         <section className="relative overflow-hidden bg-zinc-950 text-zinc-50">
           <div className="absolute inset-0">
             <Image
-              src="https://rapid-tyres.com/wp-content/uploads/2024/12/man-jumpstarting-car-battery-with-jumper-cables-675fed4fd0902.webp"
+              src="/jump-start-service-dead-battery-bristol.webp"
               alt=""
               fill
               sizes="100vw"
@@ -157,7 +157,7 @@ export default function JumpstartsPage() {
         <section className="relative overflow-hidden bg-zinc-950 py-24 text-zinc-50 sm:py-28">
           <div className="absolute inset-0">
             <Image
-              src="https://rapid-tyres.com/wp-content/uploads/2024/12/rapid-tyres-mobile-van-with-logo-675fe9eeb65ae.webp"
+              src="/rapid-mobile-tyres-service-van-bristol.webp"
               alt=""
               fill
               sizes="100vw"

@@ -21,8 +21,7 @@ const mainServices = [
     description:
       "Puncture repairs, full replacements, and tyre pressure checks — wherever you are. Home, work, or roadside across Bristol, 24/7.",
     href: "/mobile-tyre-fitting",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2024/12/mechanic-fixing-car-wheel-675fecc79140d.webp",
+    image: "/mobile-tyre-fitting-technician-bristol.webp",
     badge: "Most popular",
   },
   {
@@ -31,8 +30,7 @@ const mainServices = [
     description:
       "Stranded with a flat battery? Our technicians arrive with full jump-start equipment and get your engine running again within 30-60 minutes.",
     href: "/jumpstarts",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2024/12/man-jumpstarting-car-battery-with-jumper-cables-675fed4fd0902.webp",
+    image: "/jump-start-service-dead-battery-bristol.webp",
     badge: null,
   },
   {
@@ -41,40 +39,35 @@ const mainServices = [
     description:
       "Out of petrol or diesel? We deliver enough fuel to get you safely to the nearest station — wherever you're stranded.",
     href: "/fuel-delivery",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2024/12/man-refueling-car-at-gas-station-675fee0a7f233.webp",
+    image: "/emergency-fuel-delivery-service-bristol.webp",
     badge: null,
   },
 ];
 
 const tyreTypes = [
   {
-    title: "Car Tyres",
+    title: "Car Tyre Fitting Bristol",
     description:
       "Durable car tyres for city and everyday driving, fitted at your home, workplace, or roadside.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-bmw-i3-rapid-tyres-service.webp",
+    image: "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
   },
   {
-    title: "SUV Tyres",
+    title: "SUV Tyre Fitting Bristol",
     description:
       "High-performance SUV tyres for city driving and off-road adventures — fitted on the spot.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-volkswagen-tiguan-rapid-tyres.webp",
+    image: "/suv-tyre-fitting-volkswagen-tiguan-bristol.webp",
   },
   {
-    title: "Van Tyres",
+    title: "Van Tyre Fitting Bristol",
     description:
       "Heavy-load van tyres for better fuel efficiency, traction, and long-lasting performance.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2025/04/seat-front-tyre-replacement-residential-street-rapid-tyres.webp",
+    image: "/van-tyre-fitting-road-service-bristol.webp",
   },
   {
-    title: "Emergency Tyre Fitting",
+    title: "Emergency Tyre Fitting Bristol",
     description:
       "24/7 emergency tyre fitting — whether you searched for roadside help or need a same-day slot.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/elementor/thumbs/rapid-tyres-mobile-fleet-management-service-vans-r6r1i41kgy3gzqk6hc313be7q92b64bbidajxhcjre.webp",
+    image: "/rapid-mobile-tyres-fleet-service-vans-bristol.webp",
   },
 ];
 
@@ -214,7 +207,7 @@ export default function ServicesPage() {
         <section className="relative overflow-hidden bg-zinc-950 py-20 text-zinc-50 sm:py-28">
           <div className="absolute inset-0">
             <Image
-              src="https://rapid-tyres.com/wp-content/uploads/elementor/thumbs/rapid-tyres-mobile-fleet-management-service-vans-r6r1i41kgy3gzqk6hc313be7q92b64bbidajxhcjre.webp"
+              src="/rapid-mobile-tyres-fleet-service-vans-bristol.webp"
               alt=""
               fill
               sizes="100vw"

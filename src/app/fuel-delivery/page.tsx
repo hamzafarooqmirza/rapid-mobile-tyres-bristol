@@ -67,8 +67,8 @@ export default function FuelDeliveryPage() {
             <div className="relative mx-auto w-full max-w-lg">
               <div className="relative overflow-hidden rounded-3xl border border-zinc-800 shadow-2xl">
                 <Image
-                  src="https://rapid-tyres.com/wp-content/uploads/2024/12/man-refueling-car-at-gas-station-675fee0a7f233.webp"
-                  alt="Technician delivering fuel to a stranded vehicle"
+                  src="/emergency-fuel-delivery-service-bristol.webp"
+                  alt="Emergency fuel delivery technician refuelling a stranded vehicle in Bristol"
                   width={740}
                   height={531}
                   className="h-auto w-full"
@@ -146,7 +146,7 @@ export default function FuelDeliveryPage() {
         <section className="relative overflow-hidden bg-zinc-950 py-24 text-zinc-50 sm:py-28">
           <div className="absolute inset-0">
             <Image
-              src="https://rapid-tyres.com/wp-content/uploads/2024/12/rapid-tyres-mobile-van-with-logo-675fe9eeb65ae.webp"
+              src="/rapid-mobile-tyres-service-van-bristol.webp"
               alt=""
               fill
               sizes="100vw"

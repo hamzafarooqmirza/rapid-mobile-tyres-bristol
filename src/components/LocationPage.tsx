@@ -34,7 +34,7 @@ export default function LocationPage({ location }: { location: LocationPageData 
         <section className="relative overflow-hidden bg-zinc-950 text-zinc-50">
           <div className="absolute inset-0">
             <Image
-              src="https://rapid-tyres.com/wp-content/uploads/2025/04/seat-front-tyre-replacement-residential-street-rapid-tyres.webp"
+              src="/mobile-tyre-fitting-technician-bristol.webp"
               alt=""
               fill
               sizes="100vw"
@@ -132,8 +132,8 @@ export default function LocationPage({ location }: { location: LocationPageData 
             <div className="relative mx-auto w-full max-w-lg">
               <div className="relative overflow-hidden rounded-3xl border border-zinc-200 shadow-2xl">
                 <Image
-                  src="https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-bmw-i3-rapid-tyres-service.webp"
-                  alt="Rapid Mobile Tyres technician fitting a tyre"
+                  src="/mobile-car-tyre-fitting-bmw-i3-bristol.webp"
+                  alt="Rapid Mobile Tyres technician fitting a tyre in Bristol"
                   width={800}
                   height={600}
                   className="h-auto w-full"
@@ -268,7 +268,7 @@ export default function LocationPage({ location }: { location: LocationPageData 
         <section className="relative overflow-hidden bg-zinc-950 py-24 text-zinc-50 sm:py-28">
           <div className="absolute inset-0">
             <Image
-              src="https://rapid-tyres.com/wp-content/uploads/2024/12/rapid-tyres-mobile-van-with-logo-675fe9eeb65ae.webp"
+              src="/rapid-mobile-tyres-service-van-bristol.webp"
               alt=""
               fill
               sizes="100vw"

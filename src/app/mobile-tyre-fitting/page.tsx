@@ -18,17 +18,17 @@ export const metadata: Metadata = {
 
 const gallery = [
   {
-    src: "https://rapid-tyres.com/wp-content/uploads/2025/04/seat-front-tyre-replacement-residential-street-rapid-tyres.webp",
-    alt: "Front tyre replacement on a residential street",
+    src: "/mobile-tyre-fitting-technician-bristol.webp",
+    alt: "Rapid Mobile Tyres technician fitting a tyre at a Bristol location",
     large: true,
   },
   {
-    src: "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-bmw-i3-rapid-tyres-service.webp",
-    alt: "Mobile tyre fitting on a BMW i3",
+    src: "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
+    alt: "Mobile tyre fitting on a BMW i3 in Bristol",
   },
   {
-    src: "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-volkswagen-tiguan-rapid-tyres.webp",
-    alt: "Mobile tyre fitting on a Volkswagen Tiguan",
+    src: "/suv-tyre-fitting-volkswagen-tiguan-bristol.webp",
+    alt: "SUV tyre fitting on a Volkswagen Tiguan in Bristol",
   },
 ];
 
@@ -105,8 +105,8 @@ export default function MobileTyreFittingPage() {
             <div className="relative mx-auto w-full max-w-lg">
               <div className="relative overflow-hidden rounded-3xl border border-zinc-800 shadow-2xl">
                 <Image
-                  src="https://rapid-tyres.com/wp-content/uploads/2024/12/mechanic-fixing-car-wheel-675fecc79140d.webp"
-                  alt="Rapid Mobile Tyres technician fitting a tyre"
+                  src="/mobile-tyre-fitting-technician-bristol.webp"
+                  alt="Rapid Mobile Tyres technician fitting a tyre in Bristol"
                   width={740}
                   height={493}
                   className="h-auto w-full"
@@ -226,8 +226,8 @@ export default function MobileTyreFittingPage() {
 
             <div className="relative mx-auto w-full max-w-lg overflow-hidden rounded-3xl border border-zinc-800 shadow-2xl">
               <Image
-                src="https://rapid-tyres.com/wp-content/uploads/2024/12/rapid-tyres-mobile-van-with-logo-675fe9eeb65ae.webp"
-                alt="Rapid Mobile Tyres service van"
+                src="/rapid-mobile-tyres-service-van-bristol.webp"
+                alt="Rapid Mobile Tyres 24/7 mobile service van in Bristol"
                 width={672}
                 height={307}
                 className="h-auto w-full"
