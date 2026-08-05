@@ -67,39 +67,38 @@ export const locationServicesProvided = [
     title: "Mobile Tyre Fitting",
     href: "/mobile-tyre-fitting",
     description: "Punctures, worn tread, or a full replacement — fitted on the spot, wherever you are.",
-    image: "https://rapid-tyres.com/wp-content/uploads/2024/12/mechanic-fixing-car-wheel-675fecc79140d.webp",
+    image: "/mobile-tyre-fitting-technician-bristol.webp",
   },
   {
     title: "Jump Start",
     href: "/jumpstarts",
     description: "Flat battery? Our technicians safely recharge your car and get you moving again, 24/7.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2024/12/man-jumpstarting-car-battery-with-jumper-cables-675fed4fd0902.webp",
+    image: "/jump-start-service-dead-battery-bristol.webp",
   },
   {
     title: "Fuel Delivery",
     href: "/fuel-delivery",
     description: "Run out of petrol or diesel? We'll bring enough fuel to get you to the nearest station.",
-    image: "https://rapid-tyres.com/wp-content/uploads/2024/12/man-refueling-car-at-gas-station-675fee0a7f233.webp",
+    image: "/emergency-fuel-delivery-service-bristol.webp",
   },
 ];
 
 export const locationGallery = [
   {
-    src: "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-bmw-i3-rapid-tyres-service.webp",
-    alt: "Mobile tyre fitting on a BMW i3",
+    src: "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
+    alt: "Mobile tyre fitting on a BMW i3 in Bristol",
   },
   {
-    src: "https://rapid-tyres.com/wp-content/uploads/2025/04/seat-front-tyre-replacement-residential-street-rapid-tyres.webp",
-    alt: "Front tyre replacement on a residential street",
+    src: "/mobile-tyre-fitting-technician-bristol.webp",
+    alt: "Rapid Mobile Tyres technician fitting a tyre at a Bristol location",
   },
   {
-    src: "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-volkswagen-tiguan-rapid-tyres.webp",
-    alt: "Mobile tyre fitting on a Volkswagen Tiguan",
+    src: "/suv-tyre-fitting-volkswagen-tiguan-bristol.webp",
+    alt: "SUV tyre fitting on a Volkswagen Tiguan in Bristol",
   },
   {
-    src: "https://rapid-tyres.com/wp-content/uploads/elementor/thumbs/rapid-tyres-mobile-fleet-management-service-vans-r6r1i41kgy3gzqk6hc313be7q92b64bbidajxhcjre.webp",
-    alt: "Rapid Mobile Tyres fleet of service vans",
+    src: "/rapid-mobile-tyres-fleet-service-vans-bristol.webp",
+    alt: "Rapid Mobile Tyres fleet of service vans covering Bristol and surrounding areas",
   },
 ];
 

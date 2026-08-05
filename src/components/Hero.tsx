@@ -83,8 +83,8 @@ export default function Hero() {
         <div className="relative mx-auto w-full max-w-lg">
           <div className="relative overflow-hidden rounded-3xl border border-zinc-200 shadow-2xl">
             <Image
-              src="https://rapid-tyres.com/wp-content/uploads/2024/12/rapid-tyres-mobile-van-with-logo-675fe9eeb65ae.webp"
-              alt="Rapid Mobile Tyres service van with logo"
+              src="/rapid-mobile-tyres-service-van-bristol.webp"
+              alt="Rapid Mobile Tyres 24/7 mobile service van in Bristol"
               width={672}
               height={307}
               className="h-auto w-full"

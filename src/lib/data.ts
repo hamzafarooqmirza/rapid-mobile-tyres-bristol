@@ -25,31 +25,28 @@ export const serviceMenuLinks = [
 
 export const highlightServices = [
   {
-    title: "Mobile Tyre Fitting",
+    title: "Mobile Tyre Fitting Bristol",
     description:
       "Whether you need same day tyre fitting at home or emergency mobile tyre fitting, our experienced team ensures quick, professional service to get you safely back on the road. Our 24/7 mobile tyre service provides fast and reliable mobile tyre fitting in Bristol, wherever you are.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2024/12/mechanic-fixing-car-wheel-675fecc79140d.webp",
+    image: "/mobile-tyre-fitting-technician-bristol.webp",
     width: 740,
     height: 493,
     href: "/mobile-tyre-fitting",
   },
   {
-    title: "Jump Start",
+    title: "Jump Start Service Bristol",
     description:
       "Stranded with a dead battery in Bristol? Rapid Mobile Tyres Bristol provides fast and reliable jump start assistance wherever you are. As part of our trusted 24/7 mobile tyre service, we quickly respond to roadside emergencies across the city and surrounding areas.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2024/12/man-jumpstarting-car-battery-with-jumper-cables-675fed4fd0902.webp",
+    image: "/jump-start-service-dead-battery-bristol.webp",
     width: 740,
     height: 493,
     href: "/jumpstarts",
   },
   {
-    title: "Fuel Delivery",
+    title: "Emergency Fuel Delivery Bristol",
     description:
       "Run out of fuel in Bristol? Rapid Mobile Tyres Bristol provides fast and dependable emergency fuel delivery wherever you're stranded. As part of our trusted 24/7 mobile tyre service, we respond quickly to roadside breakdowns day and night.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2024/12/man-refueling-car-at-gas-station-675fee0a7f233.webp",
+    image: "/emergency-fuel-delivery-service-bristol.webp",
     width: 740,
     height: 531,
     href: "/fuel-delivery",
@@ -58,48 +55,44 @@ export const highlightServices = [
 
 export const gridServices = [
   {
-    title: "Mobile Car Tyre Fitting",
+    title: "Mobile Car Tyre Fitting Bristol",
     description:
       "Need reliable mobile car tyre fitting in Bristol? Rapid Mobile Tyres Bristol provides expert tyre fitting Bristol services at your home, workplace, or roadside. Our team delivers fast support through our trusted 24/7 mobile tyre service.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-bmw-i3-rapid-tyres-service.webp",
+    image: "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
     width: 800,
     height: 600,
   },
   {
-    title: "SUV Tyres Fitting",
+    title: "SUV Tyre Fitting Bristol",
     description:
       "Need professional SUV tyres fitting in Bristol? Rapid Mobile Tyres Bristol provides expert mobile tyre fitting 24 hours for SUVs at your home or roadside. With our trusted 24/7 mobile tyre service, we deliver strong, reliable SUV tyres wherever you need them.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-volkswagen-tiguan-rapid-tyres.webp",
+    image: "/suv-tyre-fitting-volkswagen-tiguan-bristol.webp",
     width: 800,
     height: 600,
   },
   {
-    title: "Mobile Van Tyres Fitting",
+    title: "Mobile Van Tyre Fitting Bristol",
     description:
       "Designed for heavy loads, our van tyres ensure better fuel efficiency, traction, and long-lasting performance. Rapid Mobile Tyres Bristol provides expert van tyre replacement at your location. We ensure safe, same day support to keep your van moving without delays or downtime.",
-    image: "/Mobile Van Tyres Fitting on road.webp",
-    width: 800,
-    height: 600,
+    image: "/van-tyre-fitting-road-service-bristol.webp",
+    width: 880,
+    height: 660,
   },
   {
-    title: "Emergency Mobile Tyre Fitting",
+    title: "Emergency Mobile Tyre Fitting Bristol",
     description:
       "Whether you searched for emergency mobile tyre fitting or 24 hour mobile tyre fitting, our team arrives fast with the right tyres. With our trusted 24/7 mobile tyre service, we replace your tyres safely and get you back on the road without delay.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/elementor/thumbs/rapid-tyres-mobile-fleet-management-service-vans-r6r1i41kgy3gzqk6hc313be7q92b64bbidajxhcjre.webp",
-    width: 740,
-    height: 493,
+    image: "/rapid-mobile-tyres-fleet-service-vans-bristol.webp",
+    width: 500,
+    height: 385,
   },
   {
-    title: "Tyre Replacement at Home",
+    title: "Tyre Replacement at Home Bristol",
     description:
       "Need fast and reliable tyre replacement at home in Bristol? Rapid Mobile Tyres Bristol delivers expert fitting right to your doorstep. Whether you're looking for same day tyre fitting at home or mobile tyre change, our team provides quick and professional service.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/elementor/thumbs/mobile-tyre-fitting-service-technician-rapid-tyres-r5opr6t46ochy2cisb0dt3mv3oq0016xe4ik2ex6a2.webp",
-    width: 740,
-    height: 493,
+    image: "/tyre-replacement-at-home-technician-bristol.webp",
+    width: 500,
+    height: 385,
   },
 ];
 
@@ -236,56 +229,50 @@ export const areasServed = [
 
 export const servicesPageItems = [
   {
-    title: "Car Tyres",
+    title: "Car Tyres Bristol",
     description:
       "Our durable car tyres offer excellent grip and stability for both city driving and everyday journeys, fitted at your home, workplace, or roadside.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-bmw-i3-rapid-tyres-service.webp",
+    image: "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
     width: 800,
     height: 600,
   },
   {
-    title: "SUV Tyres",
+    title: "SUV Tyres Bristol",
     description:
       "Our durable SUV tyres offer excellent grip and stability for both city driving and off-road adventures.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2025/04/mobile-tyre-fitting-volkswagen-tiguan-rapid-tyres.webp",
+    image: "/suv-tyre-fitting-volkswagen-tiguan-bristol.webp",
     width: 800,
     height: 600,
   },
   {
-    title: "Van Tyres",
+    title: "Van Tyres Bristol",
     description:
       "Designed for heavy loads, our van tyres ensure better fuel efficiency, traction, and long-lasting performance.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2025/04/seat-front-tyre-replacement-residential-street-rapid-tyres.webp",
-    width: 800,
-    height: 600,
+    image: "/van-tyre-fitting-road-service-bristol.webp",
+    width: 880,
+    height: 660,
   },
   {
-    title: "Mobile Tyre Fitting",
+    title: "Mobile Tyre Fitting Bristol",
     description:
       "Enjoy the convenience of tyre fitting at your location with our mobile service, saving you time and effort.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2024/12/mechanic-fixing-car-wheel-675fecc79140d.webp",
+    image: "/mobile-tyre-fitting-technician-bristol.webp",
     width: 740,
     height: 493,
   },
   {
-    title: "Jump Start",
+    title: "Jump Start Bristol",
     description:
       "We offer fast jump-start services to get your vehicle running again in case of a dead battery.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2024/12/man-jumpstarting-car-battery-with-jumper-cables-675fed4fd0902.webp",
+    image: "/jump-start-service-dead-battery-bristol.webp",
     width: 740,
     height: 493,
   },
   {
-    title: "Fuel Delivery",
+    title: "Fuel Delivery Bristol",
     description:
       "If you've run out of fuel, our emergency delivery service brings fuel straight to you, anywhere in Bristol.",
-    image:
-      "https://rapid-tyres.com/wp-content/uploads/2024/12/man-refueling-car-at-gas-station-675fee0a7f233.webp",
+    image: "/emergency-fuel-delivery-service-bristol.webp",
     width: 740,
     height: 531,
   },
