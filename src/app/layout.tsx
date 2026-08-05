@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://rapid-tyres.com"),
   title: "24/7 Mobile Tyre Fitting Bristol — Rapid Mobile Tyres",
   description:
     "Rapid Mobile Tyres Bristol provides 24/7 emergency and non-emergency mobile tyre fitting, jump starts, and fuel delivery across Bristol and surrounding areas.",
