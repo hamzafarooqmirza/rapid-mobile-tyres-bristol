@@ -37,10 +37,10 @@ export default function Header() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 sm:px-10">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="https://rapid-tyres.com/wp-content/uploads/2024/10/Rapid-Tyres.png"
+            src="/rapid-mobile-tyres-official-logo.webp"
             alt={siteConfig.name}
-            width={1906}
-            height={397}
+            width={1313}
+            height={363}
             className="h-10 w-auto"
             preload
           />
