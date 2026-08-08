@@ -5,6 +5,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
 import Faq from "@/components/Faq";
 import AreasWeServe from "@/components/AreasWeServe";
+import MapAndLocations from "@/components/MapAndLocations";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
 import { faqs } from "@/lib/data";
@@ -122,6 +123,7 @@ export default function Home() {
         <Testimonials />
         <Faq />
         <AreasWeServe />
+        <MapAndLocations />
         <CallToAction />
       </main>
       <Footer />

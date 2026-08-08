@@ -179,40 +179,239 @@ export const faqs = [
 
 export const testimonials = [
   {
-    name: "Lin Reeves",
-    text: "Ali you were amazing! Friendly and a fantastic job done in no time, it was brilliant, would highly recommend to anyone.",
+    name: "Ayyub Chowdhury",
+    timeAgo: "5 months ago",
+    text: "Was driving around Bristol and surprise surprise I smashed straight into a pothole. Not even a small one either. One of those deep, nasty ones that just appears out of nowhere. Honestly at this point I'm convinced the council just leave them there for decoration.\n\nAnyway the pothole won. Loud bang, instant regret, left tyre completely burst. Great. Luckily I called Rapid Mobile Tyres and Jagga came out to save the day. I'm not even exaggerating when I say he was there within about 30 minutes. It was raining as well, typical British weather, and he still turned up quickly and just got straight to work. No complaining, no dragging it out, no trying to confuse me with technical talk.\n\nYou can tell he knows his stuff. Calm, confident, efficient. Just handled it. Replaced the wheel, made sure everything was sorted and safe, and explained what he was doing without making it awkward. Jagga was the complete opposite of difficult. Friendly, easy to talk to and just genuine.\n\nPaid £280 which, considering it was an emergency call out, in the rain, and I'm stuck on the side of the road, is fair. So yeah, if you fall victim to one of Bristol's lovely craters, I'd definitely recommend Rapid Mobile Tyres. Jagga actually delivers what he says he will. Unlike the council.",
   },
   {
-    name: "Ieva Ananka",
-    text: "He has provided a great service, the same day, when everyone else was too busy. Reliable and quick. Done a great job!",
+    name: "Dipali Davda",
+    timeAgo: "2 months ago",
+    text: "Had a tyre blow out after hitting a pothole and was stranded. Called Rapid Mobile Tyre Services and honestly couldn't believe how quick he was. He arrived within about an hour, changed the tyre fast, and even checked the rest of the car to make sure everything was okay. Brilliant service, professional and reliable. Highly recommend!",
   },
   {
-    name: "Rachael Griffiths",
-    text: "Excellent service, only took 25 mins to get to me on the motorway. Friendly and quick.",
+    name: "Charlotte Norris",
+    timeAgo: "2 weeks ago",
+    text: "I called this company on a busy summer holiday Saturday after my van tyre shredded on the M5 around Weston-super-Mare. They were out to me within an hour, replaced the tyre and secured my bumper (that the tyre had dislodged) with cable ties. Ali was super professional and very calm. Would 100% recommend to anyone in a similar position. He got my much anticipated weekend back on track.",
   },
   {
-    name: "Ronda Brace",
-    text: "Absolutely fantastic service, was here within the hour, really friendly guy. Very quick service, will definitely be saving your number for future business.",
+    name: "Stewart Kerr",
+    timeAgo: "5 months ago",
+    text: "Absolutely fantastic service. Came out to my motorhome on the M5. Was with me within 35 minutes — all done with a new tyre fitted and on my way within an hour of first call. Proper friendly fella and reasonably priced.",
   },
   {
-    name: "Wayne Osborne",
-    text: "My family got a bad puncture in Cheddar Gorge. We called Rapid Mobile Tyres who managed to source a tyre and fit it within about an hour and a half. Well done.",
+    name: "A B",
+    timeAgo: "a month ago",
+    text: "Should've called him sooner. Very good and fast communication, reasonable price for the circumstance. And the speed at which he got me on the road again — elite.",
   },
   {
-    name: "Emma Ward",
-    text: "Arrived just like superman in blue without the cape. Got the job done like a professional and charged exactly as quoted. No hidden costs. Can't recommend you enough.",
+    name: "Niall Butler",
+    timeAgo: "2 months ago",
+    text: "Same day tyre replacement. They really are Rapid — took 20 mins to change my blown tyre. Fast, friendly and a good laugh. Took the time to chat and give advice too. Easy payment via card machine and instant email receipt. Just like the Fire service, hope I never have to use them, but glad they're there when I need to.",
   },
   {
-    name: "Emma Tingey",
-    text: "Calm, gentle and reassuring from the offset. Came out and changed the tyre quickly, efficiently and was incredibly friendly. Thank you so much for all of your kindness and support!",
+    name: "Steve Kneale",
+    timeAgo: "3 months ago",
+    text: "Great service. I managed to blow out one of my tyres in Bristol on a rainy Saturday evening. Called Rapid Mobile Tyres who came out to me quickly, fitted a replacement in 15 mins and I was on my way. Absolute life saver as I had a long journey home with my young family — we were stressed and you made it easy. Fair price too. Thank you.",
   },
   {
-    name: "Tanaka Nyoni",
-    text: "I can't recommend rapid mobile tyres enough! Responsive, understanding, and quick to arrive. Their professionalism and expertise were evident throughout the entire process. Five stars!",
+    name: "Kye Bateman",
+    timeAgo: "6 months ago",
+    text: "Had a puncture and a cracked alloy. Had to pull over onto the side of a busy road. Very friendly and helpful. I highly would recommend. Would have them again! ⭐⭐⭐⭐⭐",
   },
   {
-    name: "Carey Morgan",
-    text: "Had a tyre go on a Sunday, called Rapid mobile tyres, got it all sorted the same day. Absolutely fantastic service.",
+    name: "Sharon Hardy",
+    timeAgo: "6 months ago",
+    text: "So grateful to Rapid Tyres today after getting a puncture coming off the motorway. They were very responsive on the phone and with me within 70 minutes. Ali came to my rescue and was very friendly and super efficient.",
+  },
+  {
+    name: "Kristine Reilly-Blake",
+    timeAgo: "2 months ago",
+    text: "Outstanding Service – Truly Life‑Saving.\n\nI cannot recommend Rapid Mobile Tyres Bristol highly enough. Their service was nothing short of exceptional. I found myself stranded and genuinely unsure how I was going to get home safely, but this company stepped in with speed, professionalism, and real care.\n\nFrom the moment I called, they were reassuring, efficient, and completely on it. The technician arrived quickly, knew exactly what needed doing, and had me safely back on the road in no time. It wasn't just a tyre change — it was the peace of mind and support I desperately needed in a stressful situation.\n\nCompanies like this are rare. Reliable, honest, and genuinely committed to helping people. If you ever need mobile tyre support in Bristol, Rapid Mobile Tyres should be your first call. Absolutely brilliant service.",
+  },
+  {
+    name: "Dharita Davda",
+    timeAgo: "2 months ago",
+    text: "Got stuck 2–3 hours away in Yate after hitting a pothole and blowing my tyre. Called Rapid Mobile Tyres and he came all the way out to me same day. Super professional, fair pricing, and had the new tyre fitted in under 30 mins. He even checked my other tyres for damage while he was at it. No upselling, just honest service when I really needed it. Absolute lifesaver — 100% recommend.",
+  },
+  {
+    name: "Matthew Chard",
+    timeAgo: "2 months ago",
+    text: "Superb service. My wife was stranded with two kids with a punctured tyre. I called Rapid Mobile Tyres and from calling they reached my wife within 90 mins! Would've been even quicker but heavy traffic. Really friendly and helpful. Really recommend.",
+  },
+  {
+    name: "Lauren Jones",
+    timeAgo: "a month ago",
+    text: "Life saver — arrived in less than an hour, sorted everything out and great communication so felt reassured all was in hand. Would recommend to anyone who needs help. Many thanks again. Ran over something nasty on a Friday and Rapid Mobile Tyres Bristol came to the rescue.",
+  },
+  {
+    name: "Kerri Robberts",
+    timeAgo: "3 months ago",
+    text: "Fantastic service. Got in the car to find a completely flat tyre from a puncture after a visit to the sort-it centre. Local tyre companies had just closed (Saturday of a bank holiday). Called Rapid Mobile Tyres Bristol who gave me a quote over the phone and a time when they'd arrive. They sent me their live location when they were on their way, were polite, courteous and had the new tyre on quickly. Highly recommended. You've saved me a lot of hassle, thank you.",
+  },
+  {
+    name: "Chris Comer",
+    timeAgo: "2 months ago",
+    text: "Great service from Ali. Came out to BS9 the same day, was friendly and professional, and charged a very fair price. Quick, reliable, and excellent value for money. Highly recommended! 👍",
+  },
+  {
+    name: "Phil Hinchliffe",
+    timeAgo: "7 months ago",
+    text: "Called them this morning to replace a blown tyre and decided to replace the other back tyre too. Rapid response, great service, reasonable price. All done — would not hesitate to use again and highly recommend.",
+  },
+  {
+    name: "Andrew Cox",
+    timeAgo: "3 months ago",
+    text: "I recently used this mobile tyre service and honestly couldn't be more grateful. Ali arrived promptly, got straight to work, and handled everything efficiently with real care.\n\nWhat stood out most was his kindness. I explained that I'm currently trying to save every penny because I'm arranging my mum's funeral. Without hesitation he chose not to charge me a single penny, and on top of that offered further financial help — which I respectfully declined as he'd already done so much.\n\nThat level of compassion is something you rarely come across these days. It's clear this is someone who genuinely cares about people, not just the job. I would highly recommend this mobile tyre service to anyone. Thank you again Ali.",
+  },
+  {
+    name: "Joseph Davies",
+    timeAgo: "a month ago",
+    text: "Absolutely brilliant service. Very responsive — answered the phone straight away and was with me within an hour to replace my flat tyre. Very fair price. Cannot recommend enough!",
+  },
+  {
+    name: "Ellie Hoccom",
+    timeAgo: "2 months ago",
+    text: "Flat tyre on the M5 — answered the phone quickly and WhatsApp'd me to send my location. Was there within 15 minutes to put my spare on. Very fitting number plate!!",
+  },
+  {
+    name: "Helen Stevens",
+    timeAgo: "6 months ago",
+    text: "Brilliant service. Called up and answered quickly, gave me a very decent wait time and turned up exactly when he said. I had my 4-year-old with me and he was absolutely great with him — showed him what he was doing, warned him if there was going to be a loud noise, and gave my son the sticker off the tyre which he thought was the best thing ever. Really friendly and helpful and got me back on the road in no time. Would highly recommend. 😊",
+  },
+  {
+    name: "Stephen Hart",
+    timeAgo: "4 months ago",
+    text: "Great service. I found a screw in my tyre at the motorway services. Straight out in one hour, replaced the tyre at a reasonable cost.",
+  },
+  {
+    name: "Tom Hacker",
+    timeAgo: "a month ago",
+    text: "The mechanic showed up quickly and was really helpful and friendly. He also fixed my tyres very quickly despite the heat. Definitely recommend.",
+  },
+  {
+    name: "JD",
+    timeAgo: "a month ago",
+    text: "I had a piece of metal in my tyre after driving on the M4. I called Rapid Mobile Tyres around 6.30pm. They had my tyre size and confirmed they would be with me within the hour. True to word, on time. New tyre put on and damaged one removed. Ali was so professional and friendly throughout. Absolute professional company. I highly recommend.",
+  },
+  {
+    name: "Joseph Fletcher",
+    timeAgo: "3 months ago",
+    text: "Rapid is absolutely the right word! Less than an hour from calling them to getting 2 tyres replaced on a bank holiday Sunday. Helpful and friendly staff and superb service. Thank you for your speedy support!",
+  },
+  {
+    name: "Jessica Bryant",
+    timeAgo: "5 months ago",
+    text: "Amazing service 😊 So thankful for Rapid Tyres after getting a puncture. They were with me in about an hour — would've been sooner but rush hour! Ali came to my rescue, was very friendly and super quick. Thank you so much! ☺️",
+  },
+  {
+    name: "Callum Greenaway",
+    timeAgo: "3 weeks ago",
+    text: "Thank you Rapid Mobile Tyres for getting me back on the road within an hour! Great service, would highly recommend.",
+  },
+  {
+    name: "Blue Bird",
+    timeAgo: "9 months ago",
+    text: "Just wanted to give a huge shoutout to Rapid Tyres! You guys were super quick and genuinely helpful. Came through right when I needed it and totally saved my day! 🙏🚗💨",
+  },
+  {
+    name: "Jack",
+    timeAgo: "5 months ago",
+    text: "Absolutely A class. Within 30 minutes of my phone call to Rapid Mobile Tyres on a Sunday I was back on the road. Genuinely couldn't think of any way the service could have been better.",
+  },
+  {
+    name: "Seb",
+    timeAgo: "a year ago",
+    text: "I highly recommend this mobile tyre service! He arrived on time, was very professional, and changed my tyres quickly and efficiently. Great communication and very convenient service. I'll definitely use his help again in the future. Thanks a lot!",
+  },
+  {
+    name: "Lynsey Miles",
+    timeAgo: "4 months ago",
+    text: "Great service. Arrived same day and very quick for an emergency call out. Polite and friendly and changed the tyre in minutes.",
+  },
+  {
+    name: "Ayesha Lawrence",
+    timeAgo: "7 months ago",
+    text: "Brilliant service — very quick, got here within the hour. Realised I gave the wrong wheel details and he kindly left and came back with the correct wheel for no extra call-out fee, on Christmas Eve. Reasonably priced. Will certainly use again if needed and will recommend to friends and family.",
+  },
+  {
+    name: "Elisha",
+    timeAgo: "7 months ago",
+    text: "100% recommend! Great service and very reasonably priced. Friendly and professional communication. I hopefully won't need this service again, but if I do, this company will get my custom!",
+  },
+  {
+    name: "Ann Farquhar",
+    timeAgo: "7 months ago",
+    text: "Great service. Rescued us when we got stranded on Christmas Eve. Friendly and efficient.",
+  },
+  {
+    name: "Ed Lindsay",
+    timeAgo: "2 months ago",
+    text: "A sharp stone at work got stuck in my tyre and popped it as I was driving home! I called Ali and he came out in rush hour to sort me out! Top bloke, very professional and friendly, and the job was completed in no time at all. Would use him again in a flash — 11/10!",
+  },
+  {
+    name: "Carol Tiley",
+    timeAgo: "5 months ago",
+    text: "Fantastic service this morning, thank you. Arrived quickly and sorted out my flat tyre in no time at all — very reasonable cost. Would definitely recommend.",
+  },
+  {
+    name: "Mohammad Naeem",
+    timeAgo: "9 months ago",
+    text: "Fantastic service. Had a puncture on my VW Touareg — called many other companies and they didn't have the tyre I needed. Called Rapid Tyres and they came out on the motorway within 15 minutes. Reasonable price, excellent customer service. Highly recommend.",
+  },
+  {
+    name: "Richard Purcell",
+    timeAgo: "2 months ago",
+    text: "Great service, super quick and responsive. Used them twice. Can't recommend enough.",
+  },
+  {
+    name: "Catherine Morley",
+    timeAgo: "a year ago",
+    text: "Rapid Mobile were contacted by my AA rescuer when I had a blowout on the M5 near junction 23. Local garages didn't have the right size tyre for my car and so these guys agreed to come all the way from Shirehampton to the local Bridgwater services to do the job. AA guy had used them before and was confident they would come as promised. They arrived a couple of hours later as promised, did the job perfectly and saved me from being stranded at the services. Very happy customer and would definitely use again!",
+  },
+  {
+    name: "Steven Hughes",
+    timeAgo: "11 months ago",
+    text: "Fantastic service — we had a blow out just off the M4 motorway. A quick call and they were with us in less than 30 mins. New tyre fitted and on our way again. Thanks a million for saving our day.",
+  },
+  {
+    name: "Kyle Brown",
+    timeAgo: "6 months ago",
+    text: "Brilliant service. Had a blow out on the motorway — gave him a call, got straight on it and on his way to me within an hour. Took great care of the wheels, took the tyre off and fitted it there and then on the motorway. Was back on the road within half an hour. Would definitely recommend, and very good price for collecting and fitting a tyre in a dangerous space!",
+  },
+  {
+    name: "Naomi Jones",
+    timeAgo: "7 months ago",
+    text: "Great experience with Rapid Tyres — super easy to get hold of, was out to me within 30–40 minutes and did a great job. Would definitely recommend!",
+  },
+  {
+    name: "Peggoty Talbot",
+    timeAgo: "7 months ago",
+    text: "Excellent service. Delivered efficiently within the estimated time frame. Pleasant and friendly company to deal with.",
+  },
+  {
+    name: "Oliver Nicholas",
+    timeAgo: "2 years ago",
+    text: "Ali was superb — he came to my rescue and sourced a tyre for our Tesla in under 2 hours. His price was fair and he carried the jack points, unlike others. Fully recommend his customer service and attitude. Thanks again.",
+  },
+  {
+    name: "The Barleys",
+    timeAgo: "2 years ago",
+    text: "I highly recommend Jagga Recovery. He arrived so quickly to tow us and took care of everything. He was so capable and kind. He charged us a very fair price as well. It made the stressful experience of breaking down so much less awful. Thank you so much. Can't recommend enough.",
+  },
+  {
+    name: "Edward Lifely",
+    timeAgo: "4 months ago",
+    text: "Responded quickly and the team on site was very professional and completed the work swiftly. Would recommend.",
+  },
+  {
+    name: "Joe Griffiths",
+    timeAgo: "3 years ago",
+    text: "Amazing service! I would recommend to anyone!! He helped me when no one else would — I was stranded in Devon and he came and rescued me. He was very careful with my car and drove me over 200 miles to get me home safely. If you need help, he's the man for the job!",
+  },
+  {
+    name: "Ramon Catalin",
+    timeAgo: "4 months ago",
+    text: "Got stuck in the middle of the night — they came very fast and changed my tyre. I recommend and thank you so much for the professionalism.",
   },
 ];
 
