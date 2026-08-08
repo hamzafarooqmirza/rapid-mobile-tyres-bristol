@@ -5,7 +5,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import StepList from "@/components/StepList";
 import FeatureGrid from "@/components/FeatureGrid";
-import Testimonials from "@/components/Testimonials";
 import Faq from "@/components/Faq";
 import { siteConfig, jumpStartPage } from "@/lib/data";
 
@@ -148,8 +147,6 @@ export default function JumpstartsPage() {
             </ul>
           </div>
         </section>
-
-        <Testimonials />
 
         <Faq items={jumpStartPage.faqs} />
 
