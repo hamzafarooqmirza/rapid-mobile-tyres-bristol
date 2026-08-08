@@ -16,6 +16,29 @@ import {
   type LocationPageData,
 } from "@/lib/locationsData";
 
+const tyreTypes = [
+  {
+    title: "Car Tyre Fitting",
+    description: "Durable car tyres for city and everyday driving, fitted at your home, workplace, or roadside.",
+    image: "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
+  },
+  {
+    title: "SUV Tyre Fitting",
+    description: "High-performance SUV tyres for city driving and off-road adventures — fitted on the spot.",
+    image: "/suv-tyre-fitting-volkswagen-tiguan-bristol.webp",
+  },
+  {
+    title: "Van Tyre Fitting",
+    description: "Heavy-load van tyres for better fuel efficiency, traction, and long-lasting performance.",
+    image: "/van-tyre-fitting-road-service-bristol.webp",
+  },
+  {
+    title: "Emergency Tyre Fitting",
+    description: "24/7 emergency tyre fitting — whether you searched for roadside help or need a same-day slot.",
+    image: "/rapid-mobile-tyres-fleet-service-vans-bristol.webp",
+  },
+];
+
 const stats = [
   { value: "24/7", label: "Available, every day" },
   { value: "45-60 min", label: "Average arrival time" },
@@ -178,6 +201,47 @@ export default function LocationPage({ location }: { location: LocationPageData 
                   <div className="p-6">
                     <h3 className="text-lg font-semibold text-zinc-950">{service.title}</h3>
                     <p className="mt-2 text-sm leading-6 text-zinc-600">{service.description}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Tyre types */}
+        <section className="bg-white py-20 sm:py-28">
+          <div className="mx-auto max-w-7xl px-6 sm:px-10">
+            <div className="mx-auto max-w-2xl text-center">
+              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">
+                Tyre types
+              </p>
+              <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
+                Every Tyre, Every Vehicle
+              </h2>
+              <p className="mt-4 text-zinc-600">
+                From compact city cars to heavy commercial vans — we carry the right tyres and fit them on the spot.
+              </p>
+            </div>
+
+            <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {tyreTypes.map((type) => (
+                <Link
+                  key={type.title}
+                  href="/mobile-tyre-fitting"
+                  className="group overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition-shadow hover:shadow-lg"
+                >
+                  <div className="relative h-44 w-full overflow-hidden">
+                    <Image
+                      src={type.image}
+                      alt={type.title}
+                      fill
+                      sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <h3 className="font-semibold text-zinc-950">{type.title}</h3>
+                    <p className="mt-2 text-sm leading-6 text-zinc-600">{type.description}</p>
                   </div>
                 </Link>
               ))}
