@@ -4,7 +4,6 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TyreBrands from "@/components/TyreBrands";
-import Testimonials from "@/components/Testimonials";
 import Faq from "@/components/Faq";
 import { siteConfig, servicesFaqs } from "@/lib/data";
 
@@ -261,8 +260,6 @@ export default function ServicesPage() {
         </section>
 
         <TyreBrands />
-
-        <Testimonials />
 
         <Faq items={servicesFaqs} />
 

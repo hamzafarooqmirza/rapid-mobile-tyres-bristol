@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 import FeatureGrid from "@/components/FeatureGrid";
 import StepList from "@/components/StepList";
 import TyreBrands from "@/components/TyreBrands";
-import Testimonials from "@/components/Testimonials";
 import Faq from "@/components/Faq";
 import { siteConfig, mobileTyreFittingPage } from "@/lib/data";
 
@@ -192,8 +191,6 @@ export default function MobileTyreFittingPage() {
         />
 
         <TyreBrands />
-
-        <Testimonials />
 
         <Faq items={mobileTyreFittingPage.faqs} />
 
