@@ -37,7 +37,7 @@ export default function Header() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 sm:px-10">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/rapid-mobile-tyres-official-logo.webp"
+            src="/rapid-mobile-tyres-logo.webp"
             alt={siteConfig.name}
             width={1313}
             height={363}
