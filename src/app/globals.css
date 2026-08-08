@@ -10,6 +10,18 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Brand red — replaces the default Tailwind orange palette */
+  --color-orange-50: #fff1f1;
+  --color-orange-100: #ffe5e5;
+  --color-orange-200: #ffcccc;
+  --color-orange-300: #ff9090;
+  --color-orange-400: #ff6165;
+  --color-orange-500: #fe3336;
+  --color-orange-600: #fe0104;
+  --color-orange-700: #d50004;
+  --color-orange-800: #aa0003;
+  --color-orange-900: #800002;
 }
 
 body {
