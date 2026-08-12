@@ -42,6 +42,7 @@ export default function Header() {
             width={1313}
             height={363}
             className="h-10 w-auto"
+            sizes="(max-width: 1024px) 160px, 260px"
             preload
           />
         </Link>
