@@ -173,7 +173,7 @@ export const faqs = [
   {
     question: "How much does mobile tyre fitting cost in Bristol?",
     answer:
-      "Our pricing is competitive and transparent, with no hidden charges. The final cost depends on tyre size and vehicle type. Our callout prices start from £120.",
+      "Our pricing is competitive and transparent, with no hidden charges. The final cost depends on tyre size and vehicle type — call us for a quote.",
   },
 ];
 
@@ -977,7 +977,7 @@ export const refundPolicy: { intro: string; sections: RefundPolicySection[]; not
         },
         {
           title: "2.3 Emergency Call-Out Charge",
-          text: "If there's a cancellation from the customer, emergency call-out charges will be applied, which are £120–200 depending on the nature and time of the call-out.",
+          text: "If there's a cancellation from the customer, emergency call-out charges will be applied depending on the nature and time of the call-out.",
         },
       ],
     },

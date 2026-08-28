@@ -42,7 +42,7 @@ const tyreTypes = [
 const stats = [
   { value: "24/7", label: "Available, every day" },
   { value: "45-60 min", label: "Average arrival time" },
-  { value: "From £120", label: "Callout price" },
+  { value: "Affordable", label: "Callout rates" },
   { value: "5★", label: "Rated by customers" },
 ];
 
@@ -346,7 +346,7 @@ export default function LocationPage({ location }: { location: LocationPageData 
               Stuck with a tyre problem in {location.name}?
             </h2>
             <p className="mt-4 text-zinc-300">
-              Call now for a callout from £120 — our nearest technician will be with you in 45-60 minutes.
+              Call now to book a callout — our nearest technician will be with you in 45-60 minutes.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
