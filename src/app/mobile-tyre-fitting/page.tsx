@@ -202,7 +202,7 @@ export default function MobileTyreFittingPage() {
                 Ready for fast, professional tyre fitting?
               </h2>
               <p className="mt-4 max-w-md text-zinc-400">
-                Call now for a callout from £120 — our nearest technician will be with you in 45-60 minutes,
+                Call now to book a callout — our nearest technician will be with you in 45-60 minutes,
                 anywhere in Bristol and the surrounding areas.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">

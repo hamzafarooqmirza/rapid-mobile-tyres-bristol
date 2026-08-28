@@ -6,7 +6,7 @@ const location = allLocations.find((l) => l.path === "mobile-tyre-fitting-bridge
 
 export const metadata: Metadata = {
   title: `Mobile Tyre Fitting in ${location.name} - Rapid Mobile Tyres Bristol`,
-  description: `Fast, reliable mobile tyre fitting in ${location.name}. We come to your home, workplace, or roadside — usually within 45-60 minutes. Callouts from £120. Call 07494 247246.`,
+  description: `Fast, reliable mobile tyre fitting in ${location.name}. We come to your home, workplace, or roadside — usually within 45-60 minutes. Competitive rates. Call 07494 247246.`,
 };
 
 export default function Page() {
