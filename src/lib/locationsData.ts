@@ -231,7 +231,7 @@ export const locations: LocationPageData[] = [
   {
     path: "mobile-tyre-fitting-backwell",
     name: "Backwell",
-    tagline: "Tyres Delivered, Fitted, and Balanced — Anywhere in Backwell",
+    tagline: "Tyres Delivered and Fitted — Anywhere in Backwell",
     intro:
       "Looking for trusted mobile tyre fitting in Backwell and the surrounding area? Rapid Mobile Tyres brings skilled tyre fitting straight to your door for a completely hassle-free experience. Whether you're at home, at work, or stuck on the road, our mobile tyre fitting service is here to help.",
     benefits: [
