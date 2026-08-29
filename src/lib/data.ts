@@ -507,10 +507,6 @@ export const servicesFaqs = [
       "You can find your tyre size printed on the sidewall of your current tyre (e.g., 205/55 R16), in your vehicle manual, or sometimes on a sticker inside the driver-side door.",
   },
   {
-    question: "Do mobile tyre services include wheel balancing?",
-    answer: "At Rapid-Tyres, we don't provide wheel balancing in our mobile tyre fitting service.",
-  },
-  {
     question: "Can I book mobile tyre fitting for a company fleet or van?",
     answer:
       "Yes, we operate 7 days a week including bank holidays. Whether it's a Sunday evening or a bank holiday, call us on 07494 247246 and we'll be with you within 45-60 minutes.",
@@ -684,10 +680,6 @@ export const mobileTyreFittingPage = {
       title: "Tyre Pressure Checks",
       description:
         "Correct tyre pressure is essential for safety and fuel savings. We check and adjust your tyre pressure according to the manufacturer's recommendation.",
-    },
-    {
-      title: "Tyre Rotation and Balancing",
-      description: "Extend the life of your tyres with our professional rotation and balancing services.",
     },
     {
       title: "Emergency Tyre Fitting",
@@ -1016,5 +1008,5 @@ export const refundPolicy: { intro: string; sections: RefundPolicySection[]; not
       ],
     },
   ],
-  note: "At Rapid Mobile Tyres, we don't provide wheel balancing in our mobile tyre fitting service.",
+  note: "All services are carried out by qualified technicians using professional-grade equipment.",
 };

@@ -46,7 +46,7 @@ const stats = [
   { value: "5★", label: "Rated by customers" },
 ];
 
-const locationFaqs = [servicesFaqs[0], servicesFaqs[1], servicesFaqs[2], servicesFaqs[9], servicesFaqs[6]];
+const locationFaqs = [servicesFaqs[0], servicesFaqs[1], servicesFaqs[2], servicesFaqs[8], servicesFaqs[5]];
 
 export default function LocationPage({ location }: { location: LocationPageData }) {
   return (
