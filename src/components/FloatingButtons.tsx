@@ -1,13 +1,11 @@
 import { siteConfig } from "@/lib/data";
 
-const WHATSAPP_URL = "https://wa.me/447494247246";
-
 export default function FloatingButtons() {
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-center gap-3">
       {/* WhatsApp */}
       <a
-        href={WHATSAPP_URL}
+        href={siteConfig.whatsappHref}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"
