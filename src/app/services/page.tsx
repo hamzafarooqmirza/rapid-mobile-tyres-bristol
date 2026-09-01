@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "Car, SUV and van tyres, mobile tyre fitting, jump starts and fuel delivery — all fitted at your home, workplace, or roadside across Bristol and the South West.",
 };
 
-const mainServices = [
+const allServices = [
   {
     title: "Mobile Tyre Fitting",
     tagline: "Flat tyre? We come to you.",
@@ -24,10 +24,55 @@ const mainServices = [
     badge: "Most popular",
   },
   {
+    title: "Car Tyre Fitting",
+    tagline: "Home, work, or roadside.",
+    description:
+      "Mobile car tyre fitting for hatchbacks, saloons, estates, and city cars — fitted at your location with the right tyre already on the van.",
+    href: "/mobile-car-tyre-fitting-bristol",
+    image: "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
+    badge: null,
+  },
+  {
+    title: "SUV Tyre Fitting",
+    tagline: "All makes and models.",
+    description:
+      "Specialist mobile tyre fitting for SUVs, crossovers, and 4x4s — with the right equipment and stock for larger tyre sizes.",
+    href: "/suv-tyre-fitting-bristol",
+    image: "/suv-tyre-fitting-volkswagen-tiguan-bristol.webp",
+    badge: null,
+  },
+  {
+    title: "Van Tyre Fitting",
+    tagline: "Keep your fleet moving.",
+    description:
+      "Heavy-load van tyres for better fuel efficiency, traction, and long-lasting performance — fitted at your premises or the roadside.",
+    href: "/mobile-van-tyre-fitting-bristol",
+    image: "/van-tyre-fitting-road-service-bristol.webp",
+    badge: null,
+  },
+  {
+    title: "Emergency Tyre Fitting",
+    tagline: "Urgent callout, 45–60 min response.",
+    description:
+      "Blowout on the motorway, pothole burst, or late-night flat? We respond 24/7 with the right tyre on the van — fitted wherever you are in Bristol.",
+    href: "/emergency-mobile-tyre-fitting-bristol",
+    image: "/rapid-mobile-tyres-fleet-service-vans-bristol.webp",
+    badge: "24/7",
+  },
+  {
+    title: "Tyre Replacement at Home",
+    tagline: "On your driveway, your schedule.",
+    description:
+      "New tyres fitted on your driveway — scheduled or same day. No garage visit, no disruption to your day.",
+    href: "/tyre-replacement-at-home-bristol",
+    image: "/tyre-replacement-at-home-technician-bristol.webp",
+    badge: null,
+  },
+  {
     title: "Jump Start",
     tagline: "Dead battery? No problem.",
     description:
-      "Stranded with a flat battery? Our technicians arrive with full jump-start equipment and get your engine running again within 30-60 minutes.",
+      "Stranded with a flat battery? Our technicians arrive with full jump-start equipment and get your engine running again within 30–60 minutes.",
     href: "/jumpstarts",
     image: "/jump-start-service-dead-battery-bristol.webp",
     badge: null,
@@ -40,46 +85,6 @@ const mainServices = [
     href: "/fuel-delivery",
     image: "/emergency-fuel-delivery-service-bristol.webp",
     badge: null,
-  },
-  {
-    title: "Emergency Tyre Fitting",
-    tagline: "Urgent callout, 45–60 min response.",
-    description:
-      "Blowout on the motorway, pothole burst, or late-night flat? We respond 24/7 with the right tyre on the van — fitted wherever you are in Bristol.",
-    href: "/emergency-mobile-tyre-fitting-bristol",
-    image: "/rapid-mobile-tyres-fleet-service-vans-bristol.webp",
-    badge: "24/7",
-  },
-];
-
-const tyreTypes = [
-  {
-    title: "Car Tyre Fitting Bristol",
-    description:
-      "Durable car tyres for city and everyday driving, fitted at your home, workplace, or roadside.",
-    image: "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
-    href: "/mobile-car-tyre-fitting-bristol",
-  },
-  {
-    title: "SUV Tyre Fitting Bristol",
-    description:
-      "High-performance SUV tyres for city driving and off-road adventures — fitted on the spot.",
-    image: "/suv-tyre-fitting-volkswagen-tiguan-bristol.webp",
-    href: "/suv-tyre-fitting-bristol",
-  },
-  {
-    title: "Van Tyre Fitting Bristol",
-    description:
-      "Heavy-load van tyres for better fuel efficiency, traction, and long-lasting performance.",
-    image: "/van-tyre-fitting-road-service-bristol.webp",
-    href: "/mobile-van-tyre-fitting-bristol",
-  },
-  {
-    title: "Emergency Tyre Fitting Bristol",
-    description:
-      "24/7 emergency tyre fitting — whether you searched for roadside help or need a same-day slot.",
-    image: "/rapid-mobile-tyres-fleet-service-vans-bristol.webp",
-    href: "/emergency-mobile-tyre-fitting-bristol",
   },
 ];
 
@@ -123,7 +128,7 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        {/* Main services — 3 large cards */}
+        {/* All services — unified 8-card grid */}
         <section className="bg-zinc-50 py-20 sm:py-28">
           <div className="mx-auto max-w-7xl px-6 sm:px-10">
             <div className="mx-auto max-w-2xl text-center">
@@ -133,21 +138,25 @@ export default function ServicesPage() {
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
                 Our Services
               </h2>
+              <p className="mt-4 text-zinc-600">
+                From emergency roadside callouts to planned home driveway fitting — one call covers
+                everything.
+              </p>
             </div>
 
-            <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-              {mainServices.map((service) => (
+            <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {allServices.map((service) => (
                 <Link
                   key={service.title}
                   href={service.href}
                   className="group relative flex flex-col overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm transition-shadow hover:shadow-xl"
                 >
-                  <div className="relative h-56 w-full overflow-hidden">
+                  <div className="relative h-48 w-full overflow-hidden">
                     <Image
                       src={service.image}
                       alt={service.title}
                       fill
-                      sizes="(min-width: 1024px) 33vw, 100vw"
+                      sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                     {service.badge && (
@@ -156,58 +165,16 @@ export default function ServicesPage() {
                       </span>
                     )}
                   </div>
-                  <div className="flex flex-1 flex-col p-7">
-                    <p className="text-sm font-semibold text-orange-600">{service.tagline}</p>
-                    <h3 className="mt-1 text-xl font-bold text-zinc-950">{service.title}</h3>
+                  <div className="flex flex-1 flex-col p-6">
+                    <p className="text-xs font-semibold text-orange-600">{service.tagline}</p>
+                    <h3 className="mt-1 text-lg font-bold text-zinc-950">{service.title}</h3>
                     <p className="mt-3 flex-1 text-sm leading-6 text-zinc-600">{service.description}</p>
-                    <span className="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-orange-600 group-hover:gap-2 transition-all">
+                    <span className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-orange-600 group-hover:gap-2 transition-all">
                       Learn more
                       <svg viewBox="0 0 16 16" fill="none" className="h-4 w-4" aria-hidden>
                         <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
                     </span>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Tyre types we fit */}
-        <section className="bg-white py-20 sm:py-28">
-          <div className="mx-auto max-w-7xl px-6 sm:px-10">
-            <div className="mx-auto max-w-2xl text-center">
-              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">
-                Tyre types
-              </p>
-              <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
-                Every Tyre, Every Vehicle
-              </h2>
-              <p className="mt-4 text-zinc-600">
-                From compact city cars to heavy commercial vans — we carry the right tyres and fit
-                them on the spot.
-              </p>
-            </div>
-
-            <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {tyreTypes.map((type) => (
-                <Link
-                  key={type.title}
-                  href={type.href}
-                  className="group overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition-shadow hover:shadow-lg"
-                >
-                  <div className="relative h-44 w-full overflow-hidden">
-                    <Image
-                      src={type.image}
-                      alt={type.title}
-                      fill
-                      sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                      className="object-cover transition-transform duration-300 group-hover:scale-105"
-                    />
-                  </div>
-                  <div className="p-5">
-                    <h3 className="font-semibold text-zinc-950">{type.title}</h3>
-                    <p className="mt-2 text-sm leading-6 text-zinc-600">{type.description}</p>
                   </div>
                 </Link>
               ))}

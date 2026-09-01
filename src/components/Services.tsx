@@ -53,7 +53,7 @@ export default function Services() {
           {gridServices.map((service) => (
             <Link
               key={service.title}
-              href="/mobile-tyre-fitting"
+              href={service.href}
               className="group flex flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition-shadow hover:shadow-lg"
             >
               <div className="relative h-44 w-full overflow-hidden">
