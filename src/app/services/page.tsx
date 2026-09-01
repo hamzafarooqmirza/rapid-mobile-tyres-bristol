@@ -58,24 +58,28 @@ const tyreTypes = [
     description:
       "Durable car tyres for city and everyday driving, fitted at your home, workplace, or roadside.",
     image: "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
+    href: "/mobile-tyre-fitting",
   },
   {
     title: "SUV Tyre Fitting Bristol",
     description:
       "High-performance SUV tyres for city driving and off-road adventures — fitted on the spot.",
     image: "/suv-tyre-fitting-volkswagen-tiguan-bristol.webp",
+    href: "/mobile-tyre-fitting",
   },
   {
     title: "Van Tyre Fitting Bristol",
     description:
       "Heavy-load van tyres for better fuel efficiency, traction, and long-lasting performance.",
     image: "/van-tyre-fitting-road-service-bristol.webp",
+    href: "/mobile-van-tyre-fitting-bristol",
   },
   {
     title: "Emergency Tyre Fitting Bristol",
     description:
       "24/7 emergency tyre fitting — whether you searched for roadside help or need a same-day slot.",
     image: "/rapid-mobile-tyres-fleet-service-vans-bristol.webp",
+    href: "/emergency-mobile-tyre-fitting-bristol",
   },
 ];
 
@@ -189,7 +193,7 @@ export default function ServicesPage() {
               {tyreTypes.map((type) => (
                 <Link
                   key={type.title}
-                  href="/mobile-tyre-fitting"
+                  href={type.href}
                   className="group overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition-shadow hover:shadow-lg"
                 >
                   <div className="relative h-44 w-full overflow-hidden">
