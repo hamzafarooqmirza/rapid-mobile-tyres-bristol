@@ -58,7 +58,7 @@ const tyreTypes = [
     description:
       "Durable car tyres for city and everyday driving, fitted at your home, workplace, or roadside.",
     image: "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
-    href: "/mobile-tyre-fitting",
+    href: "/mobile-car-tyre-fitting-bristol",
   },
   {
     title: "SUV Tyre Fitting Bristol",
