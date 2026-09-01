@@ -8,15 +8,15 @@ import AreasWeServe from "@/components/AreasWeServe";
 import MapAndLocations from "@/components/MapAndLocations";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
-import { faqs } from "@/lib/data";
+import { faqs, siteConfig } from "@/lib/data";
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "AutoRepair",
-  name: "Rapid Mobile Tyres Bristol",
+  name: siteConfig.name,
   url: "https://rapid-tyres.com",
   telephone: "+447494247246",
-  email: "info@rapid-tyres.com",
+  email: siteConfig.email,
   address: {
     "@type": "PostalAddress",
     streetAddress: "Ryeleaze, Shirehampton",
@@ -69,7 +69,7 @@ const localBusinessSchema = {
 const webSiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Rapid Mobile Tyres Bristol",
+  name: siteConfig.name,
   url: "https://rapid-tyres.com",
   potentialAction: {
     "@type": "SearchAction",
