@@ -19,6 +19,7 @@ export const navLinks = [
 
 export const serviceMenuLinks = [
   { label: "Mobile Tyre Fitting", href: "/mobile-tyre-fitting" },
+  { label: "Emergency Tyre Fitting", href: "/emergency-mobile-tyre-fitting-bristol" },
   { label: "Jump Start", href: "/jumpstarts" },
   { label: "Fuel Delivery", href: "/fuel-delivery" },
   { label: "View All Services", href: "/services" },

@@ -41,6 +41,15 @@ const mainServices = [
     image: "/emergency-fuel-delivery-service-bristol.webp",
     badge: null,
   },
+  {
+    title: "Emergency Tyre Fitting",
+    tagline: "Urgent callout, 45–60 min response.",
+    description:
+      "Blowout on the motorway, pothole burst, or late-night flat? We respond 24/7 with the right tyre on the van — fitted wherever you are in Bristol.",
+    href: "/emergency-mobile-tyre-fitting-bristol",
+    image: "/rapid-mobile-tyres-fleet-service-vans-bristol.webp",
+    badge: "24/7",
+  },
 ];
 
 const tyreTypes = [
@@ -122,7 +131,7 @@ export default function ServicesPage() {
               </h2>
             </div>
 
-            <div className="mt-14 grid gap-8 lg:grid-cols-3">
+            <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
               {mainServices.map((service) => (
                 <Link
                   key={service.title}
