@@ -67,6 +67,7 @@ export const gridServices = [
     image: "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
     width: 800,
     height: 600,
+    href: "/mobile-car-tyre-fitting-bristol",
   },
   {
     title: "SUV Tyre Fitting Bristol",
@@ -75,6 +76,7 @@ export const gridServices = [
     image: "/suv-tyre-fitting-volkswagen-tiguan-bristol.webp",
     width: 800,
     height: 600,
+    href: "/suv-tyre-fitting-bristol",
   },
   {
     title: "Mobile Van Tyre Fitting Bristol",
@@ -83,6 +85,7 @@ export const gridServices = [
     image: "/van-tyre-fitting-road-service-bristol.webp",
     width: 880,
     height: 660,
+    href: "/mobile-van-tyre-fitting-bristol",
   },
   {
     title: "Emergency Mobile Tyre Fitting Bristol",
@@ -91,6 +94,7 @@ export const gridServices = [
     image: "/rapid-mobile-tyres-fleet-service-vans-bristol.webp",
     width: 500,
     height: 385,
+    href: "/emergency-mobile-tyre-fitting-bristol",
   },
   {
     title: "Tyre Replacement at Home Bristol",
@@ -99,6 +103,7 @@ export const gridServices = [
     image: "/tyre-replacement-at-home-technician-bristol.webp",
     width: 500,
     height: 385,
+    href: "/tyre-replacement-at-home-bristol",
   },
 ];
 
