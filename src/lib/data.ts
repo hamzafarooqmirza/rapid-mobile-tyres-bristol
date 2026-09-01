@@ -22,6 +22,7 @@ export const serviceMenuLinks = [
   { label: "Car Tyre Fitting", href: "/mobile-car-tyre-fitting-bristol" },
   { label: "SUV Tyre Fitting", href: "/suv-tyre-fitting-bristol" },
   { label: "Van Tyre Fitting", href: "/mobile-van-tyre-fitting-bristol" },
+  { label: "Tyre Fitting at Home", href: "/tyre-replacement-at-home-bristol" },
   { label: "Emergency Tyre Fitting", href: "/emergency-mobile-tyre-fitting-bristol" },
   { label: "Jump Start", href: "/jumpstarts" },
   { label: "Fuel Delivery", href: "/fuel-delivery" },
