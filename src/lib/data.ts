@@ -20,6 +20,7 @@ export const navLinks = [
 export const serviceMenuLinks = [
   { label: "Mobile Tyre Fitting", href: "/mobile-tyre-fitting" },
   { label: "Car Tyre Fitting", href: "/mobile-car-tyre-fitting-bristol" },
+  { label: "SUV Tyre Fitting", href: "/suv-tyre-fitting-bristol" },
   { label: "Van Tyre Fitting", href: "/mobile-van-tyre-fitting-bristol" },
   { label: "Emergency Tyre Fitting", href: "/emergency-mobile-tyre-fitting-bristol" },
   { label: "Jump Start", href: "/jumpstarts" },
