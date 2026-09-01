@@ -65,7 +65,7 @@ const tyreTypes = [
     description:
       "High-performance SUV tyres for city driving and off-road adventures — fitted on the spot.",
     image: "/suv-tyre-fitting-volkswagen-tiguan-bristol.webp",
-    href: "/mobile-tyre-fitting",
+    href: "/suv-tyre-fitting-bristol",
   },
   {
     title: "Van Tyre Fitting Bristol",
