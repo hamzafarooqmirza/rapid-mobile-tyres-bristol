@@ -15,21 +15,21 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://rapid-tyres.com"),
-  title: "24/7 Mobile Tyre Fitting Bristol — Rapid Mobile Tyres",
+  title: "Rapid Mobile Tyres Bristol | 24/7 Emergency Tyre Fitting",
   description:
-    "Rapid Mobile Tyres Bristol provides 24/7 emergency and non-emergency mobile tyre fitting, jump starts, and fuel delivery across Bristol and surrounding areas.",
+    "Rapid Mobile Tyres Bristol offers 24/7 emergency tyre fitting, jump starts and fuel delivery across Bristol, with fast 45–60 minute response.",
   openGraph: {
-    title: "24/7 Mobile Tyre Fitting Bristol — Rapid Mobile Tyres",
+    title: "Rapid Mobile Tyres Bristol | 24/7 Emergency Tyre Fitting",
     description:
-      "Rapid Mobile Tyres Bristol provides 24/7 emergency and non-emergency mobile tyre fitting, jump starts, and fuel delivery across Bristol and surrounding areas.",
+      "Rapid Mobile Tyres Bristol offers 24/7 emergency tyre fitting, jump starts and fuel delivery across Bristol, with fast 45–60 minute response.",
     images: [{ url: "/rapid-mobile-tyres-open-graph.webp" }],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "24/7 Mobile Tyre Fitting Bristol — Rapid Mobile Tyres",
+    title: "Rapid Mobile Tyres Bristol | 24/7 Emergency Tyre Fitting",
     description:
-      "Rapid Mobile Tyres Bristol provides 24/7 emergency and non-emergency mobile tyre fitting, jump starts, and fuel delivery across Bristol and surrounding areas.",
+      "Rapid Mobile Tyres Bristol offers 24/7 emergency tyre fitting, jump starts and fuel delivery across Bristol, with fast 45–60 minute response.",
     images: ["/rapid-mobile-tyres-open-graph.webp"],
   },
 };
