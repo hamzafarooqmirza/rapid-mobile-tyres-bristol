@@ -102,14 +102,21 @@ const faqs = [
 ];
 
 const areasServed = [
-  "Tutshill",
-  "Sedbury",
-  "St Arvans",
-  "Shirenewton",
-  "Tintern",
-  "Caldicot",
-  "Caerwent",
+  { name: "Tutshill", href: null },
+  { name: "Sedbury", href: null },
+  { name: "St Arvans", href: null },
+  { name: "Shirenewton", href: null },
+  { name: "Tintern", href: null },
+  { name: "Caldicot", href: "/mobile-tyre-fitting-caldicot" },
+  { name: "Caerwent", href: "/mobile-tyre-fitting-caerwent" },
 ];
+
+const locationPin = (
+  <svg viewBox="0 0 20 20" fill="none" className="h-4 w-4 shrink-0 text-orange-600" aria-hidden>
+    <path d="M10 18s6-5.3 6-10a6 6 0 10-12 0c0 4.7 6 10 6 10z" stroke="currentColor" strokeWidth="1.6" />
+    <circle cx="10" cy="8" r="2" stroke="currentColor" strokeWidth="1.6" />
+  </svg>
+);
 
 export default function ChepstowPage() {
   return (
@@ -149,13 +156,16 @@ export default function ChepstowPage() {
                   href={siteConfig.phoneHref}
                   className="flex h-12 items-center justify-center gap-2 rounded-full bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500"
                 >
-                  Emergency Call: {siteConfig.phone}
+                  <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden>
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg>
+                  Call Now: {siteConfig.phone}
                 </a>
                 <Link
                   href="/services"
                   className="flex h-12 items-center justify-center rounded-full border border-zinc-700 px-6 text-sm font-semibold text-zinc-200 transition-colors hover:border-zinc-500 hover:bg-zinc-900"
                 >
-                  Our Services
+                  All Services
                 </Link>
               </div>
             </div>
@@ -174,7 +184,7 @@ export default function ChepstowPage() {
           </div>
         </section>
 
-        {/* Intro */}
+        {/* Intro — Mobile tyre fitting across Chepstow */}
         <section className="bg-white py-20 sm:py-28">
           <div className="mx-auto grid max-w-7xl gap-12 px-6 sm:px-10 lg:grid-cols-2 lg:items-center">
             <div>
@@ -187,44 +197,57 @@ export default function ChepstowPage() {
               <p className="mt-4 leading-7 text-zinc-600">
                 A damaged or worn tyre can interrupt your journey when you least expect it. Instead of
                 arranging recovery or trying to reach a tyre garage, our mobile tyre fitters in Chepstow
-                can attend your location with the equipment needed to assess and replace your tyre. Our
-                service suits both planned tyre replacements and urgent situations where you need to get
-                safely back on the road.
+                attend your location with the equipment needed to assess and replace your tyre — suitable
+                for both planned replacements and urgent situations.
               </p>
 
-              <div className="mt-8 space-y-6">
-                <div>
-                  <h3 className="font-semibold text-zinc-950">Tyre Fitting at Your Home</h3>
-                  <p className="mt-1 text-sm leading-6 text-zinc-600">
-                    If your tyres are worn, damaged or due for replacement, our technicians can come to
-                    your home in Chepstow and carry out the fitting at your location — particularly
-                    convenient when fitting around work and family commitments.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-zinc-950">Workplace Tyre Fitting</h3>
-                  <p className="mt-1 text-sm leading-6 text-zinc-600">
-                    We can attend workplaces and suitable business locations across Chepstow, helping
-                    individual drivers and businesses that need convenient tyre support for cars and vans —
-                    without losing part of a working day.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-zinc-950">Roadside Tyre Assistance</h3>
-                  <p className="mt-1 text-sm leading-6 text-zinc-600">
-                    A puncture, blowout or damaged tyre can leave you unable to continue safely. Our{" "}
-                    <Link href="/emergency-mobile-tyre-fitting-bristol" className="font-medium text-orange-600 hover:underline">
-                      emergency mobile tyre fitting
-                    </Link>{" "}
-                    provides roadside help at your location — no need to drive on a damaged tyre.
-                  </p>
-                </div>
-              </div>
+              <ul className="mt-8 space-y-5">
+                {[
+                  {
+                    title: "Tyre Fitting at Your Home",
+                    body: "If your tyres are worn, damaged or due for replacement, our technicians can come to your home and carry out the fitting on your driveway — no garage trip needed.",
+                  },
+                  {
+                    title: "Workplace Tyre Fitting",
+                    body: "We attend workplaces and business locations across Chepstow and replace tyres while your vehicle is parked — helping individual drivers and businesses alike.",
+                  },
+                  {
+                    title: "Roadside Tyre Assistance",
+                    body: (
+                      <>
+                        A puncture or blowout doesn&apos;t have to mean driving on a damaged tyre. Our{" "}
+                        <Link
+                          href="/emergency-mobile-tyre-fitting-bristol"
+                          className="font-medium text-orange-600 hover:underline"
+                        >
+                          emergency mobile tyre fitting
+                        </Link>{" "}
+                        reaches you at the roadside — wherever you&apos;ve stopped.
+                      </>
+                    ),
+                  },
+                ].map((item) => (
+                  <li key={item.title} className="flex gap-4">
+                    <span className="mt-1 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-orange-600/10">
+                      <svg viewBox="0 0 16 16" fill="none" className="h-4 w-4 text-orange-600" aria-hidden>
+                        <path d="M3 8.5l3 3 7-7" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </span>
+                    <div>
+                      <h3 className="font-semibold text-zinc-950">{item.title}</h3>
+                      <p className="mt-1 text-sm leading-6 text-zinc-600">{item.body}</p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
 
               <a
                 href={siteConfig.phoneHref}
-                className="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500"
+                className="mt-8 inline-flex h-12 items-center justify-center gap-2 rounded-full bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500"
               >
+                <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden>
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                </svg>
                 Call {siteConfig.phone}
               </a>
             </div>
@@ -233,7 +256,7 @@ export default function ChepstowPage() {
               <div className="relative overflow-hidden rounded-3xl border border-zinc-200 shadow-2xl">
                 <Image
                   src="/mobile-car-tyre-fitting-bmw-i3-bristol.webp"
-                  alt="Mobile tyre fitting technician at work in Chepstow"
+                  alt="Mobile tyre fitting technician fitting a tyre at a customer's location"
                   width={800}
                   height={600}
                   className="h-auto w-full"
@@ -247,8 +270,75 @@ export default function ChepstowPage() {
           </div>
         </section>
 
-        {/* Vehicle services */}
+        {/* Emergency section */}
         <section className="bg-zinc-50 py-20 sm:py-28">
+          <div className="mx-auto max-w-7xl px-6 sm:px-10">
+            <div className="mx-auto max-w-2xl text-center">
+              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">
+                Emergency tyre fitting
+              </p>
+              <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
+                Emergency Mobile Tyre Fitting in Chepstow
+              </h2>
+              <p className="mt-4 text-zinc-600">
+                Tyre problems don&apos;t always happen during normal working hours. We provide emergency
+                tyre fitting in Chepstow for drivers who need help with unexpected punctures, blowouts,
+                flat tyres or sidewall damage — at home, at work and at suitable roadside locations.
+              </p>
+            </div>
+
+            <div className="mt-12 grid gap-6 sm:grid-cols-3">
+              {[
+                {
+                  icon: (
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" />
+                  ),
+                  title: "24/7 Availability",
+                  body: "We respond to emergency callouts day and night, including weekends and bank holidays, throughout Chepstow and surrounding areas.",
+                },
+                {
+                  icon: (
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                  ),
+                  title: "45–60 Min Response",
+                  body: "Our usual arrival time is around 45–60 minutes, depending on traffic, your exact location and technician availability.",
+                },
+                {
+                  icon: (
+                    <path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82zM7 7H5v2h2V7z" />
+                  ),
+                  title: "Right Tyre on the Van",
+                  body: "We carry a range of tyre sizes so we can fit the correct tyre at your location — no second trip to a garage needed.",
+                },
+              ].map((card) => (
+                <div
+                  key={card.title}
+                  className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm"
+                >
+                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-orange-600/10">
+                    <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5 text-orange-600" aria-hidden>
+                      {card.icon}
+                    </svg>
+                  </span>
+                  <h3 className="mt-4 font-semibold text-zinc-950">{card.title}</h3>
+                  <p className="mt-2 text-sm leading-6 text-zinc-600">{card.body}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-10 text-center">
+              <Link
+                href="/emergency-mobile-tyre-fitting-bristol"
+                className="inline-flex h-12 items-center justify-center rounded-full bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500"
+              >
+                Emergency Tyre Fitting
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Vehicle services */}
+        <section className="bg-white py-20 sm:py-28">
           <div className="mx-auto max-w-7xl px-6 sm:px-10">
             <div className="mx-auto max-w-2xl text-center">
               <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">
@@ -258,9 +348,8 @@ export default function ChepstowPage() {
                 Every Vehicle Type Covered
               </h2>
               <p className="mt-4 text-zinc-600">
-                Different vehicles require different tyre sizes, load ratings and specifications. When
-                you call, provide your tyre size or vehicle details so we can confirm availability before
-                attending.
+                Different vehicles require different tyre sizes, load ratings and specifications. Provide
+                your tyre size or vehicle details when calling so we can confirm availability before attending.
               </p>
             </div>
 
@@ -293,11 +382,30 @@ export default function ChepstowPage() {
                 </Link>
               ))}
             </div>
+
+            {/* CTA after vehicle section */}
+            <div className="mt-12 rounded-2xl bg-orange-50 border border-orange-100 p-8 text-center">
+              <p className="text-base font-semibold text-zinc-950">
+                Not sure which service you need? Call us and we&apos;ll help.
+              </p>
+              <p className="mt-1 text-sm text-zinc-600">
+                Tell us your vehicle type and postcode and we&apos;ll confirm what we can do.
+              </p>
+              <a
+                href={siteConfig.phoneHref}
+                className="mt-4 inline-flex h-11 items-center justify-center gap-2 rounded-full bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500"
+              >
+                <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden>
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                </svg>
+                Call {siteConfig.phone}
+              </a>
+            </div>
           </div>
         </section>
 
         {/* How it works */}
-        <section className="bg-white py-20 sm:py-28">
+        <section className="bg-zinc-50 py-20 sm:py-28">
           <div className="mx-auto max-w-7xl px-6 sm:px-10">
             <div className="mx-auto max-w-2xl text-center">
               <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">
@@ -309,12 +417,17 @@ export default function ChepstowPage() {
               <p className="mt-4 text-zinc-600">Getting help is straightforward — one call is all it takes.</p>
             </div>
 
-            <ol className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            <ol className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {steps.map((step, i) => (
-                <li key={step.title} className="flex flex-col">
-                  <span className="text-4xl font-bold text-orange-600/20">{String(i + 1).padStart(2, "0")}</span>
-                  <h3 className="mt-3 text-base font-semibold text-zinc-950">{step.title}</h3>
-                  <p className="mt-2 text-sm leading-6 text-zinc-600">{step.description}</p>
+                <li
+                  key={step.title}
+                  className="flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm"
+                >
+                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-orange-600 text-sm font-bold text-white">
+                    {i + 1}
+                  </span>
+                  <h3 className="mt-4 font-semibold text-zinc-950">{step.title}</h3>
+                  <p className="mt-2 flex-1 text-sm leading-6 text-zinc-600">{step.description}</p>
                 </li>
               ))}
             </ol>
@@ -322,8 +435,19 @@ export default function ChepstowPage() {
         </section>
 
         {/* A48 / M48 coverage */}
-        <section className="bg-zinc-950 py-20 text-zinc-50 sm:py-28">
-          <div className="mx-auto max-w-7xl px-6 sm:px-10">
+        <section className="relative overflow-hidden bg-zinc-950 py-20 text-zinc-50 sm:py-28">
+          <div className="absolute inset-0">
+            <Image
+              src="/rapid-mobile-tyres-fleet-service-vans-bristol.webp"
+              alt=""
+              fill
+              sizes="100vw"
+              className="object-cover opacity-15"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/85 to-zinc-950/60" />
+          </div>
+
+          <div className="relative mx-auto max-w-7xl px-6 sm:px-10">
             <div className="mx-auto max-w-2xl text-center">
               <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-500">
                 A48 &amp; M48 coverage
@@ -346,6 +470,9 @@ export default function ChepstowPage() {
                   href={siteConfig.phoneHref}
                   className="flex h-12 items-center justify-center gap-2 rounded-full bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500"
                 >
+                  <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden>
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg>
                   Call {siteConfig.phone}
                 </a>
                 <Link
@@ -367,28 +494,32 @@ export default function ChepstowPage() {
               Areas We Cover Around Chepstow
             </h2>
             <p className="mt-4 text-zinc-600">
-              Our mobile tyre service in Chepstow also covers surrounding communities. If you&apos;re
-              unsure whether we cover your location, call us with your postcode or current location
-              and we can confirm availability.
+              Our mobile tyre service covers Chepstow and surrounding communities. If you&apos;re unsure
+              whether we cover your location, call us with your postcode or current location and we can
+              confirm availability.
             </p>
 
             <div className="mt-10 flex flex-wrap justify-center gap-3">
-              {areasServed.map((area) => (
-                <span
-                  key={area}
-                  className="flex items-center gap-2 rounded-full border border-zinc-200 bg-zinc-50 px-5 py-2.5 text-sm font-medium text-zinc-700"
-                >
-                  <svg viewBox="0 0 20 20" fill="none" className="h-4 w-4 text-orange-600" aria-hidden>
-                    <path
-                      d="M10 18s6-5.3 6-10a6 6 0 10-12 0c0 4.7 6 10 6 10z"
-                      stroke="currentColor"
-                      strokeWidth="1.6"
-                    />
-                    <circle cx="10" cy="8" r="2" stroke="currentColor" strokeWidth="1.6" />
-                  </svg>
-                  {area}
-                </span>
-              ))}
+              {areasServed.map((area) =>
+                area.href ? (
+                  <Link
+                    key={area.name}
+                    href={area.href}
+                    className="flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50 px-5 py-2.5 text-sm font-medium text-orange-700 transition-colors hover:border-orange-300 hover:bg-orange-100"
+                  >
+                    {locationPin}
+                    {area.name}
+                  </Link>
+                ) : (
+                  <span
+                    key={area.name}
+                    className="flex items-center gap-2 rounded-full border border-zinc-200 bg-zinc-50 px-5 py-2.5 text-sm font-medium text-zinc-700"
+                  >
+                    {locationPin}
+                    {area.name}
+                  </span>
+                )
+              )}
             </div>
 
             <Link
@@ -411,8 +542,8 @@ export default function ChepstowPage() {
                 More Than Mobile Tyre Fitting
               </h2>
               <p className="mt-4 text-zinc-600">
-                Alongside general mobile tyre fitting, customers in Chepstow can access a range of mobile
-                services for drivers who need assistance at their location.
+                Alongside mobile tyre fitting, customers in Chepstow can access a range of mobile roadside
+                services — all at your location, whenever you need them.
               </p>
             </div>
 
@@ -428,13 +559,13 @@ export default function ChepstowPage() {
                   title: "Tyre Replacement at Home",
                   href: "/tyre-replacement-at-home-bristol",
                   description:
-                    "Have new tyres fitted on your driveway or in your parking space — no garage visit required.",
+                    "New tyres fitted on your driveway or parking space — same day or scheduled, no garage visit required.",
                 },
                 {
                   title: "Jump Start",
                   href: "/jumpstarts",
                   description:
-                    "Flat battery in Chepstow or nearby? Our technicians arrive with jump-start equipment and get your engine running.",
+                    "Flat battery? Our technicians arrive with jump-start equipment and get your engine running again.",
                 },
                 {
                   title: "Emergency Fuel Delivery",
@@ -460,11 +591,11 @@ export default function ChepstowPage() {
                   href={item.href}
                   className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-lg"
                 >
-                  <h3 className="font-semibold text-zinc-950 group-hover:text-orange-600 transition-colors">
+                  <h3 className="font-semibold text-zinc-950 transition-colors group-hover:text-orange-600">
                     {item.title}
                   </h3>
                   <p className="mt-2 flex-1 text-sm leading-6 text-zinc-600">{item.description}</p>
-                  <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-orange-600 group-hover:gap-2 transition-all">
+                  <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-orange-600 transition-all group-hover:gap-2">
                     Learn more
                     <svg viewBox="0 0 16 16" fill="none" className="h-4 w-4" aria-hidden>
                       <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -486,7 +617,7 @@ export default function ChepstowPage() {
         <section className="relative overflow-hidden bg-zinc-950 py-24 text-zinc-50 sm:py-28">
           <div className="absolute inset-0">
             <Image
-              src="/rapid-mobile-tyres-fleet-service-vans-bristol.webp"
+              src="/mobile-tyre-fitting-technician-bristol.webp"
               alt=""
               fill
               sizes="100vw"
@@ -500,15 +631,17 @@ export default function ChepstowPage() {
               Need Mobile Tyre Fitting in Chepstow?
             </h2>
             <p className="mt-4 text-zinc-300">
-              If you have a flat, damaged or worn tyre, there&apos;s no need to risk driving the vehicle
-              to a garage. Call with your location and tyre details — we&apos;ll confirm availability and
-              arrange for a mobile technician to assist you.
+              No need to risk driving on a flat or damaged tyre. Call with your location and tyre
+              details — we&apos;ll confirm availability and arrange for a mobile technician to come to you.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
                 href={siteConfig.phoneHref}
                 className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500 sm:w-auto"
               >
+                <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden>
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                </svg>
                 Call {siteConfig.phone}
               </a>
               <Link
