@@ -178,7 +178,7 @@ export default function Page() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
-                  href={`tel:${siteConfig.phoneHref}`}
+                  href={siteConfig.phoneHref}
                   className="inline-flex items-center gap-2 rounded-lg bg-orange-500 px-6 py-3 text-base font-semibold text-white shadow-lg hover:bg-orange-600 transition-colors"
                 >
                   <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden>
@@ -431,7 +431,7 @@ export default function Page() {
                 Not sure which service you need? Call us and we&apos;ll help.
               </p>
               <a
-                href={`tel:${siteConfig.phoneHref}`}
+                href={siteConfig.phoneHref}
                 className="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-base font-semibold text-orange-600 hover:bg-orange-50 transition-colors"
               >
                 <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden>
@@ -527,7 +527,7 @@ export default function Page() {
                   usually the best place to start.
                 </p>
                 <a
-                  href={`tel:${siteConfig.phoneHref}`}
+                  href={siteConfig.phoneHref}
                   className="inline-flex items-center gap-2 rounded-lg bg-orange-500 px-6 py-3 text-base font-semibold text-white hover:bg-orange-600 transition-colors"
                 >
                   <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden>
@@ -825,7 +825,7 @@ export default function Page() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href={`tel:${siteConfig.phoneHref}`}
+                href={siteConfig.phoneHref}
                 className="inline-flex items-center gap-2 rounded-lg bg-orange-500 px-6 py-3 text-base font-semibold text-white shadow-lg hover:bg-orange-600 transition-colors"
               >
                 <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden>
