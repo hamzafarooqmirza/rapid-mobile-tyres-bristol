@@ -154,7 +154,7 @@ export default function Page() {
           <div className="absolute inset-0">
             <Image
               src="/mobile-tyre-fitting-technician-bristol.webp"
-              alt="Mobile tyre fitting technician fitting a tyre at a customer's location"
+              alt=""
               fill
               sizes="100vw"
               className="object-cover opacity-30"
@@ -481,7 +481,7 @@ export default function Page() {
           <div className="absolute inset-0">
             <Image
               src="/van-tyre-fitting-road-service-bristol.webp"
-              alt="Mobile tyre fitting van on a rural road near Chelvey"
+              alt=""
               fill
               sizes="100vw"
               className="object-cover opacity-20"
@@ -827,7 +827,7 @@ export default function Page() {
           <div className="absolute inset-0">
             <Image
               src="/mobile-tyre-fitting-technician-bristol.webp"
-              alt="Mobile tyre fitting technician fitting a tyre at a customer's location"
+              alt=""
               fill
               sizes="100vw"
               className="object-cover opacity-20"
