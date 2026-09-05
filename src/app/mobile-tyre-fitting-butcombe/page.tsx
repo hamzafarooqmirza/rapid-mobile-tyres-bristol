@@ -156,8 +156,9 @@ export default function Page() {
               src="/mobile-tyre-fitting-technician-bristol.webp"
               alt="Mobile tyre fitting technician fitting a tyre at a customer's location"
               fill
+              sizes="100vw"
               className="object-cover opacity-30"
-              priority
+              preload
             />
           </div>
           <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
@@ -412,6 +413,7 @@ export default function Page() {
                       src={v.image}
                       alt={v.title}
                       fill
+                      sizes="(min-width: 640px) 33vw, 100vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
@@ -478,6 +480,7 @@ export default function Page() {
               src="/van-tyre-fitting-road-service-bristol.webp"
               alt="Mobile tyre fitting van on a rural road"
               fill
+              sizes="100vw"
               className="object-cover opacity-20"
             />
           </div>
@@ -806,6 +809,7 @@ export default function Page() {
               src="/mobile-tyre-fitting-technician-bristol.webp"
               alt="Mobile tyre fitting technician fitting a tyre at a customer's location"
               fill
+              sizes="100vw"
               className="object-cover opacity-20"
             />
           </div>
