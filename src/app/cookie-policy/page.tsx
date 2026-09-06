@@ -97,9 +97,11 @@ export default function CookiePolicyPage() {
                     </li>
                   </ul>
                   <p>
-                    The only cookies that may be present on this website are strictly
-                    necessary technical cookies set by our hosting infrastructure (Vercel),
-                    described in section 3 below.
+                    The only cookies set passively on page load are strictly necessary
+                    technical cookies from our hosting infrastructure (Vercel), described in
+                    section 3 below. The Google Maps embed on our homepage only loads — and
+                    Google only has the opportunity to set cookies — if you click the
+                    &quot;Load Map&quot; button.
                   </p>
                 </div>
               </div>
@@ -263,13 +265,12 @@ export default function CookiePolicyPage() {
                     and{" "}
                     <span className="font-medium text-zinc-800">Google&apos;s Cookie Policy</span>.
                   </p>
-                  <p className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-amber-800">
-                    <span className="font-semibold">Note: </span>
-                    We are currently reviewing how the Google Maps embed interacts with our
-                    cookie obligations under UK PECR. Until this is resolved, please be
-                    aware that loading the map on our homepage may result in Google setting
-                    third-party cookies on your device. If you wish to prevent this, you can
-                    disable third-party cookies in your browser settings (see section 7).
+                  <p>
+                    To protect your privacy, our homepage map does not load automatically.
+                    Instead, it is shown as a placeholder with a &quot;Load Map&quot; button.
+                    The Google Maps iframe — and any cookies Google may set — only activates
+                    if you choose to click that button. This means no Google Maps cookies
+                    are set on your device unless you explicitly request the map.
                   </p>
                 </div>
 
@@ -315,17 +316,11 @@ export default function CookiePolicyPage() {
                     require consent.
                   </p>
                   <p>
-                    The embedded Google Maps iframe on our homepage may cause Google to set
-                    third-party cookies on your device when that section of the page loads.
-                    These are not strictly necessary cookies. We are reviewing how to
-                    implement an appropriate consent mechanism for this embed — for example,
-                    replacing the auto-loading iframe with a click-to-load placeholder that
-                    only connects to Google after you choose to view the map.
-                  </p>
-                  <p>
-                    Until this is in place, if you wish to prevent Google Maps cookies from
-                    being set, you can block third-party cookies in your browser settings
-                    (see section 7 below), which will prevent the map from loading.
+                    The Google Maps embed on our homepage is implemented as a click-to-load
+                    placeholder. The map — and any cookies Google may set — only loads
+                    after you actively click the &quot;Load Map&quot; button. This means no
+                    Google Maps cookies are set passively on page load. This approach is
+                    used to meet our obligations under PECR.
                   </p>
                   <p>
                     No analytics, advertising, or other non-essential cookies are set by
@@ -388,9 +383,11 @@ export default function CookiePolicyPage() {
                 <div className="mt-4 space-y-4 text-sm leading-7 text-zinc-600">
                   <p>
                     Because this website relies only on strictly necessary infrastructure
-                    cookies (if any), blocking or deleting cookies should not affect your
-                    ability to use this website or its core functionality. All pages,
-                    services information, and contact methods will remain accessible.
+                    cookies (if any) on page load, blocking or deleting cookies should not
+                    affect your ability to use this website or its core functionality. All
+                    pages, services information, and contact methods will remain accessible.
+                    If you click &quot;Load Map&quot; on our homepage but have third-party
+                    cookies blocked, Google Maps may not function correctly.
                   </p>
                 </div>
               </div>
@@ -459,9 +456,9 @@ export default function CookiePolicyPage() {
             </div>
 
             <p className="mt-12 rounded-xl border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-600">
-              This website is designed to minimise cookie use. We are currently reviewing
-              our Google Maps embed to implement an appropriate click-to-load consent
-              mechanism. If any other non-essential cookies are added — for example,
+              This website is designed to minimise cookie use. Our Google Maps embed uses
+              a click-to-load approach so no third-party cookies are set unless you choose
+              to view the map. If any other non-essential cookies are added — for example,
               analytics tools — this policy will be updated and consent obtained before
               any such cookies are set.
             </p>
