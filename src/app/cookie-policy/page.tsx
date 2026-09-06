@@ -201,13 +201,36 @@ export default function CookiePolicyPage() {
                       </thead>
                       <tbody className="divide-y divide-zinc-100 bg-white">
                         <tr>
-                          <td
-                            colSpan={5}
-                            className="px-4 py-4 text-center text-zinc-500 italic"
-                          >
-                            No application-level cookies have been identified from the
-                            website codebase. Any cookies present are set at the hosting
-                            infrastructure level by Vercel.
+                          <td className="px-4 py-3 align-top text-zinc-700">
+                            Various (see Google&apos;s Cookie Policy)
+                          </td>
+                          <td className="px-4 py-3 align-top text-zinc-700">Google</td>
+                          <td className="px-4 py-3 align-top text-zinc-700">
+                            Set by the embedded Google Maps iframe on our homepage.
+                            May be used by Google for preferences, security, and service
+                            improvement purposes.
+                          </td>
+                          <td className="px-4 py-3 align-top text-zinc-700">
+                            Third-party (functional / analytics)
+                          </td>
+                          <td className="px-4 py-3 align-top text-zinc-700">
+                            Varies — see Google&apos;s Cookie Policy
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="px-4 py-3 align-top text-zinc-700">
+                            Infrastructure cookies (if any)
+                          </td>
+                          <td className="px-4 py-3 align-top text-zinc-700">Vercel</td>
+                          <td className="px-4 py-3 align-top text-zinc-700">
+                            Technical cookies set at the hosting infrastructure level
+                            to support website operation and security.
+                          </td>
+                          <td className="px-4 py-3 align-top text-zinc-700">
+                            Strictly necessary
+                          </td>
+                          <td className="px-4 py-3 align-top text-zinc-700">
+                            Varies — see Vercel&apos;s Privacy Policy
                           </td>
                         </tr>
                       </tbody>
@@ -219,26 +242,62 @@ export default function CookiePolicyPage() {
               {/* 5. Third-party services */}
               <div>
                 <h2 className="text-xl font-bold tracking-tight text-zinc-950">
-                  5. Third-Party Links and Services
+                  5. Third-Party Services and Embedded Content
                 </h2>
-                <div className="mt-4 space-y-4 text-sm leading-7 text-zinc-600">
+
+                <h3 className="mt-6 text-base font-semibold text-zinc-800">
+                  5.1 Google Maps
+                </h3>
+                <div className="mt-3 space-y-4 text-sm leading-7 text-zinc-600">
+                  <p>
+                    Our homepage includes an embedded Google Maps iframe that displays our
+                    business location. When this map loads, your browser makes a direct
+                    connection to Google&apos;s servers, and Google may set third-party cookies
+                    on your device in accordance with its own cookie and privacy policies.
+                  </p>
+                  <p>
+                    These cookies are outside our direct control. They may include cookies
+                    used by Google for preferences, security, and service improvement purposes.
+                    For details of the cookies Google Maps may set, please refer to{" "}
+                    <span className="font-medium text-zinc-800">Google&apos;s Privacy Policy</span>{" "}
+                    and{" "}
+                    <span className="font-medium text-zinc-800">Google&apos;s Cookie Policy</span>.
+                  </p>
+                  <p className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-amber-800">
+                    <span className="font-semibold">Note: </span>
+                    We are currently reviewing how the Google Maps embed interacts with our
+                    cookie obligations under UK PECR. Until this is resolved, please be
+                    aware that loading the map on our homepage may result in Google setting
+                    third-party cookies on your device. If you wish to prevent this, you can
+                    disable third-party cookies in your browser settings (see section 7).
+                  </p>
+                </div>
+
+                <h3 className="mt-6 text-base font-semibold text-zinc-800">
+                  5.2 Facebook and WhatsApp
+                </h3>
+                <div className="mt-3 space-y-4 text-sm leading-7 text-zinc-600">
                   <p>
                     This website contains links to our Facebook page and a WhatsApp contact
                     link. These are plain outbound links — no Facebook SDK, Meta Pixel, or
-                    WhatsApp widget is embedded on this website. No cookies are set by these
-                    services as a result of visiting our website.
+                    WhatsApp widget is embedded on this website. No Facebook or WhatsApp
+                    cookies are set as a result of visiting our website.
                   </p>
                   <p>
-                    If you follow these links and visit those platforms, cookies may be set
-                    by those platforms in accordance with their own privacy and cookie
-                    policies.
+                    If you follow these links, cookies may be set by those platforms in
+                    accordance with their own privacy and cookie policies.
                   </p>
+                </div>
+
+                <h3 className="mt-6 text-base font-semibold text-zinc-800">
+                  5.3 Google Search Console
+                </h3>
+                <div className="mt-3 text-sm leading-7 text-zinc-600">
                   <p>
-                    <span className="font-semibold text-zinc-800">Google Search Console: </span>
-                    This website is registered with Google Search Console for website
-                    performance monitoring. This involves a static verification file that
-                    Google&apos;s crawlers read to confirm site ownership. It does not result
-                    in any cookies being set on visitors&apos; browsers.
+                    This website is registered with Google Search Console. This involves a
+                    static HTML verification file that Google&apos;s crawlers read to confirm
+                    site ownership. It does not result in cookies being set on
+                    visitors&apos; browsers.
                   </p>
                 </div>
               </div>
@@ -256,14 +315,23 @@ export default function CookiePolicyPage() {
                     require consent.
                   </p>
                   <p>
-                    Because this website currently uses only strictly necessary hosting
-                    infrastructure cookies (if any) and no analytics, advertising, or
-                    functional cookies, no cookie consent banner is required at this time.
+                    The embedded Google Maps iframe on our homepage may cause Google to set
+                    third-party cookies on your device when that section of the page loads.
+                    These are not strictly necessary cookies. We are reviewing how to
+                    implement an appropriate consent mechanism for this embed — for example,
+                    replacing the auto-loading iframe with a click-to-load placeholder that
+                    only connects to Google after you choose to view the map.
                   </p>
                   <p>
-                    If we add any non-essential cookies in the future — for example, if we
-                    install analytics tools — we will implement an appropriate cookie consent
-                    mechanism before setting those cookies, and update this policy accordingly.
+                    Until this is in place, if you wish to prevent Google Maps cookies from
+                    being set, you can block third-party cookies in your browser settings
+                    (see section 7 below), which will prevent the map from loading.
+                  </p>
+                  <p>
+                    No analytics, advertising, or other non-essential cookies are set by
+                    our application. If we add analytics or marketing tools in the future,
+                    we will implement an appropriate consent mechanism before setting those
+                    cookies, and update this policy accordingly.
                   </p>
                 </div>
               </div>
@@ -391,10 +459,11 @@ export default function CookiePolicyPage() {
             </div>
 
             <p className="mt-12 rounded-xl border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-600">
-              This website is designed to minimise cookie use. If this changes — for
-              example, if analytics tools are added — this policy will be updated and an
-              appropriate consent mechanism will be put in place before any non-essential
-              cookies are set.
+              This website is designed to minimise cookie use. We are currently reviewing
+              our Google Maps embed to implement an appropriate click-to-load consent
+              mechanism. If any other non-essential cookies are added — for example,
+              analytics tools — this policy will be updated and consent obtained before
+              any such cookies are set.
             </p>
           </div>
         </section>
