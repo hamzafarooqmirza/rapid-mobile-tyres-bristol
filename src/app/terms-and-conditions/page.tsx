@@ -237,7 +237,10 @@ export default function TermsAndConditionsPage() {
                   </p>
                   <p>
                     For emergency callouts, please call us immediately if your situation
-                    resolves itself before the technician arrives.
+                    resolves itself before the technician arrives. If a technician has
+                    already been dispatched, a call-out charge may apply depending on the
+                    nature and timing of the cancellation. We will discuss any charge with
+                    you before it is applied.
                   </p>
                 </div>
 
