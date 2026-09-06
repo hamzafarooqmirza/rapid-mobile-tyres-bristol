@@ -57,6 +57,11 @@ export default function Footer() {
                 Terms &amp; Conditions
               </Link>
             </li>
+            <li>
+              <Link href="/cookie-policy" className="hover:text-orange-500">
+                Cookie Policy
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -115,9 +120,30 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mx-auto mt-12 max-w-7xl border-t border-zinc-800 px-6 pt-6 text-xs text-zinc-500 sm:px-10">
-        &copy; {new Date().getFullYear()} {siteConfig.name}. All rights
-        reserved.
+      <div className="mx-auto mt-12 max-w-7xl border-t border-zinc-800 px-6 pt-6 text-xs text-zinc-500 sm:px-10 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <p>&copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.</p>
+        <ul className="flex flex-wrap gap-x-4 gap-y-1">
+          <li>
+            <Link href="/refund-policy" className="hover:text-orange-500">
+              Refund Policy
+            </Link>
+          </li>
+          <li>
+            <Link href="/privacy-policy" className="hover:text-orange-500">
+              Privacy Policy
+            </Link>
+          </li>
+          <li>
+            <Link href="/terms-and-conditions" className="hover:text-orange-500">
+              Terms &amp; Conditions
+            </Link>
+          </li>
+          <li>
+            <Link href="/cookie-policy" className="hover:text-orange-500">
+              Cookie Policy
+            </Link>
+          </li>
+        </ul>
       </div>
     </footer>
   );
