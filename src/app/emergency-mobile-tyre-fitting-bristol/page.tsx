@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Emergency Mobile Tyre Fitting Bristol | 24/7 Fast Response — Rapid Mobile Tyres",
+  title: "Emergency Mobile Tyre Fitting | 24/7 Fast Response — Rapid Mobile Tyres",
   description:
-    "Stuck with a flat tyre in Bristol? Rapid Mobile Tyres provides 24/7 emergency mobile tyre fitting, reaching you in 45–60 minutes at home, work or roadside. Call now.",
+    "Stuck with a flat tyre? Rapid Mobile Tyres provides 24/7 emergency mobile tyre fitting, reaching you in 45–60 minutes at home, work or roadside. Call now.",
 };
 
 const stats = [
@@ -35,7 +35,7 @@ const emergencySituations = [
   {
     title: "Pothole Damage",
     description:
-      "Bristol's roads can be unforgiving. A sharp pothole impact can burst a tyre instantly or cause hidden sidewall damage. We assess and replace on-site if the tyre is beyond repair.",
+      "A sharp pothole impact can burst a tyre instantly or cause hidden sidewall damage. We assess and replace on-site if the tyre is beyond repair.",
   },
   {
     title: "Slow Puncture at Home",
@@ -116,9 +116,9 @@ const vehicleTypes = [
 
 const faqs = [
   {
-    question: "How quickly can you reach me for an emergency tyre fitting in Bristol?",
+    question: "How quickly can you reach me for an emergency tyre fitting?",
     answer:
-      `We aim to reach you within 45–60 minutes anywhere in Bristol and the surrounding areas. Exact timing depends on traffic and your location. Call us on ${siteConfig.phone} for a real-time ETA.`,
+      `We aim to reach you within 45–60 minutes anywhere in the South West and surrounding areas. Exact timing depends on traffic and your location. Call us on ${siteConfig.phone} for a real-time ETA.`,
   },
   {
     question: "Is your emergency tyre fitting service genuinely available 24 hours a day?",
@@ -141,7 +141,7 @@ const faqs = [
       "Our vans carry a wide range of tyre sizes for the most common cars, SUVs, and light commercial vehicles. In the vast majority of emergency callouts we can fit on the spot without needing to source parts separately.",
   },
   {
-    question: "What does emergency mobile tyre fitting cost in Bristol?",
+    question: "What does emergency mobile tyre fitting cost?",
     answer:
       "Our pricing is transparent and quoted upfront before work begins. The final cost depends on your tyre size and vehicle type. Call us on " + siteConfig.phone + " for an immediate quote — there are no hidden charges.",
   },
@@ -178,7 +178,7 @@ export default function EmergencyMobileTyreFittingBristolPage() {
                 24/7 Emergency Tyre Fitting
               </p>
               <h1 className="mt-4 text-4xl font-bold tracking-tight text-balance sm:text-5xl">
-                Emergency Mobile Tyre Fitting in Bristol
+                Emergency Mobile Tyre Fitting
               </h1>
               <p className="mt-6 text-lg leading-8 text-zinc-300">
                 Flat tyre on the road? We arrive in 45–60 minutes, day or night.
@@ -190,12 +190,7 @@ export default function EmergencyMobileTyreFittingBristolPage() {
                   Our mobile tyre fitting service
                 </Link>{" "}
                 covers both planned and emergency callouts, but this page focuses on exactly that:
-                urgent, fast-response tyre replacement across Bristol — any time, any location. See
-                also our dedicated{" "}
-                <Link href="/mobile-tyre-fitting-bristol" className="text-orange-400 underline underline-offset-2 hover:text-orange-300">
-                  Bristol tyre fitting page
-                </Link>{" "}
-                for general same-day and scheduled bookings.
+                urgent, fast-response tyre replacement — any time, any location.
               </p>
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -235,7 +230,7 @@ export default function EmergencyMobileTyreFittingBristolPage() {
         <FeatureGrid
           eyebrow="When to call us"
           title="Emergency Tyre Situations We Handle"
-          intro="From a roadside blowout to a slow puncture noticed at home — these are the emergency scenarios we deal with every day across Bristol."
+          intro="From a roadside blowout to a slow puncture noticed at home — these are the emergency scenarios we deal with every day."
           items={emergencySituations}
           tone="light"
           columns={3}
@@ -304,7 +299,7 @@ export default function EmergencyMobileTyreFittingBristolPage() {
                 Local coverage
               </p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
-                Emergency Cover Across Bristol
+                Emergency Cover Across the South West
               </h2>
               <p className="mt-4 text-zinc-600">
                 We respond to emergency tyre callouts throughout Bristol and the surrounding areas —
@@ -361,7 +356,7 @@ export default function EmergencyMobileTyreFittingBristolPage() {
             </h2>
             <p className="mt-4 text-zinc-300">
               Call now — our nearest technician will aim to reach you within 45–60 minutes, anywhere
-              in Bristol and the surrounding areas.
+              across the South West and surrounding areas.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a

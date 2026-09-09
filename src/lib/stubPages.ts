@@ -16,7 +16,6 @@ export interface StubPage {
 }
 
 const mainTowns = [
-  "bristol",
   "bridgewater",
   "bath",
   "chepstow",

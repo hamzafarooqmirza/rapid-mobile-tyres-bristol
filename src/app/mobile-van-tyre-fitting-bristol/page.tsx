@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Van Tyre Fitting Bristol | 24/7 Commercial Tyre Service — Rapid Mobile Tyres",
+  title: "Mobile Van Tyre Fitting | 24/7 Commercial Tyre Service — Rapid Mobile Tyres",
   description:
-    "Need van tyres fitted in Bristol? Rapid Mobile Tyres provides 24/7 mobile van tyre fitting for light commercial vehicles and tradespeople. We reach you in 45–60 minutes — call now.",
+    "Need van tyres fitted? Rapid Mobile Tyres provides 24/7 mobile van tyre fitting for light commercial vehicles and tradespeople. We reach you in 45–60 minutes — call now.",
 };
 
 const stats = [
@@ -25,7 +25,7 @@ const tyreProblems = [
   {
     title: "Roadside Flat or Blowout",
     description:
-      "A sudden flat can bring a working day to a standstill. We carry a range of commercial tyre sizes and aim to reach you within 45–60 minutes anywhere in Bristol.",
+      "A sudden flat can bring a working day to a standstill. We carry a range of commercial tyre sizes and aim to reach you within 45–60 minutes.",
   },
   {
     title: "Tyre Worn Below Legal Limit",
@@ -125,9 +125,9 @@ const faqs = [
       "Yes — we stock C-rated commercial tyres in the most common sizes for small and medium panel vans, including 195/75 R16 C, 205/75 R16 C, and 215/75 R16 C. Give us your tyre size when you call and we will confirm availability before setting off.",
   },
   {
-    question: "How quickly can you reach my van in Bristol?",
+    question: "How quickly can you reach my van?",
     answer:
-      `We aim to reach you within 45–60 minutes anywhere in Bristol and the surrounding areas. For a real-time estimate, call us directly on ${siteConfig.phone}.`,
+      `We aim to reach you within 45–60 minutes anywhere in the South West and surrounding areas. For a real-time estimate, call us directly on ${siteConfig.phone}.`,
   },
   {
     question: "Can you fit van tyres out of hours or at weekends?",
@@ -179,10 +179,10 @@ export default function MobileVanTyreFittingBristolPage() {
           <div className="relative mx-auto max-w-7xl px-6 py-24 sm:px-10 sm:py-32">
             <div className="max-w-xl">
               <p className="inline-flex items-center rounded-full border border-orange-500/40 bg-orange-500/10 px-4 py-1 text-sm font-semibold uppercase tracking-[0.15em] text-orange-500">
-                Mobile Van Tyre Fitting · Bristol
+                Mobile Van Tyre Fitting
               </p>
               <h1 className="mt-4 text-4xl font-bold tracking-tight text-balance sm:text-5xl">
-                Mobile Van Tyre Fitting in Bristol
+                Mobile Van Tyre Fitting
               </h1>
               <p className="mt-6 text-lg leading-8 text-zinc-300">
                 Keep your van on the road. We fit commercial tyres wherever you&apos;re parked — depot,
@@ -190,13 +190,13 @@ export default function MobileVanTyreFittingBristolPage() {
               </p>
               <p className="mt-4 max-w-lg leading-7 text-zinc-400">
                 A van out of action costs you time, jobs, and money. Whether you run a single vehicle
-                or a small fleet, Rapid Mobile Tyres Bristol comes straight to your van with the right
+                or a small fleet, Rapid Mobile Tyres comes straight to your van with the right
                 commercial tyre fitted on the spot — no recovery truck, no garage detour. Alongside
                 our general{" "}
                 <Link href="/mobile-tyre-fitting" className="text-orange-400 underline underline-offset-2 hover:text-orange-300">
                   mobile tyre fitting service
                 </Link>
-                , we handle emergency and scheduled van tyre callouts across Bristol around the clock.
+                , we handle emergency and scheduled van tyre callouts around the clock.
                 If your situation is more urgent, see also our{" "}
                 <Link href="/emergency-mobile-tyre-fitting-bristol" className="text-orange-400 underline underline-offset-2 hover:text-orange-300">
                   24/7 emergency tyre fitting page
@@ -241,7 +241,7 @@ export default function MobileVanTyreFittingBristolPage() {
         <FeatureGrid
           eyebrow="Van tyre problems we solve"
           title="Common Van Tyre Issues We Handle"
-          intro="From unexpected blowouts to planned maintenance visits — these are the situations we deal with for van operators across Bristol every day."
+          intro="From unexpected blowouts to planned maintenance visits — these are the situations we deal with for van operators every day."
           items={tyreProblems}
           tone="light"
           columns={3}
@@ -267,7 +267,7 @@ export default function MobileVanTyreFittingBristolPage() {
                 Van and Commercial Vehicles We Cover
               </h2>
               <p className="mt-4 text-zinc-400">
-                We stock and fit tyres for most light commercial vehicles in use across Bristol —
+                We stock and fit tyres for most light commercial vehicles —
                 from small delivery vans to large panel vans and pickup trucks.
               </p>
             </div>
@@ -310,10 +310,10 @@ export default function MobileVanTyreFittingBristolPage() {
                 Service area
               </p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
-                Van Tyre Fitting Across Bristol and Beyond
+                Van Tyre Fitting Across the South West
               </h2>
               <p className="mt-4 text-zinc-600">
-                We cover all areas of Bristol and the surrounding region, including Bath, Newport,
+                We cover Bristol and the surrounding region, including Bath, Newport,
                 Chepstow, and Weston-Super-Mare. For a full list of areas, visit our{" "}
                 <Link
                   href="/areas-we-cover"
@@ -363,11 +363,11 @@ export default function MobileVanTyreFittingBristolPage() {
 
           <div className="relative mx-auto max-w-3xl px-6 text-center sm:px-10">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Van tyre problem in Bristol?
+              Van tyre problem?
             </h2>
             <p className="mt-4 text-zinc-300">
               Call now and our nearest technician will aim to reach you within 45–60 minutes —
-              wherever your van is parked in Bristol or the surrounding areas.
+              wherever your van is parked in the South West or surrounding areas.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
