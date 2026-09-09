@@ -118,7 +118,7 @@ export default function MapAndLocations() {
 
             <div className="mt-7">
               <Link
-                href="/areas"
+                href="/areas-we-cover"
                 className="inline-flex h-11 items-center justify-center rounded-lg bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500"
               >
                 View All Service Areas
