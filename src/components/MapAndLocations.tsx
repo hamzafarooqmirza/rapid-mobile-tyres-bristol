@@ -11,8 +11,7 @@ export default function MapAndLocations() {
     },
     {
       title: "24/7 Mobile Service",
-      description:
-        "Home, workplace and suitable roadside tyre fitting.",
+      description: "Home, workplace and suitable roadside tyre fitting.",
     },
     {
       title: "45–60 Min Usual Arrival",
