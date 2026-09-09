@@ -11,9 +11,11 @@ export default function MapAndLocations() {
           <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">
             Bristol Mobile Tyre Service
           </p>
+
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
             24/7 Tyre Assistance Across Bristol
           </h2>
+
           <p className="mt-4 text-zinc-600">
             Need help with a flat, damaged or worn tyre? Rapid Mobile Tyres provides 24/7 mobile
             tyre assistance across Bristol, with fitting available at your home, workplace or a
@@ -22,7 +24,7 @@ export default function MapAndLocations() {
         </div>
 
         <div className="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-2">
-          {/* Map — loads automatically */}
+          {/* Google Map */}
           <div className="overflow-hidden rounded-2xl border border-zinc-200 shadow-sm">
             <iframe
               src={MAP_SRC}

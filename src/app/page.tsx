@@ -46,7 +46,8 @@ const homeFaqs = [
       "Yes, where there is a safe and permitted place for the technician to work. If you are stopped on a busy road or near a motorway, prioritise your safety and follow the appropriate roadside guidance before arranging tyre assistance.",
   },
   {
-    question: "What information do you need when I call for mobile tyre fitting?",
+    question:
+      "What information do you need when I call for mobile tyre fitting?",
     answer:
       "Please provide your vehicle make and model, full tyre size, the tyre problem and your exact location. A postcode, road name or shared map pin can help us find you quickly, especially if you are stranded away from a numbered address.",
   },
@@ -84,7 +85,15 @@ const localBusinessSchema = {
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+      ],
       opens: "00:00",
       closes: "23:59",
     },
@@ -106,12 +115,48 @@ const localBusinessSchema = {
     "@type": "OfferCatalog",
     name: "Mobile Tyre & Roadside Services",
     itemListElement: [
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Mobile Tyre Fitting" } },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Emergency Mobile Tyre Fitting" } },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Jump Start" } },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Fuel Delivery" } },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Van Tyre Fitting" } },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "SUV Tyre Fitting" } },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Mobile Tyre Fitting",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Emergency Mobile Tyre Fitting",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Jump Start",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Fuel Delivery",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Van Tyre Fitting",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "SUV Tyre Fitting",
+        },
+      },
     ],
   },
   sameAs: ["https://www.facebook.com/rapidmobiletyresltd"],
@@ -155,19 +200,23 @@ export default function Home() {
           __html: JSON.stringify(localBusinessSchema).replace(/</g, "\\u003c"),
         }}
       />
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(webSiteSchema).replace(/</g, "\\u003c"),
         }}
       />
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(faqSchema).replace(/</g, "\\u003c"),
         }}
       />
+
       <Header />
+
       <main className="flex-1">
         <Hero />
         <Services />
@@ -177,6 +226,7 @@ export default function Home() {
         <Faq items={homeFaqs} />
         <CallToAction />
       </main>
+
       <Footer />
     </>
   );
