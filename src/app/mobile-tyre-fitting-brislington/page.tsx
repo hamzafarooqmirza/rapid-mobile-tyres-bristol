@@ -231,7 +231,7 @@ export default function Page() {
             <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
               <div>
                 <h2 className="mb-4 text-3xl font-extrabold text-zinc-900">
-                  Tyre Fitting Around Your Location, Not a Garage Appointment
+                  Tyre Fitting Without Leaving Your Location
                 </h2>
                 <p className="mb-8 text-zinc-600">
                   Brislington combines residential neighbourhoods with busy commuter roads, retail
