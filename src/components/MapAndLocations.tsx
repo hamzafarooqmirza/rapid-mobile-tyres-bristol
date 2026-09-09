@@ -2,7 +2,6 @@ import Link from "next/link";
 
 const MAP_SRC =
   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.0769111369978!2d-2.6754945234864858!3d51.482638712512035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871e7905012dbc9%3A0x9f066a077fbfa6eb!2sRapid%20Mobile%20Tyres%20Bristol!5e1!3m2!1sen!2s!4v1786223129220!5m2!1sen!2s";
-const AREAS_PAGE_PATH = "/areas-we-cover";
 
 export default function MapAndLocations() {
   return (
@@ -88,7 +87,7 @@ export default function MapAndLocations() {
 
             <div className="mt-7">
               <Link
-                href={AREAS_PAGE_PATH}
+                href="/areas-we-cover"
                 className="inline-flex h-11 items-center justify-center rounded-lg bg-orange-600 px-6 text-sm font-semibold text-white transition-colors hover:bg-orange-500"
               >
                 View All Service Areas
