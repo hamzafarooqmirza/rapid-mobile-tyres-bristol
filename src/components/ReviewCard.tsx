@@ -55,7 +55,7 @@ export default function ReviewCard({
     isLong && !expanded ? review.text.slice(0, CHAR_LIMIT).trimEnd() + "…" : review.text;
 
   return (
-    <figure className="flex w-[300px] shrink-0 flex-col rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
+    <figure className="flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
       {/* Card header */}
       <div className="flex items-start justify-between gap-2">
         <div className="flex items-center gap-3">

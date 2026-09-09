@@ -35,7 +35,7 @@ export const highlightServices = [
     tagline: "Flat tyre? We come to you.",
     badge: "Most popular" as string | null,
     description:
-      "Whether you need same day tyre fitting at home or emergency mobile tyre fitting, our experienced team ensures quick, professional service to get you safely back on the road. Our 24/7 mobile tyre service provides fast and reliable tyre fitting wherever you are.",
+      "Same-day or emergency tyre fitting at home, work, or roadside. Available 24/7 across the South West.",
     image: "/mobile-tyre-fitting-technician-bristol.webp",
     width: 740,
     height: 493,
@@ -46,7 +46,7 @@ export const highlightServices = [
     tagline: "Dead battery? No problem.",
     badge: null as string | null,
     description:
-      "Stranded with a dead battery? Rapid Mobile Tyres provides fast and reliable jump start assistance wherever you are. As part of our trusted 24/7 mobile tyre service, we quickly respond to roadside emergencies across the South West and surrounding areas.",
+      "Fast, reliable jump start assistance wherever you're stranded — day or night, 24/7.",
     image: "/jump-start-service-dead-battery-bristol.webp",
     width: 740,
     height: 493,
@@ -57,7 +57,7 @@ export const highlightServices = [
     tagline: "Run out? We bring fuel to you.",
     badge: null as string | null,
     description:
-      "Run out of fuel? Rapid Mobile Tyres provides fast and dependable emergency fuel delivery wherever you're stranded. As part of our trusted 24/7 mobile tyre service, we respond quickly to roadside breakdowns day and night.",
+      "Stranded without fuel? We deliver straight to you — fast response, any time of day.",
     image: "/emergency-fuel-delivery-service-bristol.webp",
     width: 740,
     height: 531,
@@ -71,7 +71,7 @@ export const gridServices = [
     tagline: "Home, work, or roadside.",
     badge: null as string | null,
     description:
-      "Need reliable mobile car tyre fitting? Rapid Mobile Tyres provides expert tyre fitting at your home, workplace, or roadside. Our team delivers fast support through our trusted 24/7 mobile tyre service.",
+      "Expert car tyre fitting at your home, workplace, or roadside — no garage visit needed.",
     image: "/mobile-car-tyre-fitting-bmw-i3-bristol.webp",
     width: 800,
     height: 600,
@@ -82,7 +82,7 @@ export const gridServices = [
     tagline: "All makes and models.",
     badge: null as string | null,
     description:
-      "Need professional SUV tyres fitted? Rapid Mobile Tyres provides expert mobile tyre fitting 24 hours for SUVs at your home or roadside. With our trusted 24/7 mobile tyre service, we deliver strong, reliable SUV tyres wherever you need them.",
+      "Professional SUV and 4×4 tyre fitting at your location — all sizes, all makes, 24/7.",
     image: "/suv-tyre-fitting-volkswagen-tiguan-bristol.webp",
     width: 800,
     height: 600,
@@ -93,7 +93,7 @@ export const gridServices = [
     tagline: "Keep your fleet moving.",
     badge: null as string | null,
     description:
-      "Designed for heavy loads, our van tyres ensure better fuel efficiency, traction, and long-lasting performance. Rapid Mobile Tyres provides expert van tyre replacement at your location. We ensure safe, same day support to keep your van moving without delays or downtime.",
+      "Heavy-duty van tyres fitted at your location — same-day service to keep your business running.",
     image: "/van-tyre-fitting-road-service-bristol.webp",
     width: 880,
     height: 660,
@@ -104,7 +104,7 @@ export const gridServices = [
     tagline: "Urgent callout, 45–60 min response.",
     badge: "24/7" as string | null,
     description:
-      "Whether you searched for emergency mobile tyre fitting or 24 hour mobile tyre fitting, our team arrives fast with the right tyres. With our trusted 24/7 mobile tyre service, we replace your tyres safely and get you back on the road without delay.",
+      "Blown tyre on the motorway or roadside? We arrive in 45–60 minutes, any time of day.",
     image: "/rapid-mobile-tyres-fleet-service-vans-bristol.webp",
     width: 500,
     height: 385,
@@ -115,7 +115,7 @@ export const gridServices = [
     tagline: "On your driveway, your schedule.",
     badge: null as string | null,
     description:
-      "Need fast and reliable tyre replacement at home? Rapid Mobile Tyres delivers expert fitting right to your doorstep. Whether you're looking for same day tyre fitting at home or a mobile tyre change, our team provides quick and professional service.",
+      "New tyres fitted on your driveway — scheduled slots or same-day, without the garage trip.",
     image: "/tyre-replacement-at-home-technician-bristol.webp",
     width: 500,
     height: 385,
@@ -205,11 +205,6 @@ export const faqs = [
 ];
 
 export const testimonials = [
-  {
-    name: "Ayyub Chowdhury",
-    timeAgo: "5 months ago",
-    text: "Was driving around Bristol and surprise surprise I smashed straight into a pothole. Not even a small one either. One of those deep, nasty ones that just appears out of nowhere. Honestly at this point I'm convinced the council just leave them there for decoration.\n\nAnyway the pothole won. Loud bang, instant regret, left tyre completely burst. Great. Luckily I called Rapid Mobile Tyres and Jagga came out to save the day. I'm not even exaggerating when I say he was there within about 30 minutes. It was raining as well, typical British weather, and he still turned up quickly and just got straight to work. No complaining, no dragging it out, no trying to confuse me with technical talk.\n\nYou can tell he knows his stuff. Calm, confident, efficient. Just handled it. Replaced the wheel, made sure everything was sorted and safe, and explained what he was doing without making it awkward. Jagga was the complete opposite of difficult. Friendly, easy to talk to and just genuine.\n\nPaid £280 which, considering it was an emergency call out, in the rain, and I'm stuck on the side of the road, is fair. So yeah, if you fall victim to one of Bristol's lovely craters, I'd definitely recommend Rapid Mobile Tyres. Jagga actually delivers what he says he will. Unlike the council.",
-  },
   {
     name: "Dipali Davda",
     timeAgo: "2 months ago",
@@ -419,11 +414,6 @@ export const testimonials = [
     name: "Oliver Nicholas",
     timeAgo: "2 years ago",
     text: "Ali was superb — he came to my rescue and sourced a tyre for our Tesla in under 2 hours. His price was fair and he carried the jack points, unlike others. Fully recommend his customer service and attitude. Thanks again.",
-  },
-  {
-    name: "The Barleys",
-    timeAgo: "2 years ago",
-    text: "I highly recommend Jagga Recovery. He arrived so quickly to tow us and took care of everything. He was so capable and kind. He charged us a very fair price as well. It made the stressful experience of breaking down so much less awful. Thank you so much. Can't recommend enough.",
   },
   {
     name: "Edward Lifely",
