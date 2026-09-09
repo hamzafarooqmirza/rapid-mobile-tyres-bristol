@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig, jumpStartPage } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Jump Start Service - Rapid Mobile Tyres Bristol",
+  title: "Jump Start Service - Rapid Mobile Tyres",
   description:
-    "Flat battery? Rapid Mobile Tyres Bristol offers fast, 24/7 mobile jump start assistance across Bristol and the surrounding areas.",
+    "Flat battery? Rapid Mobile Tyres offers fast, 24/7 mobile jump start assistance across the South West and surrounding areas.",
 };
 
 const stats = [
@@ -168,8 +168,8 @@ export default function JumpstartsPage() {
               Stranded with a dead battery?
             </h2>
             <p className="mt-4 text-zinc-300">
-              Call now — our nearest technician will be with you in 30-60 minutes, anywhere in Bristol
-              and the surrounding areas.
+              Call now — our nearest technician will be with you in 30-60 minutes, anywhere in the South West
+              and surrounding areas.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a

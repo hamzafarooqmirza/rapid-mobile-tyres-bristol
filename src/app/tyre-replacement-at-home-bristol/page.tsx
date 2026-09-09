@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Tyre Replacement at Home Bristol | Rapid Mobile Tyres — Same Day",
+  title: "Tyre Replacement at Home | Rapid Mobile Tyres — Same Day",
   description:
-    "Book a mobile tyre replacement at your home in Bristol. Rapid Mobile Tyres fits car, SUV and van tyres on your driveway — same day or scheduled, 24/7. Call for a quote.",
+    "Book a mobile tyre replacement at your home. Rapid Mobile Tyres fits car, SUV and van tyres on your driveway — same day or scheduled, 24/7. Call for a quote.",
 };
 
 const stats = [
@@ -120,9 +120,9 @@ const faqs = [
       "Ideally yes — we need access to the vehicle and someone available to confirm the work before we start. If you cannot be present, please arrange for another adult to be there and let us know when you book.",
   },
   {
-    question: "How quickly can you get to my home in Bristol?",
+    question: "How quickly can you get to my home?",
     answer:
-      `We aim to reach you within 45–60 minutes of your call for same-day bookings, anywhere in Bristol and the surrounding areas. For a firm ETA, call us on ${siteConfig.phone}.`,
+      `We aim to reach you within 45–60 minutes of your call for same-day bookings, anywhere in the South West and surrounding areas. For a firm ETA, call us on ${siteConfig.phone}.`,
   },
   {
     question: "What tyre sizes do you carry for home visits?",
@@ -173,22 +173,22 @@ export default function TyreReplacementAtHomeBristolPage() {
           <div className="relative mx-auto max-w-7xl px-6 py-24 sm:px-10 sm:py-32">
             <div className="max-w-xl">
               <p className="inline-flex items-center rounded-full border border-orange-500/40 bg-orange-500/10 px-4 py-1 text-sm font-semibold uppercase tracking-[0.15em] text-orange-500">
-                Home Tyre Replacement · Bristol
+                Home Tyre Replacement
               </p>
               <h1 className="mt-4 text-4xl font-bold tracking-tight text-balance sm:text-5xl">
-                Tyre Replacement at Home in Bristol
+                Tyre Replacement at Home
               </h1>
               <p className="mt-6 text-lg leading-8 text-zinc-300">
                 New tyres fitted on your driveway — scheduled or same day — without a garage visit.
               </p>
               <p className="mt-4 max-w-lg leading-7 text-zinc-400">
                 Getting a tyre replaced should not mean taking half a day off work to sit in a
-                waiting room. Rapid Mobile Tyres Bristol sends a fully equipped technician to your
+                waiting room. Rapid Mobile Tyres sends a fully equipped technician to your
                 home address with the right tyre on the van. Our{" "}
                 <Link href="/mobile-tyre-fitting" className="text-orange-400 underline underline-offset-2 hover:text-orange-300">
                   mobile tyre fitting service
                 </Link>{" "}
-                covers all locations across Bristol, but this page focuses on the most popular
+                covers locations across the South West, but this page focuses on the most popular
                 use case — tyre replacement at home, on your driveway or in your street parking.
                 For vehicle-specific fitting, see our{" "}
                 <Link href="/mobile-car-tyre-fitting-bristol" className="text-orange-400 underline underline-offset-2 hover:text-orange-300">
@@ -238,7 +238,7 @@ export default function TyreReplacementAtHomeBristolPage() {
         <FeatureGrid
           eyebrow="When you need us"
           title="Common Reasons to Book Home Tyre Replacement"
-          intro="Whether it is an unexpected flat or a long-overdue tyre change, these are the situations Bristol drivers call us for — and we handle all of them at your home."
+          intro="Whether it is an unexpected flat or a long-overdue tyre change, these are the situations drivers call us for — and we handle all of them at your home."
           items={whenYouNeed}
           tone="light"
           columns={3}
@@ -248,7 +248,7 @@ export default function TyreReplacementAtHomeBristolPage() {
 
         <FeatureGrid
           eyebrow="Why choose us"
-          title="Why Bristol Drivers Book Home Tyre Fitting"
+          title="Why Drivers Book Home Tyre Fitting"
           items={whyChoose}
           tone="light"
         />
@@ -307,11 +307,11 @@ export default function TyreReplacementAtHomeBristolPage() {
                 Service area
               </p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
-                Home Tyre Fitting Across Bristol
+                Home Tyre Fitting Across the South West
               </h2>
               <p className="mt-4 text-zinc-600">
-                We come to homes across all Bristol neighbourhoods as well as the wider region —
-                Bath, Newport, Chepstow, and Weston-Super-Mare included. See our full{" "}
+                We come to homes across the South West and the wider region —
+                Bristol, Bath, Newport, Chepstow, and Weston-Super-Mare included. See our full{" "}
                 <Link
                   href="/areas-we-cover"
                   className="font-semibold text-orange-600 underline underline-offset-2 hover:text-orange-500"
@@ -360,7 +360,7 @@ export default function TyreReplacementAtHomeBristolPage() {
 
           <div className="relative mx-auto max-w-3xl px-6 text-center sm:px-10">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Ready to book home tyre fitting in Bristol?
+              Ready to book home tyre fitting?
             </h2>
             <p className="mt-4 text-zinc-300">
               Call now for a same-day slot or to schedule an appointment at a time that suits you.

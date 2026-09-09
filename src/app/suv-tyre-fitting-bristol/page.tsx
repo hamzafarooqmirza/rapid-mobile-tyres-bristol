@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "SUV Tyre Fitting Bristol | Rapid Mobile Tyres — 24/7 Mobile Service",
+  title: "SUV Tyre Fitting | Rapid Mobile Tyres — 24/7 Mobile Service",
   description:
-    "Need SUV or 4x4 tyres fitted in Bristol? Rapid Mobile Tyres provides 24/7 mobile SUV tyre fitting at your home, workplace or roadside — usually within 45–60 minutes. Call now.",
+    "Need SUV or 4x4 tyres fitted? Rapid Mobile Tyres provides 24/7 mobile SUV tyre fitting at your home, workplace or roadside — usually within 45–60 minutes. Call now.",
 };
 
 const stats = [
@@ -25,7 +25,7 @@ const suvTyreServices = [
   {
     title: "Pothole Damage & Blowouts",
     description:
-      "SUVs and 4x4s run on larger, heavier tyres that take the brunt of Bristol's roads. Whether it's a pothole blowout or sidewall damage, we carry the right sizes and fit on the spot.",
+      "SUVs and 4x4s run on larger, heavier tyres that take the brunt of pothole-damaged roads. Whether it's a blowout or sidewall damage, we carry the right sizes and fit on the spot.",
   },
   {
     title: "Worn Tyre Replacement",
@@ -35,7 +35,7 @@ const suvTyreServices = [
   {
     title: "Emergency Roadside Fitting",
     description:
-      "A flat SUV tyre on a Bristol road is a bigger inconvenience than most. We aim to reach you within 45–60 minutes, day or night, with the right tyre loaded and ready to fit.",
+      "A flat SUV tyre is a bigger inconvenience than most. We aim to reach you within 45–60 minutes, day or night, with the right tyre loaded and ready to fit.",
   },
   {
     title: "Run-Flat & XL-Rated Tyre Fitting",
@@ -109,18 +109,18 @@ const fittingLocations = [
   {
     title: "At the Roadside",
     description:
-      "Broken down on a Bristol road? We respond with the right equipment for your vehicle's weight and size, and work safely to get you back on the road.",
+      "Broken down at the roadside? We respond with the right equipment for your vehicle's weight and size, and work safely to get you back on the road.",
   },
   {
     title: "On a Motorway or Dual Carriageway",
     description:
-      "Pull off as safely as you can and call us. Our technicians are trained and equipped to work in high-traffic environments — including the M4, M5, and the A-roads around Bristol.",
+      "Pull off as safely as you can and call us. Our technicians are trained and equipped to work in high-traffic environments — including the M4, M5, and major A-roads.",
   },
 ];
 
 const faqs = [
   {
-    question: "Can you fit tyres on my SUV at my home in Bristol?",
+    question: "Can you fit tyres on my SUV at my home?",
     answer:
       "Yes — home driveway fitting is one of our most common SUV callouts. As long as there is safe access to the vehicle, we come to you and carry out the full fitting on-site. No need to drive anywhere.",
   },
@@ -130,9 +130,9 @@ const faqs = [
       "We stock a wide range of sizes covering most crossovers, SUVs, and 4x4s — from compact profiles like 215/65 R16 up to larger diameters used on full-size off-roaders. Give us your tyre size (found on the sidewall) when you call and we will confirm availability.",
   },
   {
-    question: "How quickly can you reach me for SUV tyre fitting in Bristol?",
+    question: "How quickly can you reach me for SUV tyre fitting?",
     answer:
-      `We aim to reach you within 45–60 minutes anywhere in Bristol and the surrounding areas. For a real-time estimate, call us on ${siteConfig.phone}.`,
+      `We aim to reach you within 45–60 minutes anywhere in the South West and surrounding areas. For a real-time estimate, call us on ${siteConfig.phone}.`,
   },
   {
     question: "Do you carry run-flat or XL-rated tyres for SUVs?",
@@ -145,7 +145,7 @@ const faqs = [
       "Yes. We work on all sizes of 4x4 and off-road vehicles, including Land Rover Defender and Discovery, Toyota Land Cruiser, Ford Ranger, and similar. If you have an unusual tyre specification, call us first and we will confirm whether we can assist.",
   },
   {
-    question: "How much does mobile SUV tyre fitting cost in Bristol?",
+    question: "How much does mobile SUV tyre fitting cost?",
     answer:
       "Our pricing is transparent and quoted upfront before any work begins. SUV tyre costs depend on the size and brand you choose. Call us on " + siteConfig.phone + " for an immediate, no-obligation quote.",
   },
@@ -179,23 +179,23 @@ export default function SuvTyreFittingBristolPage() {
           <div className="relative mx-auto max-w-7xl px-6 py-24 sm:px-10 sm:py-32">
             <div className="max-w-xl">
               <p className="inline-flex items-center rounded-full border border-orange-500/40 bg-orange-500/10 px-4 py-1 text-sm font-semibold uppercase tracking-[0.15em] text-orange-500">
-                Mobile SUV Tyre Fitting · Bristol
+                Mobile SUV Tyre Fitting
               </p>
               <h1 className="mt-4 text-4xl font-bold tracking-tight text-balance sm:text-5xl">
-                SUV Tyre Fitting in Bristol
+                SUV Tyre Fitting
               </h1>
               <p className="mt-6 text-lg leading-8 text-zinc-300">
                 New SUV or 4x4 tyre fitted at your vehicle — home, work, or roadside — within 45–60 minutes.
               </p>
               <p className="mt-4 max-w-lg leading-7 text-zinc-400">
                 SUVs and 4x4s need the right tyre size, the correct torque settings, and a van that
-                actually carries stock for larger profiles. Rapid Mobile Tyres Bristol arrives
+                actually carries stock for larger profiles. Rapid Mobile Tyres arrives
                 prepared — with the tyre for your vehicle already loaded. Our{" "}
                 <Link href="/mobile-tyre-fitting" className="text-orange-400 underline underline-offset-2 hover:text-orange-300">
                   mobile tyre fitting service
                 </Link>{" "}
-                covers all vehicle types, but this page focuses specifically on SUV and 4x4 tyre fitting
-                across Bristol. For car-specific fitting, see our{" "}
+                covers all vehicle types, but this page focuses specifically on SUV and 4x4 tyre fitting.
+                For car-specific fitting, see our{" "}
                 <Link href="/mobile-car-tyre-fitting-bristol" className="text-orange-400 underline underline-offset-2 hover:text-orange-300">
                   mobile car tyre fitting page
                 </Link>
@@ -238,8 +238,8 @@ export default function SuvTyreFittingBristolPage() {
 
         <FeatureGrid
           eyebrow="What we handle"
-          title="SUV Tyre Services We Provide in Bristol"
-          intro="From pothole blowouts to planned seasonal swaps — these are the SUV and 4x4 tyre situations we deal with across Bristol every day."
+          title="SUV Tyre Services We Provide"
+          intro="From pothole blowouts to planned seasonal swaps — these are the SUV and 4x4 tyre situations we deal with every day."
           items={suvTyreServices}
           tone="light"
           columns={3}
@@ -266,7 +266,7 @@ export default function SuvTyreFittingBristolPage() {
               </h2>
               <p className="mt-4 text-zinc-400">
                 There&apos;s no need to arrange a recovery or drive on a damaged tyre. We come to you —
-                at home, at work, or at the roadside across Bristol and the surrounding areas.
+                at home, at work, or at the roadside across the South West and surrounding areas.
               </p>
             </div>
 
@@ -308,10 +308,10 @@ export default function SuvTyreFittingBristolPage() {
                 Service area
               </p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
-                SUV Tyre Fitting Across Bristol
+                SUV Tyre Fitting Across the South West
               </h2>
               <p className="mt-4 text-zinc-600">
-                We cover all Bristol neighbourhoods and the wider region — including Bath, Newport,
+                We cover Bristol and the wider region — including Bath, Newport,
                 Chepstow, and Weston-Super-Mare. See our full{" "}
                 <Link
                   href="/areas-we-cover"
@@ -361,11 +361,11 @@ export default function SuvTyreFittingBristolPage() {
 
           <div className="relative mx-auto max-w-3xl px-6 text-center sm:px-10">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              SUV tyre problem in Bristol?
+              SUV tyre problem?
             </h2>
             <p className="mt-4 text-zinc-300">
               Call now and our nearest technician will aim to reach you within 45–60 minutes,
-              wherever you and your vehicle are in Bristol or the surrounding areas.
+              wherever you and your vehicle are in the South West or surrounding areas.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a

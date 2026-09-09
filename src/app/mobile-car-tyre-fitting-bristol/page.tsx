@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Car Tyre Fitting Bristol | Rapid Mobile Tyres — 24/7 Service",
+  title: "Mobile Car Tyre Fitting | Rapid Mobile Tyres — 24/7 Service",
   description:
-    "Need car tyres fitted in Bristol? Rapid Mobile Tyres provides 24/7 mobile car tyre fitting at your home, workplace or roadside — usually within 45–60 minutes. Call now.",
+    "Need car tyres fitted? Rapid Mobile Tyres provides 24/7 mobile car tyre fitting at your home, workplace or roadside — usually within 45–60 minutes. Call now.",
 };
 
 const stats = [
@@ -30,7 +30,7 @@ const carTyreServices = [
   {
     title: "Emergency Roadside Fitting",
     description:
-      "Stranded in Bristol? We aim to reach you within 45–60 minutes, day or night, so you can get back on the road as quickly as possible.",
+      "Stranded roadside? We aim to reach you within 45–60 minutes, day or night, so you can get back on the road as quickly as possible.",
   },
   {
     title: "Worn Tyre Below Legal Limit",
@@ -109,7 +109,7 @@ const fittingLocations = [
   {
     title: "At the Roadside",
     description:
-      "Broken down on a Bristol road? We respond to roadside callouts with full safety equipment to protect you and your vehicle while we work.",
+      "Broken down at the roadside? We respond to roadside callouts with full safety equipment to protect you and your vehicle while we work.",
   },
   {
     title: "On a Motorway or Dual Carriageway",
@@ -120,14 +120,14 @@ const fittingLocations = [
 
 const faqs = [
   {
-    question: "Can you fit car tyres at my home in Bristol?",
+    question: "Can you fit car tyres at my home?",
     answer:
       "Yes — home driveway fitting is one of our most common callouts. We come to your car wherever it is parked, so there is no need to drive to a garage. Just call with your location and tyre size.",
   },
   {
-    question: "How quickly can you get to me for car tyre fitting in Bristol?",
+    question: "How quickly can you get to me for car tyre fitting?",
     answer:
-      `We aim to reach you within 45–60 minutes anywhere in Bristol and the surrounding areas. For a real-time estimate, call us on ${siteConfig.phone}.`,
+      `We aim to reach you within 45–60 minutes anywhere in the South West and surrounding areas. For a real-time estimate, call us on ${siteConfig.phone}.`,
   },
   {
     question: "What car tyre sizes do you carry?",
@@ -145,7 +145,7 @@ const faqs = [
       "We cover the vast majority of passenger cars — hatchbacks, saloons, estates, coupes, and city cars. If you have an unusual vehicle or tyre specification, call us first and we will confirm whether we can help.",
   },
   {
-    question: "How much does mobile car tyre fitting cost in Bristol?",
+    question: "How much does mobile car tyre fitting cost?",
     answer:
       "Our pricing is transparent and quoted upfront before any work starts. The cost depends on the tyre size and brand you choose. Call us on " + siteConfig.phone + " for an immediate quote.",
   },
@@ -179,17 +179,17 @@ export default function MobileCarTyreFittingBristolPage() {
           <div className="relative mx-auto max-w-7xl px-6 py-24 sm:px-10 sm:py-32">
             <div className="max-w-xl">
               <p className="inline-flex items-center rounded-full border border-orange-500/40 bg-orange-500/10 px-4 py-1 text-sm font-semibold uppercase tracking-[0.15em] text-orange-500">
-                Mobile Car Tyre Fitting · Bristol
+                Mobile Car Tyre Fitting
               </p>
               <h1 className="mt-4 text-4xl font-bold tracking-tight text-balance sm:text-5xl">
-                Mobile Car Tyre Fitting in Bristol
+                Mobile Car Tyre Fitting
               </h1>
               <p className="mt-6 text-lg leading-8 text-zinc-300">
                 New tyre fitted at your car — home, work, or roadside — within 45–60 minutes.
               </p>
               <p className="mt-4 max-w-lg leading-7 text-zinc-400">
                 Whether you have a flat on the drive or a worn tyre you&apos;ve been putting off,
-                Rapid Mobile Tyres Bristol comes to your car with the right passenger tyre and fits
+                Rapid Mobile Tyres comes to your car with the right passenger tyre and fits
                 it on the spot. Our{" "}
                 <Link href="/mobile-tyre-fitting" className="text-orange-400 underline underline-offset-2 hover:text-orange-300">
                   mobile tyre fitting service
@@ -239,8 +239,8 @@ export default function MobileCarTyreFittingBristolPage() {
 
         <FeatureGrid
           eyebrow="What we handle"
-          title="Car Tyre Services We Provide in Bristol"
-          intro="From unexpected punctures to planned new tyre purchases — these are the car tyre situations we deal with across Bristol every day."
+          title="Car Tyre Services We Provide"
+          intro="From unexpected punctures to planned new tyre purchases — these are the car tyre situations we deal with every day."
           items={carTyreServices}
           tone="light"
           columns={3}
@@ -250,7 +250,7 @@ export default function MobileCarTyreFittingBristolPage() {
 
         <FeatureGrid
           eyebrow="Why choose us"
-          title="Why Bristol Drivers Choose Rapid Mobile Tyres"
+          title="Why Drivers Choose Rapid Mobile Tyres"
           items={whyChoose}
           tone="light"
         />
@@ -267,7 +267,7 @@ export default function MobileCarTyreFittingBristolPage() {
               </h2>
               <p className="mt-4 text-zinc-400">
                 You don&apos;t need to move your car to a garage. We come to you — at home, at work,
-                or at the roadside across Bristol and the surrounding areas.
+                or at the roadside across the South West and surrounding areas.
               </p>
             </div>
 
@@ -309,10 +309,10 @@ export default function MobileCarTyreFittingBristolPage() {
                 Service area
               </p>
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
-                Car Tyre Fitting Across Bristol
+                Car Tyre Fitting Across the South West
               </h2>
               <p className="mt-4 text-zinc-600">
-                We cover all Bristol neighbourhoods and the surrounding region — including Bath,
+                We cover Bristol and the surrounding region — including Bath,
                 Newport, Chepstow, and Weston-Super-Mare. See our full{" "}
                 <Link
                   href="/areas-we-cover"
@@ -362,11 +362,11 @@ export default function MobileCarTyreFittingBristolPage() {
 
           <div className="relative mx-auto max-w-3xl px-6 text-center sm:px-10">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Car tyre problem in Bristol?
+              Car tyre problem?
             </h2>
             <p className="mt-4 text-zinc-300">
               Call now and our nearest technician will aim to reach you within 45–60 minutes,
-              wherever you are in Bristol or the surrounding areas.
+              wherever you are in the South West or surrounding areas.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a

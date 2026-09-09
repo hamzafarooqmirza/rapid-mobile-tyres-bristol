@@ -10,9 +10,9 @@ import Faq from "@/components/Faq";
 import { siteConfig, mobileTyreFittingPage } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Tyre Fitting - Rapid Mobile Tyres Bristol",
+  title: "Mobile Tyre Fitting - Rapid Mobile Tyres",
   description:
-    "Fast, professional mobile tyre fitting at your home, workplace, or roadside across Bristol and the surrounding areas — usually within 45-60 minutes.",
+    "Fast, professional mobile tyre fitting at your home, workplace, or roadside across the South West and surrounding areas — usually within 45-60 minutes.",
 };
 
 const gallery = [
@@ -203,7 +203,7 @@ export default function MobileTyreFittingPage() {
               </h2>
               <p className="mt-4 max-w-md text-zinc-400">
                 Call now to book a callout — our nearest technician will be with you in 45-60 minutes,
-                anywhere in Bristol and the surrounding areas.
+                anywhere in the South West and surrounding areas.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <a

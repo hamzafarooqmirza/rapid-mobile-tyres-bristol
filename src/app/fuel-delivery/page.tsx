@@ -8,9 +8,9 @@ import Faq from "@/components/Faq";
 import { siteConfig, fuelDeliveryPage } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Emergency Fuel Delivery - Rapid Mobile Tyres Bristol",
+  title: "Emergency Fuel Delivery - Rapid Mobile Tyres",
   description:
-    "Run out of petrol or diesel? Rapid Mobile Tyres Bristol brings emergency fuel delivery straight to you, anywhere in Bristol and the surrounding areas.",
+    "Run out of petrol or diesel? Rapid Mobile Tyres brings emergency fuel delivery straight to you, wherever you are in the South West and surrounding areas.",
 };
 
 export default function FuelDeliveryPage() {
@@ -157,7 +157,7 @@ export default function FuelDeliveryPage() {
               Out of fuel? Don&apos;t wait — call us now.
             </h2>
             <p className="mt-4 text-zinc-300">
-              We&apos;ll bring petrol or diesel straight to you, anywhere in Bristol and surrounding
+              We&apos;ll bring petrol or diesel straight to you, anywhere in the South West and surrounding
               areas — usually within 45 minutes.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">

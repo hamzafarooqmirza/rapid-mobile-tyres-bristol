@@ -104,39 +104,6 @@ export const locationGallery = [
 
 export const locations: LocationPageData[] = [
   {
-    path: "mobile-tyre-fitting-bristol",
-    name: "Bristol",
-    tagline: "Fast, Convenient & Affordable Mobile Tyre Fitting in Bristol",
-    intro:
-      "Rapid Mobile Tyres Bristol brings mobile tyre fitting straight to your door in Bristol. Whether you're at home, at work, or out on the road, our mobile tyre fitting service means you'll never have to waste time in a garage again — we keep the whole process fast, reliable, and reasonably priced.",
-    benefits: [
-      "No waiting in line or disrupting your routine",
-      "Avoid the risk of driving on a burst or punctured tyre",
-      "Safe, trusted, and affordable service",
-    ],
-    areasServed: [
-      "Portishead",
-      "Nailsea",
-      "Clevedon",
-      "Lyde Green",
-      "Emerson Green",
-      "Bristol City Centre",
-      "Yate",
-      "Downend",
-      "Bradley Stoke",
-      "Henleaze",
-      "Westbury-on-Trym",
-      "Winterbourne",
-      "Long Ashton",
-      "Kingswood",
-      "Longwell Green",
-      "Keynsham",
-      "Saltford",
-      "Avonmouth",
-      "Yatton",
-    ],
-  },
-  {
     path: "mobile-tyre-fitting-alveston",
     name: "Alveston",
     tagline: "Struggling to Visit a Tyre Shop? Let Us Come to You in Alveston",
