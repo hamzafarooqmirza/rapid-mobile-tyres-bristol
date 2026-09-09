@@ -16,10 +16,17 @@ const avatarColors = [
   "#43A047",
 ];
 
-const VISIBLE_COUNT = 9;
+const DEFAULT_VISIBLE_COUNT = 9;
 
-export default function Testimonials() {
-  const visibleReviews = testimonials.slice(0, VISIBLE_COUNT);
+export default function Testimonials({
+  visibleCount = DEFAULT_VISIBLE_COUNT,
+  columns = 3,
+}: {
+  visibleCount?: number;
+  columns?: 3 | 4;
+}) {
+  const visibleReviews = testimonials.slice(0, visibleCount);
+  const gridColumns = columns === 4 ? "lg:grid-cols-4" : "lg:grid-cols-3";
 
   return (
     <section className="bg-zinc-50 py-20 sm:py-28">
@@ -54,7 +61,7 @@ export default function Testimonials() {
         </div>
 
         {/* Static review grid */}
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className={`mt-12 grid gap-5 sm:grid-cols-2 ${gridColumns}`}>
           {visibleReviews.map((t, i) => (
             <ReviewCard
               key={`${t.name}-${i}`}
