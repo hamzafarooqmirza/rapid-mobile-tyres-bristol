@@ -4,7 +4,6 @@ import Services from "@/components/Services";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
 import Faq from "@/components/Faq";
-import AreasWeServe from "@/components/AreasWeServe";
 import MapAndLocations from "@/components/MapAndLocations";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
@@ -174,7 +173,6 @@ export default function Home() {
         <Services />
         <WhyChooseUs />
         <Testimonials />
-        <AreasWeServe />
         <MapAndLocations />
         <Faq items={homeFaqs} />
         <CallToAction />
