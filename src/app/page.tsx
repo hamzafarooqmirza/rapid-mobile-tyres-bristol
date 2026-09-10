@@ -4,10 +4,10 @@ import Services from "@/components/Services";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
 import Faq from "@/components/Faq";
-import HomepageIntro from "@/components/HomepageIntro";
 import MapAndLocations from "@/components/MapAndLocations";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
+import TyreBrands from "@/components/TyreBrands";
 import { siteConfig } from "@/lib/data";
 
 const homeFaqs = [
@@ -220,8 +220,8 @@ export default function Home() {
 
       <main className="flex-1">
         <Hero />
-        <HomepageIntro />
         <Services />
+        <TyreBrands />
         <WhyChooseUs />
         <Testimonials visibleCount={8} columns={4} className="bg-zinc-50 py-14 sm:py-20" />
         <MapAndLocations />
