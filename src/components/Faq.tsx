@@ -5,11 +5,17 @@ import { faqs as defaultFaqs } from "@/lib/data";
 
 type FaqItem = { question: string; answer: string };
 
-export default function Faq({ items = defaultFaqs }: { items?: FaqItem[] }) {
+export default function Faq({
+  items = defaultFaqs,
+  className = "bg-white py-20 sm:py-28",
+}: {
+  items?: FaqItem[];
+  className?: string;
+}) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className="bg-zinc-50 py-14 sm:py-20">
+    <section className={className}>
       <div className="mx-auto max-w-3xl px-6 sm:px-10">
         <div className="text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">
