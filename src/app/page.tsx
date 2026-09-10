@@ -8,6 +8,7 @@ import MapAndLocations from "@/components/MapAndLocations";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
 import TyreBrands from "@/components/TyreBrands";
+import TyreBrandStrip from "@/components/TyreBrandStrip";
 import { siteConfig } from "@/lib/data";
 
 const homeFaqs = [
@@ -220,6 +221,7 @@ export default function Home() {
 
       <main className="flex-1">
         <Hero />
+        <TyreBrandStrip />
         <Services />
         <TyreBrands />
         <WhyChooseUs />
