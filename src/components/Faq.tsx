@@ -9,7 +9,7 @@ export default function Faq({ items = defaultFaqs }: { items?: FaqItem[] }) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className="bg-white py-20 sm:py-28">
+    <section className="bg-zinc-50 py-14 sm:py-20">
       <div className="mx-auto max-w-3xl px-6 sm:px-10">
         <div className="text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">

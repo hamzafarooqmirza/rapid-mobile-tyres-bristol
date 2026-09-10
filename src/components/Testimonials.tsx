@@ -29,7 +29,7 @@ export default function Testimonials({
   const gridColumns = columns === 4 ? "lg:grid-cols-4" : "lg:grid-cols-3";
 
   return (
-    <section className="bg-zinc-50 py-20 sm:py-28">
+    <section className="bg-zinc-50 py-14 sm:py-20">
       <div className="mx-auto max-w-7xl px-6 sm:px-10">
         {/* Heading */}
         <div className="mx-auto max-w-2xl text-center">

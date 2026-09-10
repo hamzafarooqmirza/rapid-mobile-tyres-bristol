@@ -3,7 +3,7 @@ import { siteConfig } from "@/lib/data";
 
 export default function CallToAction() {
   return (
-    <section id="contact" className="relative overflow-hidden bg-zinc-950 py-20 text-zinc-50 sm:py-24">
+    <section id="contact" className="relative overflow-hidden bg-zinc-950 py-16 text-zinc-50 sm:py-20">
       <div
         aria-hidden
         className="pointer-events-none absolute -top-32 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-orange-600/20 blur-3xl"
