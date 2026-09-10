@@ -223,9 +223,9 @@ export default function Home() {
         <HomepageIntro />
         <Services />
         <WhyChooseUs />
-        <Testimonials visibleCount={8} columns={4} />
+        <Testimonials visibleCount={8} columns={4} className="bg-zinc-50 py-14 sm:py-20" />
         <MapAndLocations />
-        <Faq items={homeFaqs} />
+        <Faq items={homeFaqs} className="bg-zinc-50 py-14 sm:py-20" />
         <CallToAction />
       </main>
 

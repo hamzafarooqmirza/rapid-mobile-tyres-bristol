@@ -3,7 +3,7 @@ import { whyChooseUs } from "@/lib/data";
 
 export default function WhyChooseUs() {
   return (
-    <section id="about" className="bg-zinc-950 py-20 text-zinc-50 sm:py-28">
+    <section id="about" className="bg-zinc-950 py-14 text-zinc-50 sm:py-20">
       <div className="mx-auto max-w-7xl px-6 sm:px-10">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-500">

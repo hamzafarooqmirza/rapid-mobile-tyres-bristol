@@ -42,7 +42,7 @@ const highlights = [
 
 export default function HomepageIntro() {
   return (
-    <section className="bg-zinc-50 py-20 sm:py-28">
+    <section className="bg-zinc-50 py-14 sm:py-20">
       <div className="mx-auto max-w-7xl px-6 sm:px-10">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 lg:items-center">
 

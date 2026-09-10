@@ -5,7 +5,7 @@ const MAP_SRC =
 
 export default function MapAndLocations() {
   return (
-    <section className="bg-white py-20 sm:py-28">
+    <section className="bg-white py-14 sm:py-20">
       <div className="mx-auto max-w-7xl px-6 sm:px-10">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.15em] text-orange-600">
