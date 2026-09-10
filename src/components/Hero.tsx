@@ -63,14 +63,14 @@ export default function Hero() {
           </a>
 
           <h1 className="text-4xl font-bold tracking-tight text-balance sm:text-5xl">
-            24/7 Emergency &amp; Non-Emergency Mobile Tyre Fitting &amp;
-            Replacement
+            24/7 Mobile Tyre Fitting &amp; Replacement In Bristol
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-600">
-            45-60 minutes arrival for roadside tyre changes. Fast, reliable
-            mobile tyre fitting that comes straight to you, anywhere in
-            Bristol and the surrounding areas.
+            <strong>Mobile tyre fitting and replacement in Bristol</strong> with
+            45–60 minute arrival for roadside tyre changes. Fast, reliable
+            mobile tyre fitting that comes straight to you, anywhere in Bristol
+            and the surrounding areas.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
