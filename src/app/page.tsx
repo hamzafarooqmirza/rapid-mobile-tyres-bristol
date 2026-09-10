@@ -4,6 +4,7 @@ import Services from "@/components/Services";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
 import Faq from "@/components/Faq";
+import HomepageIntro from "@/components/HomepageIntro";
 import MapAndLocations from "@/components/MapAndLocations";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
@@ -219,6 +220,7 @@ export default function Home() {
 
       <main className="flex-1">
         <Hero />
+        <HomepageIntro />
         <Services />
         <WhyChooseUs />
         <Testimonials visibleCount={8} columns={4} />
