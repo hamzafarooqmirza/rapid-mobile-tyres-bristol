@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { navLinks, siteConfig } from "@/lib/data";
 import { locationPages } from "@/lib/stubPages";
+import CookieSettingsLink from "@/components/CookieSettingsLink";
 
 const services = [
   { label: "Mobile Tyre Fitting", href: "/mobile-tyre-fitting" },
@@ -61,6 +62,9 @@ export default function Footer() {
               <Link href="/cookie-policy" className="hover:text-orange-500">
                 Cookie Policy
               </Link>
+            </li>
+            <li>
+              <CookieSettingsLink />
             </li>
           </ul>
         </div>
@@ -142,6 +146,9 @@ export default function Footer() {
             <Link href="/cookie-policy" className="hover:text-orange-500">
               Cookie Policy
             </Link>
+          </li>
+          <li>
+            <CookieSettingsLink />
           </li>
         </ul>
       </div>

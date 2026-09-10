@@ -2,7 +2,7 @@ import { siteConfig } from "@/lib/data";
 
 export default function FloatingButtons() {
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-center gap-3">
+    <div className="fixed bottom-6 right-6 z-[200] flex flex-col items-center gap-3">
       {/* WhatsApp */}
       <a
         href={siteConfig.whatsappHref}
