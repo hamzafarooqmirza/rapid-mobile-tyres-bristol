@@ -8,9 +8,11 @@ type FaqItem = { question: string; answer: string };
 export default function Faq({
   items = defaultFaqs,
   className = "bg-white py-20 sm:py-28",
+  title = "Frequently Asked Questions",
 }: {
   items?: FaqItem[];
   className?: string;
+  title?: string;
 }) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
@@ -22,7 +24,7 @@ export default function Faq({
             FAQs
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-zinc-950 sm:text-4xl">
-            Frequently Asked Questions
+            {title}
           </h2>
         </div>
 

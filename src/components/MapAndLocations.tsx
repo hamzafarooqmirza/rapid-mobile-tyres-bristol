@@ -150,7 +150,7 @@ export default function MapAndLocations() {
                 >
                   <div className="flex items-center gap-2">
                     <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-600">
-                      <svg viewBox="0 0 20 20" fill="currentColor" className="h-3.5 w-3.5" aria-hidden="true">
+                      <svg viewBox="0 0 20 20" fill="currentColor" className="h-3.5 w-3.5" aria-hidden>
                         <path fillRule="evenodd" d="M16.704 5.29a1 1 0 0 1 .006 1.414l-7.5 7.56a1 1 0 0 1-1.42 0l-3.5-3.53a1 1 0 1 1 1.42-1.408L8.5 12.14l6.79-6.844a1 1 0 0 1 1.414-.006Z" clipRule="evenodd" />
                       </svg>
                     </span>
