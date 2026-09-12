@@ -132,7 +132,7 @@ const areasServed = [
   { name: "Westbury-on-Trym", href: null },
   { name: "Charlton", href: null },
   { name: "Filton", href: null },
-  { name: "Bristol", href: "/mobile-tyre-fitting-bristol" },
+  { name: "Bristol", href: "/" },
 ];
 
 const locationPinSvg = (
@@ -668,7 +668,7 @@ export default function Page() {
                 with nearby communities including Henbury, Southmead, Westbury-on-Trym and Filton.
                 Our mobile service operates across{" "}
                 <Link
-                  href="/mobile-tyre-fitting-bristol"
+                  href="/"
                   className="text-orange-500 hover:underline"
                 >
                   Bristol

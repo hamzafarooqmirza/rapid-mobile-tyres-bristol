@@ -131,7 +131,7 @@ const areasServed = [
   { name: "St Andrew's", href: null },
   { name: "Redland", href: null },
   { name: "Montpelier", href: null },
-  { name: "Bristol", href: "/mobile-tyre-fitting-bristol" },
+  { name: "Bristol", href: "/" },
 ];
 
 const locationPinSvg = (
@@ -664,7 +664,7 @@ export default function Page() {
                 The local area is closely connected with Bishopston, Horfield, St Andrew&apos;s,
                 Redland and Montpelier, with Gloucester Road acting as one of the main routes
                 through this part of Bristol. Because our mobile service operates across{" "}
-                <Link href="/mobile-tyre-fitting-bristol" className="text-orange-500 hover:underline">
+                <Link href="/" className="text-orange-500 hover:underline">
                   Bristol
                 </Link>{" "}
                 and surrounding areas, assistance may also be available beyond Bishopton itself. If
