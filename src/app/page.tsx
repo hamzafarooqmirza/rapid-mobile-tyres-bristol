@@ -48,8 +48,7 @@ const homeFaqs = [
       "Yes, where there is a safe and permitted place for the technician to work. If you are stopped on a busy road or near a motorway, prioritise your safety and follow the appropriate roadside guidance before arranging tyre assistance.",
   },
   {
-    question:
-      "What information do you need when I call for mobile tyre fitting?",
+    question: "What information do you need when I call for mobile tyre fitting?",
     answer:
       "Please provide your vehicle make and model, full tyre size, the tyre problem and your exact location. A postcode, road name or shared map pin can help us find you quickly, especially if you are stranded away from a numbered address.",
   },
