@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Chittening | 24/7 Tyre Service",
   description:
-    "Mobile tyre fitting in Chittening for flat, damaged or worn tyres. Get 24/7 assistance for cars and vans at work or suitable roadside locations.",
+    "Mobile tyre fitting in Chittening for cars and vans. Get help with flat or damaged tyres directly at your location.",
 };
 
 const stats = [

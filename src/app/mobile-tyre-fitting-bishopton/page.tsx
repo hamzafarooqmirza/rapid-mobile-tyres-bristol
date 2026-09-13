@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Bishopton | 24/7 Tyre Replacement",
   description:
-    "Mobile tyre fitting in Bishopton for flat, damaged or worn tyres. Get 24/7 replacement tyre assistance at home, work or suitable roadside locations.",
+    "Need mobile tyre fitting in Bishopton? Get flat or damaged tyres replaced at home, work or a roadside location.",
 };
 
 const stats = [

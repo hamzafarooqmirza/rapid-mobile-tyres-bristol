@@ -10,7 +10,7 @@ import { siteConfig, fuelDeliveryPage } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Emergency Fuel Delivery Bristol | 24/7 Roadside Help",
   description:
-    "Run out of fuel in Bristol? Get 24/7 emergency fuel delivery to your location and convenient roadside assistance to help get your journey moving again.",
+    "Run out of fuel in Bristol? Get 24/7 emergency fuel delivery and roadside assistance directly to your location.",
 };
 
 export default function FuelDeliveryPage() {

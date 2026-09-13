@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Emergency Tyre Fitting Bristol | 24/7 Mobile Service",
   description:
-    "Emergency tyre fitting in Bristol available 24/7 for flat, damaged and blown tyres. Get mobile assistance at home, work or a safe roadside location.",
+    "Emergency mobile tyre fitting in Bristol for flat or damaged tyres. Get 24/7 tyre assistance at your location.",
 };
 
 const stats = [

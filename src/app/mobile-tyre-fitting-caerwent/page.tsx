@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Caerwent | 24/7 Tyre Replacement",
   description:
-    "Mobile tyre fitting in Caerwent for flat, damaged and worn tyres. Get 24/7 replacement tyre assistance at home, work or roadside locations.",
+    "Need mobile tyre fitting in Caerwent? Get flat or damaged tyres replaced at your home, workplace or roadside.",
 };
 
 const stats = [

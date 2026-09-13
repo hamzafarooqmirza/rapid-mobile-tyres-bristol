@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Chew Magna | 24/7 Tyre Service",
   description:
-    "Mobile tyre fitting in Chew Magna for flat, damaged and worn tyres. Get 24/7 tyre assistance at your home or a suitable roadside location.",
+    "Mobile tyre fitting in Chew Magna for flat or damaged tyres. Get convenient tyre assistance at your location.",
 };
 
 const stats = [

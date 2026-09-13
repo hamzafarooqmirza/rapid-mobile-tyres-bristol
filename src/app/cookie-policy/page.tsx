@@ -9,7 +9,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Cookie Policy | Rapid Mobile Tyres",
   description:
-    "Read the Rapid Mobile Tyres Cookie Policy to understand how cookies and similar technologies may be used when you visit our website",
+    "Learn how Rapid Mobile Tyres uses cookies and similar technologies when you browse and interact with our website.",
   robots: { index: false, follow: true },
   alternates: {
     canonical: "https://rapid-tyres.com/cookie-policy",

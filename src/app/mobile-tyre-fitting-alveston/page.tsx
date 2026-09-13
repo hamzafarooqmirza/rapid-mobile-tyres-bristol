@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Alveston | 24/7 Tyre Replacement",
   description:
-    "Mobile tyre fitting in Alveston for flat, damaged or worn tyres. Get 24/7 replacement tyre assistance at home, work or suitable roadside locations.",
+    "Need mobile tyre fitting in Alveston? Get replacement tyres fitted at your home, workplace or roadside location.",
 };
 
 const stats = [

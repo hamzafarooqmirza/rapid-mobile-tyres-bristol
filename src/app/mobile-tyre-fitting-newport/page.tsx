@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Newport | 24/7 Tyre Replacement",
   description:
-    "Mobile tyre fitting in Newport for cars, vans and SUVs. Get 24/7 replacement tyre assistance at home, work or suitable roadside locations.",
+    "Need mobile tyre fitting in Newport? Get replacement tyres fitted at your home, workplace or roadside location.",
 };
 
 const stats = [

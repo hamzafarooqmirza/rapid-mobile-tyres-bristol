@@ -7,7 +7,7 @@ const location = allLocations.find((l) => l.path === "mobile-tyre-fitting-bath")
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Bath | 24/7 Tyre Replacement",
   description:
-    "Mobile tyre fitting in Bath for flat, damaged and worn tyres. Get 24/7 tyre replacement at home, work or a suitable roadside location.",
+    "Need mobile tyre fitting in Bath? Get flat or damaged tyres replaced at your home, workplace or roadside.",
 };
 
 export default function Page() {

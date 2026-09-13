@@ -8,7 +8,7 @@ import { refundPolicy } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Refund Policy - Rapid Mobile Tyres Bristol",
   description:
-    "Read Rapid Mobile Tyres Ltd's refund policy — eligibility, non-refundable items, and how to request a refund or resolution.",
+    "Read the Rapid Mobile Tyres refund policy and learn about the conditions that may apply to service refunds.",
 };
 
 export default function RefundPolicyPage() {

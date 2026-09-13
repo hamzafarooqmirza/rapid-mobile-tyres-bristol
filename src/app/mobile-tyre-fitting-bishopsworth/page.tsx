@@ -7,7 +7,7 @@ const location = allLocations.find((l) => l.path === "mobile-tyre-fitting-bishop
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Bishopsworth | 24/7 Tyre Service",
   description:
-    "Mobile tyre fitting in Bishopsworth for flat, damaged and worn tyres. Get 24/7 tyre assistance at home, work or suitable roadside locations.",
+    "Mobile tyre fitting in Bishopsworth for flat or damaged tyres. Get tyre replacement brought directly to you.",
 };
 
 export default function Page() {

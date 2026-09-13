@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Van Tyre Fitting Bristol | 24/7 Tyre Service",
   description:
-    "Mobile van tyre fitting in Bristol for flat, damaged or worn tyres. Get convenient replacement tyre fitting at work, home or suitable roadside locations.",
+    "Mobile van tyre fitting in Bristol for flat or damaged tyres. Get convenient tyre replacement at your location.",
 };
 
 const stats = [

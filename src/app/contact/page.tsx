@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Contact Rapid Mobile Tyres | 24/7 Tyre Help Bristol",
   description:
-    "Contact Rapid Mobile Tyres for 24/7 mobile tyre fitting in Bristol. Call 07494 247246 for tyre availability, roadside assistance and service enquiries.",
+    "Contact Rapid Mobile Tyres for 24/7 mobile tyre fitting in Bristol. Check tyre availability and get assistance.",
 };
 
 export default function ContactPage() {

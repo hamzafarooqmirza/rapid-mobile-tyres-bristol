@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Avonmouth | 24/7 Tyre Service",
   description:
-    "Mobile tyre fitting in Avonmouth for cars and vans with flat, damaged or worn tyres. Get 24/7 assistance at work, home or suitable roadside locations.",
+    "Mobile tyre fitting in Avonmouth for cars and vans. Get flat or damaged tyres replaced at your location.",
 };
 
 const stats = [

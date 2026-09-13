@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Gloucestershire | 24/7 Tyre Service",
   description:
-    "Mobile tyre fitting across Gloucestershire for flat, damaged and worn tyres. Get 24/7 replacement tyre assistance at home, work or roadside.",
+    "Mobile tyre fitting in Gloucestershire for flat or damaged tyres. Get tyre assistance at your chosen location.",
 };
 
 const stats = [

@@ -7,7 +7,7 @@ const location = allLocations.find((l) => l.path === "mobile-tyre-fitting-brockl
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Brockley | 24/7 Tyre Replacement",
   description:
-    "Mobile tyre fitting in Brockley for flat, damaged and worn tyres. Get 24/7 tyre replacement at home, work or suitable roadside locations.",
+    "Need mobile tyre fitting in Brockley? Get tyre assistance for flat or damaged tyres at home or roadside.",
 };
 
 export default function Page() {
