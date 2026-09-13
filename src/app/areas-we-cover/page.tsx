@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Areas | Bristol & Nearby Locations",
   description:
-    "Find mobile tyre fitting coverage across Bristol and nearby areas. Check your location for 24/7 tyre replacement and roadside tyre assistance.",
+    "Find mobile tyre fitting areas across Bristol and nearby locations. Check coverage and get tyre help near you.",
 };
 
 export default function AreasWeCoverPage() {

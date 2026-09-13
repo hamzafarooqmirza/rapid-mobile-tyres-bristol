@@ -11,7 +11,7 @@ import { siteConfig, jumpStartPage } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Car Jump Start Bristol | 24/7 Mobile Battery Assistance",
   description:
-    "Need a car jump start in Bristol? Get 24/7 mobile battery assistance at your home, workplace or suitable roadside location to help get you moving.",
+    "Need a car jump start in Bristol? Get 24/7 mobile battery assistance at home, work or a roadside location.",
 };
 
 const stats = [

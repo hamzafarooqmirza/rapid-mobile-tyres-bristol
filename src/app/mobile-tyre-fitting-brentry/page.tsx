@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Brentry | 24/7 Tyre Replacement",
   description:
-    "Mobile tyre fitting in Brentry for flat, damaged and worn tyres. Get 24/7 tyre replacement at your home, workplace or suitable roadside location.",
+    "Need mobile tyre fitting in Brentry? Get flat or damaged tyres replaced at your home, workplace or roadside.",
 };
 
 const stats = [

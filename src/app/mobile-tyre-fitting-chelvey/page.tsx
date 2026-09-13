@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Chelvey | 24/7 Tyre Replacement",
   description:
-    "Mobile tyre fitting in Chelvey for flat, damaged and worn tyres. Get 24/7 tyre replacement at home, work or a suitable roadside location.",
+    "Need mobile tyre fitting in Chelvey? Get tyre assistance for flat or damaged tyres at home or roadside.",
 };
 
 const stats = [

@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Backwell | 24/7 Tyre Assistance",
   description:
-    "Mobile tyre fitting in Backwell for flat, damaged or worn tyres. Get 24/7 tyre assistance at your home, workplace or suitable roadside location.",
+    "Need mobile tyre fitting in Backwell? Get flat or damaged tyres replaced at your home, workplace or roadside.",
 };
 
 const stats = [

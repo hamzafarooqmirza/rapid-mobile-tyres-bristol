@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Privacy Policy | Rapid Mobile Tyres",
   description:
-    "Read the Rapid Mobile Tyres Privacy Policy to understand how we collect, use, protect and handle personal information when you use our website.",
+    "Read how Rapid Mobile Tyres collects, uses and protects personal information when you use our website and services.",
   robots: { index: false, follow: true },
 };
 

@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Bitton | 24/7 Tyre Replacement",
   description:
-    "Mobile tyre fitting in Bitton for flat, damaged and worn tyres. Get 24/7 tyre replacement at your home, workplace or suitable roadside location.",
+    "Mobile tyre fitting in Bitton for flat or damaged tyres. Get replacement tyres fitted at home, work or roadside.",
 };
 
 const stats = [

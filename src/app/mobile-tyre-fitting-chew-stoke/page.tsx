@@ -7,7 +7,7 @@ const location = allLocations.find((l) => l.path === "mobile-tyre-fitting-chew-s
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Chew Stoke | 24/7 Tyre Service",
   description:
-    "Mobile tyre fitting in Chew Stoke for flat, damaged and worn tyres. Get 24/7 tyre assistance at your home or a suitable roadside location.",
+    "Need mobile tyre fitting in Chew Stoke? Get flat or damaged tyres replaced at home or a roadside location.",
 };
 
 export default function Page() {

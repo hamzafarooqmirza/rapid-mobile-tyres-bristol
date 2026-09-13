@@ -7,7 +7,7 @@ const location = allLocations.find((l) => l.path === "abbots-leigh-mobile-tyre-f
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Abbots Leigh | 24/7 Tyre Service",
   description:
-    "Mobile tyre fitting in Abbots Leigh for flat, damaged and worn tyres. Get 24/7 tyre assistance at home, work or suitable roadside locations.",
+    "Mobile tyre fitting in Abbots Leigh for flat or damaged tyres. Get convenient tyre assistance at your location.",
 };
 
 export default function Page() {

@@ -7,7 +7,7 @@ const location = allLocations.find((l) => l.path === "mobile-tyre-fitting-magor"
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Magor | 24/7 Tyre Replacement",
   description:
-    "Mobile tyre fitting in Magor for flat, damaged and worn tyres. Get 24/7 tyre replacement at your home, workplace or suitable roadside location.",
+    "Need mobile tyre fitting in Magor? Get flat or damaged tyres replaced at your home, workplace or roadside.",
 };
 
 export default function Page() {

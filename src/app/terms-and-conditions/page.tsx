@@ -9,7 +9,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Terms & Conditions | Rapid Mobile Tyres",
   description:
-    "Read the terms and conditions for using the Rapid Mobile Tyres website and requesting our mobile tyre fitting and roadside assistance services.",
+    "Read the terms and conditions for using Rapid Mobile Tyres and requesting our mobile tyre and roadside services.",
   robots: { index: false, follow: true },
 };
 

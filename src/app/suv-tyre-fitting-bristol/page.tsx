@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile SUV Tyre Fitting Bristol | 24/7 Tyre Service",
   description:
-    "Mobile SUV tyre fitting in Bristol for flat, damaged or worn tyres. Get suitable replacement tyres fitted at home, work or roadside locations.",
+    "Mobile SUV tyre fitting in Bristol for flat, worn or damaged tyres. Get replacement tyres fitted at your location.",
 };
 
 const stats = [

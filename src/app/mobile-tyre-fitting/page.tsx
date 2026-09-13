@@ -12,7 +12,7 @@ import { siteConfig, mobileTyreFittingPage } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Service | 24/7 Tyre Replacement",
   description:
-    "Get mobile tyre fitting brought directly to your location for flat, damaged or worn tyres. 24/7 fitting at home, work and suitable roadside locations.",
+    "Get 24/7 mobile tyre fitting for flat, worn or damaged tyres. Have replacement tyres fitted at your location.",
 };
 
 const gallery = [

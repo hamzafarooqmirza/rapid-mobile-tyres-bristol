@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Brislington | 24/7 Tyre Service",
   description:
-    "Mobile tyre fitting in Brislington for flat, damaged and worn tyres. Get 24/7 tyre assistance at home, work or suitable roadside locations.",
+    "Mobile tyre fitting in Brislington for flat or damaged tyres. Get tyre replacement brought directly to your location.",
 };
 
 const stats = [

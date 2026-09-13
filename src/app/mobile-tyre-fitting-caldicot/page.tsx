@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Caldicot | 24/7 Tyre Replacement",
   description:
-    "Mobile tyre fitting in Caldicot for flat, damaged and worn tyres. Get 24/7 tyre replacement at your home, workplace or suitable roadside location.",
+    "Mobile tyre fitting in Caldicot for flat or damaged tyres. Get replacement tyres fitted directly at your location.",
   alternates: { canonical: "https://rapid-tyres.com/mobile-tyre-fitting-caldicot" },
 };
 

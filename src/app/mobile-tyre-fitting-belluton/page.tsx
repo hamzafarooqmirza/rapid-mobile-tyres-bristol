@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Fitting Belluton | 24/7 Tyre Replacement",
   description:
-    "Mobile tyre fitting in Belluton for flat, damaged or worn tyres. Get 24/7 replacement tyre assistance at home or a suitable roadside location.",
+    "Mobile tyre fitting in Belluton for flat or damaged tyres. Get convenient tyre replacement directly at your location.",
 };
 
 const stats = [

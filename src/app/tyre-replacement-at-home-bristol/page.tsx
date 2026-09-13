@@ -11,7 +11,7 @@ import { siteConfig } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Tyre Replacement at Home Bristol | Mobile Tyre Fitting",
   description:
-    "Get tyre replacement at home in Bristol without travelling to a garage. Convenient mobile tyre fitting for cars, vans and SUVs, subject to availability.",
+    "Get tyre replacement at home in Bristol for flat or worn tyres. Have suitable tyres fitted at your location.",
 };
 
 const stats = [

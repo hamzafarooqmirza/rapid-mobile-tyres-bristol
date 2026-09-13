@@ -10,7 +10,7 @@ import { siteConfig, servicesFaqs } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Mobile Tyre Services Bristol | 24/7 Tyre Assistance",
   description:
-    "Explore mobile tyre services in Bristol for cars, vans and SUVs, including emergency tyre fitting, tyre replacement, jump starts and fuel delivery.",
+    "Explore mobile tyre services in Bristol for cars, vans and SUVs. Get tyre fitting and roadside help when needed.",
 };
 
 const allServices = [
