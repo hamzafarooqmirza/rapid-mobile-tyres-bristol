@@ -10,9 +10,9 @@ import Faq from "@/components/Faq";
 import { siteConfig, mobileTyreFittingPage } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Tyre Fitting - Rapid Mobile Tyres",
+  title: "Mobile Tyre Fitting Service | 24/7 Tyre Replacement",
   description:
-    "Fast, professional mobile tyre fitting at your home, workplace, or roadside across the South West and surrounding areas — usually within 45-60 minutes.",
+    "Get mobile tyre fitting brought directly to your location for flat, damaged or worn tyres. 24/7 fitting at home, work and suitable roadside locations.",
 };
 
 const gallery = [

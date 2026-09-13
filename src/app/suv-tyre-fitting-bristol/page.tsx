@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "SUV Tyre Fitting | Rapid Mobile Tyres — 24/7 Mobile Service",
+  title: "Mobile SUV Tyre Fitting Bristol | 24/7 Tyre Service",
   description:
-    "Need SUV or 4x4 tyres fitted? Rapid Mobile Tyres provides 24/7 mobile SUV tyre fitting at your home, workplace or roadside — usually within 45–60 minutes. Call now.",
+    "Mobile SUV tyre fitting in Bristol for flat, damaged or worn tyres. Get suitable replacement tyres fitted at home, work or roadside locations.",
 };
 
 const stats = [

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
@@ -10,6 +11,12 @@ import Footer from "@/components/Footer";
 import TyreBrands from "@/components/TyreBrands";
 import TyreBrandStrip from "@/components/TyreBrandStrip";
 import { siteConfig } from "@/lib/data";
+
+export const metadata: Metadata = {
+  title: "Mobile Tyre Fitting Bristol | 24/7 Emergency Replacement",
+  description:
+    "Mobile tyre fitting in Bristol available 24/7 for flat, damaged or worn tyres. Get convenient tyre replacement at home, work or roadside.",
+};
 
 const homeFaqs = [
   {

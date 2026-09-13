@@ -6,9 +6,9 @@ import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Contact Us - Rapid Mobile Tyres Bristol",
+  title: "Contact Rapid Mobile Tyres | 24/7 Tyre Help Bristol",
   description:
-    "Get in touch with Rapid Mobile Tyres Bristol — call, email, or send a message to book mobile tyre fitting, jump starts, or fuel delivery.",
+    "Contact Rapid Mobile Tyres for 24/7 mobile tyre fitting in Bristol. Call 07494 247246 for tyre availability, roadside assistance and service enquiries.",
 };
 
 export default function ContactPage() {

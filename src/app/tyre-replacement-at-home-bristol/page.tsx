@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Tyre Replacement at Home | Rapid Mobile Tyres — Same Day",
+  title: "Tyre Replacement at Home Bristol | Mobile Tyre Fitting",
   description:
-    "Book a mobile tyre replacement at your home. Rapid Mobile Tyres fits car, SUV and van tyres on your driveway — same day or scheduled, 24/7. Call for a quote.",
+    "Get tyre replacement at home in Bristol without travelling to a garage. Convenient mobile tyre fitting for cars, vans and SUVs, subject to availability.",
 };
 
 const stats = [

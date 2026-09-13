@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Car Tyre Fitting | Rapid Mobile Tyres — 24/7 Service",
+  title: "Mobile Car Tyre Fitting Bristol | 24/7 Tyre Service",
   description:
-    "Need car tyres fitted? Rapid Mobile Tyres provides 24/7 mobile car tyre fitting at your home, workplace or roadside — usually within 45–60 minutes. Call now.",
+    "Mobile car tyre fitting in Bristol for flat, damaged and worn tyres. Get replacement tyres fitted at home, work or a suitable roadside location.",
 };
 
 const stats = [

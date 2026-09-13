@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Tyre Fitting Backwell | Rapid Mobile Tyres — 24/7 Service",
+  title: "Mobile Tyre Fitting Backwell | 24/7 Tyre Assistance",
   description:
-    "Need mobile tyre fitting in Backwell? Rapid Mobile Tyres comes to your home, workplace or roadside — cars, vans and SUVs, 24/7. Usually within 45–60 minutes. Call now.",
+    "Mobile tyre fitting in Backwell for flat, damaged or worn tyres. Get 24/7 tyre assistance at your home, workplace or suitable roadside location.",
 };
 
 const stats = [

@@ -8,9 +8,9 @@ import Faq from "@/components/Faq";
 import { siteConfig, fuelDeliveryPage } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Emergency Fuel Delivery - Rapid Mobile Tyres",
+  title: "Emergency Fuel Delivery Bristol | 24/7 Roadside Help",
   description:
-    "Run out of petrol or diesel? Rapid Mobile Tyres brings emergency fuel delivery straight to you, wherever you are in the South West and surrounding areas.",
+    "Run out of fuel in Bristol? Get 24/7 emergency fuel delivery to your location and convenient roadside assistance to help get your journey moving again.",
 };
 
 export default function FuelDeliveryPage() {

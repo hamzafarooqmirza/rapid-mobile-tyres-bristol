@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Tyre Fitting in Chewton Keynsham - Rapid Mobile Tyres Bristol",
+  title: "Mobile Tyre Fitting Chewton Keynsham | 24/7 Service",
   description:
-    "Mobile tyre fitting in Chewton Keynsham. We come to your home, workplace or roadside location — emergency callouts and planned replacement, 24/7. Call 07494 247246.",
+    "Mobile tyre fitting in Chewton Keynsham for flat, damaged or worn tyres. Get 24/7 tyre assistance at home, work or suitable roadside locations.",
 };
 
 const stats = [

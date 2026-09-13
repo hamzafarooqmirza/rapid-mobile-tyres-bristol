@@ -6,9 +6,9 @@ import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Areas We Cover - Rapid Mobile Tyres Bristol",
+  title: "Mobile Tyre Fitting Areas | Bristol & Nearby Locations",
   description:
-    "Rapid Mobile Tyres Bristol covers Bristol, Bridgewater, Bath, Chepstow, Gloucestershire, Magor, Newport, and Weston-Super-Mare with 24/7 mobile tyre fitting.",
+    "Find mobile tyre fitting coverage across Bristol and nearby areas. Check your location for 24/7 tyre replacement and roadside tyre assistance.",
 };
 
 export default function AreasWeCoverPage() {

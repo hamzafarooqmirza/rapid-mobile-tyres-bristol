@@ -8,9 +8,9 @@ import Faq from "@/components/Faq";
 import { siteConfig, servicesFaqs } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Our Services - Rapid Tyres Ltd | Mobile Tyre Fitting & More",
+  title: "Mobile Tyre Services Bristol | 24/7 Tyre Assistance",
   description:
-    "Car, SUV and van tyres, mobile tyre fitting, jump starts and fuel delivery — all fitted at your home, workplace, or roadside across Bristol and the South West.",
+    "Explore mobile tyre services in Bristol for cars, vans and SUVs, including emergency tyre fitting, tyre replacement, jump starts and fuel delivery.",
 };
 
 const allServices = [

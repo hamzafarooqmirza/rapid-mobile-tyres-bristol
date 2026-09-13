@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Tyre Fitting Butcombe | Rapid Mobile Tyres — 24/7 Service",
+  title: "Mobile Tyre Fitting Butcombe | 24/7 Tyre Assistance",
   description:
-    "Need mobile tyre fitting in Butcombe? Rapid Mobile Tyres comes to your home, workplace or roadside — cars, vans and SUVs, 24/7. Usually within 45–60 minutes. Call now.",
+    "Mobile tyre fitting in Butcombe for flat, damaged or worn tyres. Get 24/7 tyre assistance at your home or a suitable roadside location.",
 };
 
 const stats = [

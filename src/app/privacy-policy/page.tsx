@@ -6,9 +6,9 @@ import Footer from "@/components/Footer";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Rapid Mobile Tyres Bristol",
+  title: "Privacy Policy | Rapid Mobile Tyres",
   description:
-    "Read Rapid Mobile Tyres Bristol's privacy policy — how we handle your personal information in line with UK GDPR.",
+    "Read the Rapid Mobile Tyres Privacy Policy to understand how we collect, use, protect and handle personal information when you use our website.",
   robots: { index: false, follow: true },
 };
 

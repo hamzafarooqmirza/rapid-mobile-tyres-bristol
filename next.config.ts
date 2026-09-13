@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
       {
         source: "/mobile-tyre-fitting-bristol",
         destination: "/",
-        permanent: true,
+        statusCode: 301,
       },
     ];
   },
