@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Cookie Policy - Rapid Mobile Tyres Bristol",
+  title: "Cookie Policy | Rapid Mobile Tyres",
   description:
-    "Cookie Policy for rapid-tyres.com — how Rapid Mobile Tyres uses cookies and similar technologies, your choices, and how to manage them.",
+    "Read the Rapid Mobile Tyres Cookie Policy to understand how cookies and similar technologies may be used when you visit our website",
   robots: { index: false, follow: true },
   alternates: {
     canonical: "https://rapid-tyres.com/cookie-policy",

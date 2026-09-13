@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Tyre Fitting Belluton | Rapid Mobile Tyres — 24/7 Service",
+  title: "Mobile Tyre Fitting Belluton | 24/7 Tyre Replacement",
   description:
-    "Need mobile tyre fitting in Belluton? Rapid Mobile Tyres comes to your home, workplace or roadside — cars, vans and SUVs, 24/7. Usually within 45–60 minutes. Call now.",
+    "Mobile tyre fitting in Belluton for flat, damaged or worn tyres. Get 24/7 replacement tyre assistance at home or a suitable roadside location.",
 };
 
 const stats = [

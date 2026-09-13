@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Tyre Fitting Bitton | Rapid Mobile Tyres — 24/7 Service",
+  title: "Mobile Tyre Fitting Bitton | 24/7 Tyre Replacement",
   description:
-    "Need mobile tyre fitting in Bitton? Rapid Mobile Tyres comes to your home, workplace or roadside — cars, vans and SUVs, 24/7. Usually within 45–60 minutes. Call now.",
+    "Mobile tyre fitting in Bitton for flat, damaged and worn tyres. Get 24/7 tyre replacement at your home, workplace or suitable roadside location.",
 };
 
 const stats = [

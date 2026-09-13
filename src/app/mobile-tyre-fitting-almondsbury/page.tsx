@@ -5,8 +5,9 @@ import { allLocations } from "@/lib/locationsData";
 const location = allLocations.find((l) => l.path === "mobile-tyre-fitting-almondsbury")!;
 
 export const metadata: Metadata = {
-  title: `Mobile Tyre Fitting in ${location.name} - Rapid Mobile Tyres Bristol`,
-  description: `Fast, reliable mobile tyre fitting in ${location.name}. We come to your home, workplace, or roadside — usually within 45-60 minutes. Call 07494 247246.`,
+  title: "Mobile Tyre Fitting Almondsbury | 24/7 Tyre Service",
+  description:
+    "Mobile tyre fitting in Almondsbury for flat, damaged and worn tyres. Get 24/7 tyre assistance at home, work or suitable roadside locations.",
 };
 
 export default function Page() {

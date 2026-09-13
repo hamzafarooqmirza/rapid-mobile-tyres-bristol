@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Van Tyre Fitting | 24/7 Commercial Tyre Service — Rapid Mobile Tyres",
+  title: "Mobile Van Tyre Fitting Bristol | 24/7 Tyre Service",
   description:
-    "Need van tyres fitted? Rapid Mobile Tyres provides 24/7 mobile van tyre fitting for light commercial vehicles and tradespeople. We reach you in 45–60 minutes — call now.",
+    "Mobile van tyre fitting in Bristol for flat, damaged or worn tyres. Get convenient replacement tyre fitting at work, home or suitable roadside locations.",
 };
 
 const stats = [

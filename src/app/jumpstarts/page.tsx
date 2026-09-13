@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig, jumpStartPage } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Jump Start Service - Rapid Mobile Tyres",
+  title: "Car Jump Start Bristol | 24/7 Mobile Battery Assistance",
   description:
-    "Flat battery? Rapid Mobile Tyres offers fast, 24/7 mobile jump start assistance across the South West and surrounding areas.",
+    "Need a car jump start in Bristol? Get 24/7 mobile battery assistance at your home, workplace or suitable roadside location to help get you moving.",
 };
 
 const stats = [

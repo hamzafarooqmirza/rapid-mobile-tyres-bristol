@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Tyre Fitting Gloucestershire - Rapid Mobile Tyres Bristol",
+  title: "Mobile Tyre Fitting Gloucestershire | 24/7 Tyre Service",
   description:
-    "Mobile tyre fitting across Gloucestershire. We come to your home, workplace or roadside — 24/7 emergency callouts and planned replacement for cars, vans and SUVs. Call 07494 247246.",
+    "Mobile tyre fitting across Gloucestershire for flat, damaged and worn tyres. Get 24/7 replacement tyre assistance at home, work or roadside.",
 };
 
 const stats = [

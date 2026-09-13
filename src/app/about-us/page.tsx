@@ -7,9 +7,9 @@ import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "About Rapid Mobile Tyres Ltd - Trusted 24/7 Mobile Tyre Services",
+  title: "About Rapid Mobile Tyres | Mobile Tyre Fitters Bristol",
   description:
-    "Rapid Mobile Tyres Bristol brings professional tyre fitting and repair straight to your door, wherever you are across Bristol and the surrounding areas.",
+    "Learn about Rapid Mobile Tyres and our 24/7 mobile tyre fitting service for Bristol drivers at home, work and suitable roadside locations.",
 };
 
 export default function AboutUsPage() {

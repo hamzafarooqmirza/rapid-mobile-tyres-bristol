@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Tyre Fitting Avonmouth | Rapid Mobile Tyres — 24/7 Service",
+  title: "Mobile Tyre Fitting Avonmouth | 24/7 Tyre Service",
   description:
-    "Need mobile tyre fitting in Avonmouth? Rapid Mobile Tyres comes to your home, workplace or industrial site — cars, vans and SUVs, 24/7. Usually within 45–60 minutes. Call now.",
+    "Mobile tyre fitting in Avonmouth for cars and vans with flat, damaged or worn tyres. Get 24/7 assistance at work, home or suitable roadside locations.",
 };
 
 const stats = [

@@ -5,8 +5,9 @@ import { allLocations } from "@/lib/locationsData";
 const location = allLocations.find((l) => l.path === "mobile-tyre-fitting-awkley")!;
 
 export const metadata: Metadata = {
-  title: `Mobile Tyre Fitting in ${location.name} - Rapid Mobile Tyres Bristol`,
-  description: `Fast, reliable mobile tyre fitting in ${location.name}. We come to your home, workplace, or roadside — usually within 45-60 minutes. Call 07494 247246.`,
+  title: "Mobile Tyre Fitting Awkley | 24/7 Tyre Replacement",
+  description:
+    "Mobile tyre fitting in Awkley for flat, damaged and worn tyres. Get convenient 24/7 tyre replacement at home or a suitable roadside location.",
 };
 
 export default function Page() {

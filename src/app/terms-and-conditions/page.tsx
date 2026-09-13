@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions - Rapid Mobile Tyres Bristol",
+  title: "Terms & Conditions | Rapid Mobile Tyres",
   description:
-    "Read the Terms & Conditions for Rapid Mobile Tyres Bristol — covering our mobile tyre fitting, jump start and fuel delivery services across Bristol and the South West.",
+    "Read the terms and conditions for using the Rapid Mobile Tyres website and requesting our mobile tyre fitting and roadside assistance services.",
   robots: { index: false, follow: true },
 };
 

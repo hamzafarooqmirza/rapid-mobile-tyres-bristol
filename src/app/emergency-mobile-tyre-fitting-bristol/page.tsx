@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Emergency Mobile Tyre Fitting | 24/7 Fast Response — Rapid Mobile Tyres",
+  title: "Emergency Tyre Fitting Bristol | 24/7 Mobile Service",
   description:
-    "Stuck with a flat tyre? Rapid Mobile Tyres provides 24/7 emergency mobile tyre fitting, reaching you in 45–60 minutes at home, work or roadside. Call now.",
+    "Emergency tyre fitting in Bristol available 24/7 for flat, damaged and blown tyres. Get mobile assistance at home, work or a safe roadside location.",
 };
 
 const stats = [

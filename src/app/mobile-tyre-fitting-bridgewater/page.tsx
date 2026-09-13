@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Tyre Fitting in Bridgwater - Rapid Mobile Tyres Bristol",
+  title: "Mobile Tyre Fitting Bridgewater | 24/7 Tyre Service",
   description:
-    "Mobile tyre fitting in Bridgwater. We come to your home, workplace or roadside location — 24/7 emergency callouts and planned replacement. Call 07494 247246.",
+    "Mobile tyre fitting in Bridgewater for flat, damaged and worn tyres. Get 24/7 tyre assistance at home, work or suitable roadside locations.",
 };
 
 const stats = [
