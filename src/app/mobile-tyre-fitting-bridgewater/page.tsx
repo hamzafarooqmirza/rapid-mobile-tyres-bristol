@@ -9,9 +9,9 @@ import Faq from "@/components/Faq";
 import { siteConfig } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Mobile Tyre Fitting Bridgewater | 24/7 Tyre Service",
+  title: "Mobile Tyre Fitting Bridgwater | 24/7 Tyre Service",
   description:
-    "Mobile tyre fitting in Bridgewater for flat, damaged and worn tyres. Get 24/7 tyre assistance at home, work or suitable roadside locations.",
+    "Mobile tyre fitting in Bridgwater for flat, damaged and worn tyres. Get 24/7 tyre assistance at home, work or suitable roadside locations.",
 };
 
 const stats = [
