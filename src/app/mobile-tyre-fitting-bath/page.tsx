@@ -270,7 +270,7 @@ export default function Page() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-zinc-900">Tyre Fitting at Your Bath Home</h3>
+                      <h3 className="font-extrabold text-zinc-900">Tyre Fitting at Your Bath Home</h3>
                       <p className="text-zinc-600">
                         If your tyre has gone flat overnight, there is no need to start your day
                         attempting to drive an unsafe vehicle to a tyre centre. Where there is enough
@@ -299,7 +299,7 @@ export default function Page() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-zinc-900">Mobile Tyre Fitting While You&apos;re at Work</h3>
+                      <h3 className="font-extrabold text-zinc-900">Mobile Tyre Fitting While You&apos;re at Work</h3>
                       <p className="text-zinc-600">
                         A tyre problem discovered during the working day does not necessarily mean
                         leaving work and finding a garage appointment. Where access is suitable, we
@@ -320,7 +320,7 @@ export default function Page() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-zinc-900">Roadside Tyre Help in Bath</h3>
+                      <h3 className="font-extrabold text-zinc-900">Roadside Tyre Help in Bath</h3>
                       <p className="text-zinc-600">
                         A blowout or puncture during a journey may leave you unable to continue
                         safely. Our roadside tyre assistance in Bath can attend suitable locations
@@ -383,7 +383,7 @@ export default function Page() {
                     />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-lg font-bold text-zinc-900">Available 24/7</h3>
+                <h3 className="mb-2 text-lg font-extrabold text-zinc-900">Available 24/7</h3>
                 <p className="text-zinc-600">
                   Day or night, our mobile tyre service is available 24 hours a day — no waiting
                   for garage opening times, including evenings, nights and weekends.
@@ -399,7 +399,7 @@ export default function Page() {
                     />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-lg font-bold text-zinc-900">We Come to You</h3>
+                <h3 className="mb-2 text-lg font-extrabold text-zinc-900">We Come to You</h3>
                 <p className="text-zinc-600">
                   Our usual arrival time is around 45–60 minutes, depending on traffic, technician
                   availability, your exact location and whether the required tyre is currently
@@ -414,7 +414,7 @@ export default function Page() {
                     <path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1v-5h3l3 4h-1a1 1 0 000 2h1.5a1 1 0 00.8-.4l1.5-2a1 1 0 000-1.2L18 9.4V9a1 1 0 00-1-1h-4V5a1 1 0 00-1-1H3z" />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-lg font-bold text-zinc-900">Right Tyre on the Van</h3>
+                <h3 className="mb-2 text-lg font-extrabold text-zinc-900">Right Tyre on the Van</h3>
                 <p className="text-zinc-600">
                   Our technicians carry a range of tyre stock. Providing your tyre size when
                   calling helps ensure we can check the right replacement is available before
@@ -464,7 +464,7 @@ export default function Page() {
                     />
                   </div>
                   <div className="p-6">
-                    <h3 className="mb-2 text-lg font-bold text-zinc-900 group-hover:text-orange-500 transition-colors">
+                    <h3 className="mb-2 text-lg font-extrabold text-zinc-900 group-hover:text-orange-500 transition-colors">
                       {v.title}
                     </h3>
                     <p className="text-sm text-zinc-600">{v.description}</p>
@@ -511,7 +511,7 @@ export default function Page() {
                   <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-orange-500 text-lg font-extrabold text-white">
                     {i + 1}
                   </div>
-                  <h3 className="mb-2 font-bold text-zinc-900">{step.title}</h3>
+                  <h3 className="mb-2 font-extrabold text-zinc-900">{step.title}</h3>
                   <p className="text-sm text-zinc-600">{step.description}</p>
                 </div>
               ))}
@@ -604,8 +604,8 @@ export default function Page() {
                   Call to check tyre availability
                 </a>
               </div>
-              <div className="rounded-2xl bg-zinc-50 p-8 ring-1 ring-zinc-100">
-                <h3 className="mb-4 font-bold text-zinc-900">Key tyre details to have ready</h3>
+              <div className="rounded-2xl bg-zinc-50 p-8 ring-1 ring-zinc-100 shadow-sm">
+                <h3 className="mb-4 font-extrabold text-zinc-900">Key tyre details to have ready</h3>
                 <ul className="space-y-3 text-zinc-600">
                   <li className="flex gap-3">
                     <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-orange-100 text-xs font-bold text-orange-600">
@@ -713,7 +713,7 @@ export default function Page() {
                       {card.icon}
                     </svg>
                   </div>
-                  <h3 className="mb-2 font-bold text-zinc-900">{card.title}</h3>
+                  <h3 className="mb-2 font-extrabold text-zinc-900">{card.title}</h3>
                   <p className="text-sm text-zinc-600">{card.body}</p>
                 </div>
               ))}
@@ -870,7 +870,7 @@ export default function Page() {
                       {card.icon}
                     </svg>
                   </div>
-                  <h3 className="mb-2 font-bold text-zinc-900 group-hover:text-orange-500 transition-colors">
+                  <h3 className="mb-2 font-extrabold text-zinc-900 group-hover:text-orange-500 transition-colors">
                     {card.title}
                   </h3>
                   <p className="text-sm text-zinc-600">{card.body}</p>
